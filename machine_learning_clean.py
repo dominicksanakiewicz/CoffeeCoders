@@ -6,11 +6,12 @@ from sklearn.linear_model import ElasticNet
 from sklearn.pipeline import make_pipeline
 from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import GridSearchCV, GroupKFold
+import statsmodels.api as sm
 
 path = "C:/Users/amand/student30538-w26/CoffeeCoders"
 os.chdir(path)
 data = pd.read_csv('panel_yx_highschools.csv')
-data_clean = data.drop(columns=['school_id', 'district', 'county', 'school_type', 'grades_served', 'TRACTID', 'LAT', 'LON', 'acs_end_year'])
+data_clean = data.drop(columns=['school_id', 'year', 'district', 'county', 'school_type', 'grades_served', 'TRACTID', 'LAT', 'LON', 'acs_end_year'])
 data_clean.dtypes
 len(data_clean)
 data_clean = data_clean.fillna(0)
@@ -91,7 +92,47 @@ def run_panel_elasticnet(data, y_var, group_var='school_name',
     }
     
     return results
+
+
 ##############################################
+
+def run_post_elasticnet_ols(
+    data,
+    elasticnet_res,
+    y_var,
+    top_k=10,
+    use_nonzero=False,
+    cluster_var=None
+):
+
+    coef_df = elasticnet_res['coef_df'].copy()
+
+    # Choose features
+    if use_nonzero:
+        selected = coef_df[coef_df['coefficient_scaled'] != 0]
+    else:
+        selected = coef_df.head(top_k)
+
+    selected_features = selected['feature'].tolist()
+
+    # Prepare regression data
+    X = data[selected_features]
+    y = data[y_var]
+
+    X = sm.add_constant(X)
+
+    # Fit model
+    if cluster_var is not None:
+        model = sm.OLS(y, X).fit(
+            cov_type='cluster',
+            cov_kwds={'groups': data[cluster_var]}
+        )
+    else:
+        model = sm.OLS(y, X).fit()
+
+    return model, selected_features
+
+#############################################################
 res = run_panel_elasticnet(data_clean, y_var='y_ela_prof', group_var='school_name')
 
 print(f"Best alpha: {res['best_alpha']}")
@@ -101,6 +142,16 @@ print(f"Test MSE: {res['test_mse']:.2f}")
 
 print("\nTop coefficients:")
 print(res['coef_df'].head(10))
+
+model, features = run_post_elasticnet_ols(
+    data_clean,
+    res,
+    y_var='y_ela_prof',
+    use_nonzero=True,
+    cluster_var='school_name'
+)
+
+print(model.summary())
 
 ###############################################
 res = run_panel_elasticnet(data_clean, y_var='y_grad_4yr', group_var='school_name')
@@ -112,6 +163,17 @@ print(f"Test MSE: {res['test_mse']:.2f}")
 
 print("\nTop coefficients:")
 print(res['coef_df'].head(10))
+
+model, features = run_post_elasticnet_ols(
+    data_clean,
+    res,
+    y_var='y_grad_4yr',
+    use_nonzero=True,
+    cluster_var='school_name'
+)
+
+print(model.summary())
+
 
 ##############################################
 
@@ -125,6 +187,16 @@ print(f"Test MSE: {res['test_mse']:.2f}")
 print("\nTop coefficients:")
 print(res['coef_df'].head(10))
 
+model, features = run_post_elasticnet_ols(
+    data_clean,
+    res,
+    y_var='y_math_prof',
+    use_nonzero=True,
+    cluster_var='school_name'
+)
+
+print(model.summary())
+
 ##############################################
 res = run_panel_elasticnet(data_clean, y_var='x_dropout_rate', group_var='school_name')
 
@@ -135,3 +207,16 @@ print(f"Test MSE: {res['test_mse']:.2f}")
 
 print("\nTop coefficients:")
 print(res['coef_df'].head(10))
+
+model, features = run_post_elasticnet_ols(
+    data_clean,
+    res,
+    y_var='x_dropout_rate',
+    use_nonzero=True,
+    cluster_var='school_name'
+)
+
+print(model.summary())
+######################################################
+
+
