@@ -1,0 +1,137 @@
+import pandas as pd
+import numpy as np
+import os
+from sklearn.preprocessing import StandardScaler
+from sklearn.linear_model import ElasticNet
+from sklearn.pipeline import make_pipeline
+from sklearn.metrics import mean_squared_error
+from sklearn.model_selection import GridSearchCV, GroupKFold
+
+path = "C:/Users/amand/student30538-w26/CoffeeCoders"
+os.chdir(path)
+data = pd.read_csv('panel_yx_highschools.csv')
+data_clean = data.drop(columns=['school_id', 'district', 'county', 'school_type', 'grades_served', 'TRACTID', 'LAT', 'LON', 'acs_end_year'])
+data_clean.dtypes
+len(data_clean)
+data_clean = data_clean.fillna(0)
+
+def run_panel_elasticnet(data, y_var, group_var='school_name', 
+                         alpha_range=None, l1_ratio_range=None, n_splits=5, random_state=1):
+
+    if alpha_range is None:
+        alpha_range = np.logspace(-4, 0, 50)
+    if l1_ratio_range is None:
+        l1_ratio_range = np.linspace(0.1, 0.9, 9)
+    
+
+    X = data.drop(columns=[y_var, group_var])
+    y = data[y_var]
+    feature_names = X.columns
+    
+    groups = data[group_var]
+    
+    gkf = GroupKFold(n_splits=n_splits)
+    for train_idx, test_idx in gkf.split(X, y, groups):
+        X_train, X_test = X.iloc[train_idx], X.iloc[test_idx]
+        y_train, y_test = y.iloc[train_idx], y.iloc[test_idx]
+        groups_train, groups_test = groups.iloc[train_idx], groups.iloc[test_idx]
+        break  
+
+    scaler = StandardScaler()
+    scaler.fit(X_train)
+    X_train_scaled = scaler.transform(X_train)
+    X_test_scaled = scaler.transform(X_test)
+    
+    param_grid = {
+        'elasticnet__alpha': alpha_range,
+        'elasticnet__l1_ratio': l1_ratio_range
+    }
+    
+    pipeline = make_pipeline(
+        StandardScaler(),
+        ElasticNet(random_state=random_state, max_iter=10000)
+    )
+    
+    grid_search = GridSearchCV(
+        pipeline,
+        param_grid,
+        cv=gkf.split(X_train, y_train, groups_train),
+        scoring='neg_mean_squared_error',
+        n_jobs=-1
+    )
+    
+    grid_search.fit(X_train, y_train)
+    
+    best_model = grid_search.best_estimator_
+    enet_step = best_model.named_steps['elasticnet']
+    
+    y_pred_train = best_model.predict(X_train)
+    y_pred_test = best_model.predict(X_test)
+    
+    mse_train = mean_squared_error(y_train, y_pred_train)
+    mse_test = mean_squared_error(y_test, y_pred_test)
+    
+    coef_original = enet_step.coef_ / scaler.scale_
+    
+    coef_df = pd.DataFrame({
+        'feature': feature_names,
+        'coefficient_scaled': enet_step.coef_,
+        'coefficient_original_units': coef_original
+    })
+    coef_df['abs_coef'] = coef_df['coefficient_original_units'].abs()
+    coef_df = coef_df.sort_values(by='abs_coef', ascending=False)
+    
+    results = {
+        'best_alpha': grid_search.best_params_['elasticnet__alpha'],
+        'best_l1_ratio': grid_search.best_params_['elasticnet__l1_ratio'],
+        'best_cv_mse': -grid_search.best_score_,
+        'train_mse': mse_train,
+        'test_mse': mse_test,
+        'coef_df': coef_df
+    }
+    
+    return results
+##############################################
+res = run_panel_elasticnet(data_clean, y_var='y_ela_prof', group_var='school_name')
+
+print(f"Best alpha: {res['best_alpha']}")
+print(f"Best l1_ratio: {res['best_l1_ratio']}")
+print(f"Train MSE: {res['train_mse']:.2f}")
+print(f"Test MSE: {res['test_mse']:.2f}")
+
+print("\nTop coefficients:")
+print(res['coef_df'].head(10))
+
+###############################################
+res = run_panel_elasticnet(data_clean, y_var='y_grad_4yr', group_var='school_name')
+
+print(f"Best alpha: {res['best_alpha']}")
+print(f"Best l1_ratio: {res['best_l1_ratio']}")
+print(f"Train MSE: {res['train_mse']:.2f}")
+print(f"Test MSE: {res['test_mse']:.2f}")
+
+print("\nTop coefficients:")
+print(res['coef_df'].head(10))
+
+##############################################
+
+res = run_panel_elasticnet(data_clean, y_var='y_math_prof', group_var='school_name')
+
+print(f"Best alpha: {res['best_alpha']}")
+print(f"Best l1_ratio: {res['best_l1_ratio']}")
+print(f"Train MSE: {res['train_mse']:.2f}")
+print(f"Test MSE: {res['test_mse']:.2f}")
+
+print("\nTop coefficients:")
+print(res['coef_df'].head(10))
+
+##############################################
+res = run_panel_elasticnet(data_clean, y_var='x_dropout_rate', group_var='school_name')
+
+print(f"Best alpha: {res['best_alpha']}")
+print(f"Best l1_ratio: {res['best_l1_ratio']}")
+print(f"Train MSE: {res['train_mse']:.2f}")
+print(f"Test MSE: {res['test_mse']:.2f}")
+
+print("\nTop coefficients:")
+print(res['coef_df'].head(10))
