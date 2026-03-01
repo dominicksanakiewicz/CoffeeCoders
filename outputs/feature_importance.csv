@@ -1,0 +1,49 @@
+target,feature,group,mean_abs_shap
+y_grad_4yr,x_dropout_rate,School Ops,7.932681878878764
+y_grad_4yr,x_mobility_rate,School Ops,1.9531339355939985
+y_grad_4yr,x_pct_el,Demographics,1.8360886337800533
+y_grad_4yr,x_attendance_rate,School Ops,1.7740498104957374
+y_grad_4yr,x_pct_low_income,Demographics,0.9949787030751598
+y_grad_4yr,x_ap_coursework,School Ops,0.899190351021756
+y_grad_4yr,x_tract_transport_length,Neighborhood,0.7575571317704606
+y_grad_4yr,x_suspension_rate,School Ops,0.5693451742698501
+y_grad_4yr,x_enrollment,School Ops,0.5546180213329084
+y_grad_4yr,x_teacher_retention,Teacher,0.5370568048697507
+y_grad_4yr,x_pct_iep,Demographics,0.5309129800861632
+y_grad_4yr,x_pct_hispanic,Demographics,0.5237371547764974
+y_grad_4yr,x_tract_pov_share_under_1_00,Neighborhood,0.48376444191338164
+y_grad_4yr,x_tract_median_hh_income,Neighborhood,0.4678667242567116
+y_grad_4yr,x_tract_pop20,Neighborhood,0.34650775405974493
+y_grad_4yr,x_pct_black,Demographics,0.31474844379827194
+y_grad_4yr,x_pct_homeless,Demographics,0.31361303821456676
+y_grad_4yr,x_pct_asian,Demographics,0.28411062911327156
+y_grad_4yr,x_pct_white,Demographics,0.28287220563050647
+y_grad_4yr,x_tract_lahalfand10,Neighborhood,0.02623987720475756
+y_grad_4yr,x_tract_la1and10,Neighborhood,0.02502279890919523
+y_grad_4yr,x_tract_lowincometracts,Neighborhood,0.0074927087284458955
+y_grad_4yr,x_tract_urban,Neighborhood,0.0
+y_grad_4yr,x_tract_la1and20,Neighborhood,0.0
+y_math_prof,x_pct_white,Demographics,7.11000279099985
+y_math_prof,x_mobility_rate,School Ops,3.748736250831425
+y_math_prof,x_pct_asian,Demographics,3.648685108124591
+y_math_prof,x_attendance_rate,School Ops,3.2289479895588604
+y_math_prof,x_pct_el,Demographics,1.9898868422391096
+y_math_prof,x_pct_iep,Demographics,1.1724362007537343
+y_math_prof,x_enrollment,School Ops,1.1127581861579507
+y_math_prof,x_pct_black,Demographics,0.8668380765794891
+y_math_prof,x_ap_coursework,School Ops,0.6835513407650716
+y_math_prof,x_pct_low_income,Demographics,0.591960748041993
+y_math_prof,x_tract_median_hh_income,Neighborhood,0.5890564854918509
+y_math_prof,x_pct_hispanic,Demographics,0.4760193640945811
+y_math_prof,x_teacher_retention,Teacher,0.3552000624487562
+y_math_prof,x_pct_homeless,Demographics,0.3088389994406373
+y_math_prof,x_tract_pov_share_under_1_00,Neighborhood,0.2619706288725712
+y_math_prof,x_dropout_rate,School Ops,0.2517229392366929
+y_math_prof,x_tract_pop20,Neighborhood,0.24181608335099544
+y_math_prof,x_tract_la1and10,Neighborhood,0.20739940776668003
+y_math_prof,x_tract_transport_length,Neighborhood,0.14230034888809165
+y_math_prof,x_suspension_rate,School Ops,0.11570719967344296
+y_math_prof,x_tract_la1and20,Neighborhood,0.02947412310497939
+y_math_prof,x_tract_lahalfand10,Neighborhood,0.018834132244447986
+y_math_prof,x_tract_lowincometracts,Neighborhood,0.0045670211810207376
+y_math_prof,x_tract_urban,Neighborhood,0.001575507786432468
