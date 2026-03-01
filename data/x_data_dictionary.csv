@@ -1,0 +1,17 @@
+variable_name,label,unit,description,source
+x_enrollment,Total School Enrollment,count,Total students enrolled,ISBE Report Card General Sheet
+x_pct_low_income,% Low Income Students,pct,Percentage of students from low-income households,ISBE Report Card General Sheet
+x_pct_el,% English Learner Students,pct,Percentage of students classified as English Learners,ISBE Report Card General Sheet
+x_pct_iep,% IEP Students,pct,Percentage of students with Individualized Education Programs,ISBE Report Card General Sheet
+x_pct_white,% White Students,pct,Percentage of students identifying as White,ISBE Report Card General Sheet
+x_pct_black,% Black Students,pct,Percentage of students identifying as Black/African American,ISBE Report Card General Sheet
+x_pct_hispanic,% Hispanic Students,pct,Percentage of students identifying as Hispanic/Latino,ISBE Report Card General Sheet
+x_pct_asian,% Asian Students,pct,Percentage of students identifying as Asian,ISBE Report Card General Sheet
+x_pct_homeless,% Homeless Students,pct,Percentage of students experiencing homelessness,ISBE Report Card General Sheet
+x_mobility_rate,Student Mobility Rate,pct,Rate of students transferring in or out during the year,ISBE Report Card General Sheet
+x_attendance_rate,Student Attendance Rate,pct,Average daily attendance rate,ISBE Report Card General Sheet
+x_dropout_rate,High School Dropout Rate,pct,Total dropout rate for high school students,ISBE Report Card General Sheet
+x_teacher_retention,Teacher Retention Rate,pct,Percentage of teachers returning from prior year,ISBE Report Card General Sheet
+x_teacher_attendance,Teacher Attendance Rate,pct,Average teacher attendance rate,ISBE Report Card General Sheet
+x_suspension_rate,In-School Suspension Rate,count/#,Number or rate of in-school suspensions,ISBE Report Card General Sheet
+x_ap_coursework,AP Coursework Participation,count,CRDC Advanced Placement Coursework count,ISBE Report Card General Sheet

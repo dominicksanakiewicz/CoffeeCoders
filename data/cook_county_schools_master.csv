@@ -1,0 +1,1391 @@
+school_id,school_name,district,county,school_type,grades_served
+05-016-0150-04-0000,,Palatine CCSD 15,Cook,,
+05-016-0150-04-1011,Plum Grove Middle School,Palatine CCSD 15,Cook,Middle/Junior High School,6 - 8
+05-016-0150-04-1014,Carl Sandburg Middle School,Palatine CCSD 15,Cook,Middle/Junior High School,6 - 8
+05-016-0150-04-1016,Winston Campus Middle School,Palatine CCSD 15,Cook,Middle/Junior High School,6 - 8
+05-016-0150-04-1018,Walter R Sundling Middle School,Palatine CCSD 15,Cook,Middle/Junior High School,6 - 8
+05-016-0150-04-1020,Thomas Jefferson Middle School,Palatine CCSD 15,Cook,Middle/Junior High School,6 - 8
+05-016-0150-04-2001,Jane Addams Elem School,Palatine CCSD 15,Cook,Elementary School,K - 5
+05-016-0150-04-2003,Central Road Elem School,Palatine CCSD 15,Cook,Elementary School,PK - 5
+05-016-0150-04-2004,Marion Jordan Elem School,Palatine CCSD 15,Cook,Elementary School,K - 5
+05-016-0150-04-2005,Kimball Hill Elem School,Palatine CCSD 15,Cook,Elementary School,PK - 5
+05-016-0150-04-2006,Hunting Ridge Elem School,Palatine CCSD 15,Cook,Elementary School,K - 5
+05-016-0150-04-2007,Lake Louise Elem School,Palatine CCSD 15,Cook,Elementary School,PK - 5
+05-016-0150-04-2008,Lincoln Elementary School,Palatine CCSD 15,Cook,Elementary School,K - 5
+05-016-0150-04-2009,Stuart R Paddock School,Palatine CCSD 15,Cook,Elementary School,PK - 5
+05-016-0150-04-2010,Pleasant Hill Elem School,Palatine CCSD 15,Cook,Elementary School,K - 5
+05-016-0150-04-2013,Gray M Sanborn Elem School,Palatine CCSD 15,Cook,Elementary School,PK - 5
+05-016-0150-04-2015,Virginia Lake Elem School,Palatine CCSD 15,Cook,Elementary School,PK - 5
+05-016-0150-04-2018,Willow Bend Elem School,Palatine CCSD 15,Cook,Elementary School,K - 5
+05-016-0150-04-2019,Winston Campus Elementary,Palatine CCSD 15,Cook,Elementary School,PK - 5
+05-016-0150-04-2023,Frank C Whiteley Elem School,Palatine CCSD 15,Cook,Elementary School,K - 5
+05-016-0210-04-0000,,Wheeling CCSD 21,Cook,,
+05-016-0210-04-1002,Cooper Middle School,Wheeling CCSD 21,Cook,Middle/Junior High School,6 - 8
+05-016-0210-04-1006,Oliver W Holmes Middle School,Wheeling CCSD 21,Cook,Middle/Junior High School,6 - 8
+05-016-0210-04-1007,Jack London Middle School,Wheeling CCSD 21,Cook,Middle/Junior High School,6 - 8
+05-016-0210-04-2003,Eugene Field Elem School,Wheeling CCSD 21,Cook,Elementary School,K - 5
+05-016-0210-04-2004,Robert Frost Elem School,Wheeling CCSD 21,Cook,Elementary School,K - 5
+05-016-0210-04-2007,Joyce Kilmer Elem School,Wheeling CCSD 21,Cook,Elementary School,K - 5
+05-016-0210-04-2009,Henry W Longfellow Elem School,Wheeling CCSD 21,Cook,Elementary School,K - 5
+05-016-0210-04-2010,Edgar A Poe Elem School,Wheeling CCSD 21,Cook,Elementary School,K - 5
+05-016-0210-04-2011,J W Riley Elem School,Wheeling CCSD 21,Cook,Elementary School,K - 5
+05-016-0210-04-2013,Booth Tarkington Elem School,Wheeling CCSD 21,Cook,Elementary School,PK - 5
+05-016-0210-04-2014,Mark Twain Elem School,Wheeling CCSD 21,Cook,Elementary School,K - 5
+05-016-0210-04-2015,Walt Whitman Elem School,Wheeling CCSD 21,Cook,Elementary School,PK - 5
+05-016-0230-02-0000,,Prospect Heights SD 23,Cook,,
+05-016-0230-02-1002,MacArthur Middle School,Prospect Heights SD 23,Cook,Middle/Junior High School,6 - 8
+05-016-0230-02-2001,Dwight D Eisenhower Elem School,Prospect Heights SD 23,Cook,Elementary School,PK - 1
+05-016-0230-02-2004,Betsy Ross Elem School,Prospect Heights SD 23,Cook,Elementary School,2 - 3
+05-016-0230-02-2005,Anne Sullivan Elem School,Prospect Heights SD 23,Cook,Elementary School,4 - 5
+05-016-0250-02-0000,,Arlington Heights SD 25,Cook,,
+05-016-0250-02-1014,South Middle School,Arlington Heights SD 25,Cook,Middle/Junior High School,6 - 8
+05-016-0250-02-1015,Thomas Middle School,Arlington Heights SD 25,Cook,Middle/Junior High School,6 - 8
+05-016-0250-02-2002,Dryden Elem School,Arlington Heights SD 25,Cook,Elementary School,K - 5
+05-016-0250-02-2004,Greenbrier Elem School,Arlington Heights SD 25,Cook,Elementary School,PK - 5
+05-016-0250-02-2005,Ivy Hill Elem School,Arlington Heights SD 25,Cook,Elementary School,PK - 5
+05-016-0250-02-2009,Olive-Mary Stitt School,Arlington Heights SD 25,Cook,Elementary School,K - 5
+05-016-0250-02-2011,Patton Elem School,Arlington Heights SD 25,Cook,Elementary School,K - 5
+05-016-0250-02-2016,Westgate Elem School,Arlington Heights SD 25,Cook,Elementary School,K - 5
+05-016-0250-02-2018,Windsor Elementary School,Arlington Heights SD 25,Cook,Elementary School,K - 5
+05-016-0260-02-0000,,River Trails SD 26,Cook,,
+05-016-0260-02-1006,River Trails Middle School,River Trails SD 26,Cook,Middle/Junior High School,6 - 8
+05-016-0260-02-2001,Euclid Elem School,River Trails SD 26,Cook,Elementary School,PK - 5
+05-016-0260-02-2003,Indian Grove Elem School,River Trails SD 26,Cook,Elementary School,1 - 5
+05-016-0260-02-2004,Prairie Trails School,River Trails SD 26,Cook,Elementary School,PK - K
+05-016-0270-02-0000,,Northbrook ESD 27,Cook,,
+05-016-0270-02-1005,Wood Oaks Jr High School,Northbrook ESD 27,Cook,Middle/Junior High School,6 - 8
+05-016-0270-02-2002,Hickory Point Elem School,Northbrook ESD 27,Cook,Elementary School,PK - 2
+05-016-0270-02-2004,Shabonee School,Northbrook ESD 27,Cook,Elementary School,3 - 5
+05-016-0280-02-0000,,Northbrook SD 28,Cook,,
+05-016-0280-02-1004,Northbrook Junior High School,Northbrook SD 28,Cook,Middle/Junior High School,6 - 8
+05-016-0280-02-2002,Greenbriar Elem School,Northbrook SD 28,Cook,Elementary School,K - 5
+05-016-0280-02-2003,Meadowbrook Elem School,Northbrook SD 28,Cook,Elementary School,K - 5
+05-016-0280-02-2006,Westmoor Elem School,Northbrook SD 28,Cook,Elementary School,PK - 5
+05-016-0290-02-0000,,Sunset Ridge SD 29,Cook,,
+05-016-0290-02-2001,Middlefork Primary School,Sunset Ridge SD 29,Cook,Elementary School,K - 3
+05-016-0290-02-2002,Sunset Ridge Elem School,Sunset Ridge SD 29,Cook,Elementary School,4 - 8
+05-016-0300-02-0000,,Northbrook/Glenview SD 30,Cook,,
+05-016-0300-02-1001,Maple School,Northbrook/Glenview SD 30,Cook,Middle/Junior High School,6 - 8
+05-016-0300-02-2002,Willowbrook Elem School,Northbrook/Glenview SD 30,Cook,Elementary School,PK - 5
+05-016-0300-02-2003,Wescott Elementary School,Northbrook/Glenview SD 30,Cook,Elementary School,K - 5
+05-016-0310-02-0000,,West Northfield SD 31,Cook,,
+05-016-0310-02-1001,Field School,West Northfield SD 31,Cook,Middle/Junior High School,6 - 8
+05-016-0310-02-2002,Henry Winkelman Elem School,West Northfield SD 31,Cook,Elementary School,PK - 5
+05-016-0340-04-0000,,Glenview CCSD 34,Cook,,
+05-016-0340-04-1006,Attea Middle School,Glenview CCSD 34,Cook,Middle/Junior High School,6 - 8
+05-016-0340-04-1007,Springman Middle School,Glenview CCSD 34,Cook,Middle/Junior High School,6 - 8
+05-016-0340-04-2001,Glen Grove Elem School,Glenview CCSD 34,Cook,Elementary School,3 - 5
+05-016-0340-04-2002,Henking Elem School,Glenview CCSD 34,Cook,Elementary School,PK - 2
+05-016-0340-04-2003,Hoffman Elem School,Glenview CCSD 34,Cook,Elementary School,3 - 5
+05-016-0340-04-2004,Lyon Elem School,Glenview CCSD 34,Cook,Elementary School,PK - 2
+05-016-0340-04-2005,Pleasant Ridge Elem School,Glenview CCSD 34,Cook,Elementary School,3 - 5
+05-016-0340-04-2008,Westbrook Elementary School,Glenview CCSD 34,Cook,Elementary School,PK - 2
+05-016-0350-02-0000,,Glencoe SD 35,Cook,,
+05-016-0350-02-1001,Central School,Glencoe SD 35,Cook,Middle/Junior High School,5 - 8
+05-016-0350-02-2001,West School,Glencoe SD 35,Cook,Elementary School,3 - 4
+05-016-0350-02-2002,South Elem School,Glencoe SD 35,Cook,Elementary School,PK - 2
+05-016-0360-02-0000,,Winnetka SD 36,Cook,,
+05-016-0360-02-1005,Carleton W Washburne School,Winnetka SD 36,Cook,Middle/Junior High School,7 - 8
+05-016-0360-02-2001,Crow Island Elem School,Winnetka SD 36,Cook,Elementary School,K - 4
+05-016-0360-02-2002,Greeley Elem School,Winnetka SD 36,Cook,Elementary School,K - 4
+05-016-0360-02-2003,Hubbard Woods Elem School,Winnetka SD 36,Cook,Elementary School,K - 4
+05-016-0360-02-2004,The Skokie School,Winnetka SD 36,Cook,Elementary School,5 - 6
+05-016-0370-02-0000,,Avoca SD 37,Cook,,
+05-016-0370-02-1001,Marie Murphy School,Avoca SD 37,Cook,Middle/Junior High School,PK - 8
+05-016-0370-02-2003,Avoca West Elem School,Avoca SD 37,Cook,Elementary School,K - 5
+05-016-0380-02-0000,,Kenilworth SD 38,Cook,,
+05-016-0380-02-2001,The Joseph Sears School,Kenilworth SD 38,Cook,Elementary School,PK - 8
+05-016-0390-02-0000,,Wilmette SD 39,Cook,,
+05-016-0390-02-1008,Wilmette Junior High School,Wilmette SD 39,Cook,Middle/Junior High School,7 - 8
+05-016-0390-02-2002,Central Elem School,Wilmette SD 39,Cook,Elementary School,K - 4
+05-016-0390-02-2003,Harper Elem School,Wilmette SD 39,Cook,Elementary School,K - 4
+05-016-0390-02-2005,McKenzie Elem School,Wilmette SD 39,Cook,Elementary School,K - 4
+05-016-0390-02-2006,Romona Elem School,Wilmette SD 39,Cook,Elementary School,PK - 4
+05-016-0390-02-2007,Highcrest Middle School,Wilmette SD 39,Cook,Elementary School,5 - 6
+05-016-0540-04-0000,,Schaumburg CCSD 54,Cook,,
+05-016-0540-04-1001,Jane Addams JHS,Schaumburg CCSD 54,Cook,Middle/Junior High School,4 - 8
+05-016-0540-04-1012,Robert Frost JHS,Schaumburg CCSD 54,Cook,Middle/Junior High School,7 - 8
+05-016-0540-04-1018,Dwight D Eisenhower JHS,Schaumburg CCSD 54,Cook,Middle/Junior High School,7 - 8
+05-016-0540-04-1019,Margaret Mead JHS,Schaumburg CCSD 54,Cook,Middle/Junior High School,7 - 8
+05-016-0540-04-1020,Helen Keller JHS,Schaumburg CCSD 54,Cook,Middle/Junior High School,6 - 8
+05-016-0540-04-2002,Buzz Aldrin Elem School,Schaumburg CCSD 54,Cook,Elementary School,K - 6
+05-016-0540-04-2003,Neil Armstrong Elem School,Schaumburg CCSD 54,Cook,Elementary School,K - 6
+05-016-0540-04-2005,Campanelli Elem School,Schaumburg CCSD 54,Cook,Elementary School,K - 6
+05-016-0540-04-2006,Winston Churchill Elem School,Schaumburg CCSD 54,Cook,Elementary School,K - 6
+05-016-0540-04-2007,Michael Collins Elem School,Schaumburg CCSD 54,Cook,Elementary School,K - 6
+05-016-0540-04-2008,Everett Dirksen Elementary Sch,Schaumburg CCSD 54,Cook,Elementary School,K - 6
+05-016-0540-04-2009,Thomas Dooley Elem School,Schaumburg CCSD 54,Cook,Elementary School,K - 6
+05-016-0540-04-2010,Fairview Elem School,Schaumburg CCSD 54,Cook,Elementary School,K - 6
+05-016-0540-04-2011,Anne Fox Elem School,Schaumburg CCSD 54,Cook,Elementary School,K - 6
+05-016-0540-04-2013,Hanover Highlands Elem School,Schaumburg CCSD 54,Cook,Elementary School,K - 6
+05-016-0540-04-2015,Nathan Hale Elem School,Schaumburg CCSD 54,Cook,Elementary School,K - 6
+05-016-0540-04-2018,Lakeview Elem School,Schaumburg CCSD 54,Cook,Elementary School,K - 6
+05-016-0540-04-2019,MacArthur International Spanish Academy,Schaumburg CCSD 54,Cook,Elementary School,K - 6
+05-016-0540-04-2022,John Muir Literacy Academy,Schaumburg CCSD 54,Cook,Elementary School,K - 6
+05-016-0540-04-2023,Adolph Link Elem School,Schaumburg CCSD 54,Cook,Elementary School,K - 6
+05-016-0540-04-2026,Albert Einstein Elem School,Schaumburg CCSD 54,Cook,Elementary School,K - 6
+05-016-0540-04-2027,Hoover Math and Science Academy,Schaumburg CCSD 54,Cook,Elementary School,K - 6
+05-016-0540-04-2028,Adlai Stevenson Elem School,Schaumburg CCSD 54,Cook,Elementary School,K - 6
+05-016-0540-04-2029,Frederick Nerge Elem School,Schaumburg CCSD 54,Cook,Elementary School,K - 6
+05-016-0540-04-2030,Enders-Salk Elem School,Schaumburg CCSD 54,Cook,Elementary School,K - 6
+05-016-0540-04-2031,Elizabeth Blackwell Elem School,Schaumburg CCSD 54,Cook,Elementary School,K - 6
+05-016-0540-04-2032,Lincoln Prairie School,Schaumburg CCSD 54,Cook,Elementary School,K - 8
+05-016-0540-04-3111,The District 54 Early Learning Center,Schaumburg CCSD 54,Cook,Special School,PK
+05-016-0570-02-0000,,Mount Prospect SD 57,Cook,,
+05-016-0570-02-1004,Lincoln Middle School,Mount Prospect SD 57,Cook,Middle/Junior High School,6 - 8
+05-016-0570-02-2002,Fairview Elem School,Mount Prospect SD 57,Cook,Elementary School,2 - 5
+05-016-0570-02-2005,Lions Park Elem School,Mount Prospect SD 57,Cook,Elementary School,2 - 5
+05-016-0570-02-2008,Westbrook Early Learning Cntr,Mount Prospect SD 57,Cook,Elementary School,PK - 1
+05-016-0590-04-0000,,Comm Cons SD 59,Cook,,
+05-016-0590-04-1010,Grove Jr High School,Comm Cons SD 59,Cook,Middle/Junior High School,6 - 8
+05-016-0590-04-1012,Holmes Jr High School,Comm Cons SD 59,Cook,Middle/Junior High School,6 - 8
+05-016-0590-04-1016,Friendship Jr High School,Comm Cons SD 59,Cook,Middle/Junior High School,6 - 8
+05-016-0590-04-2001,Brentwood Elem School,Comm Cons SD 59,Cook,Elementary School,K - 5
+05-016-0590-04-2002,Adm Richard E Byrd Elem School,Comm Cons SD 59,Cook,Elementary School,K - 5
+05-016-0590-04-2003,Clearmont Elem School,Comm Cons SD 59,Cook,Elementary School,K - 5
+05-016-0590-04-2006,Devonshire School,Comm Cons SD 59,Cook,Elementary School,K - 5
+05-016-0590-04-2008,Forest View Elem School,Comm Cons SD 59,Cook,Elementary School,K - 5
+05-016-0590-04-2009,Robert Frost Elem School,Comm Cons SD 59,Cook,Elementary School,K - 5
+05-016-0590-04-2014,John Jay Elem School,Comm Cons SD 59,Cook,Elementary School,K - 5
+05-016-0590-04-2016,Juliette Low Elem School,Comm Cons SD 59,Cook,Elementary School,K - 5
+05-016-0590-04-2018,Rupley Elem School,Comm Cons SD 59,Cook,Elementary School,K - 5
+05-016-0590-04-2019,Salt Creek Elem School,Comm Cons SD 59,Cook,Elementary School,K - 5
+05-016-0590-04-2020,Ridge Family Center for Learning,Comm Cons SD 59,Cook,Elementary School,K - 5
+05-016-0590-04-3002,The Early Learning Center,Comm Cons SD 59,Cook,Special School,PK
+05-016-0620-04-0000,,CCSD 62,Cook,,
+05-016-0620-04-1001,Algonquin Middle School,CCSD 62,Cook,Middle/Junior High School,6 - 8
+05-016-0620-04-1003,Chippewa Middle School,CCSD 62,Cook,Middle/Junior High School,6 - 8
+05-016-0620-04-2001,Iroquois Community School,CCSD 62,Cook,Elementary School,K - 8
+05-016-0620-04-2002,Central Elem School,CCSD 62,Cook,Elementary School,K - 5
+05-016-0620-04-2004,Cumberland Elem School,CCSD 62,Cook,Elementary School,K - 5
+05-016-0620-04-2005,Forest Elem School,CCSD 62,Cook,Elementary School,PK - 5
+05-016-0620-04-2008,North Elementary School,CCSD 62,Cook,Elementary School,K - 5
+05-016-0620-04-2009,Orchard Place Elem School,CCSD 62,Cook,Elementary School,K - 5
+05-016-0620-04-2010,Plainfield Elem School,CCSD 62,Cook,Elementary School,K - 5
+05-016-0620-04-2011,South Elem School,CCSD 62,Cook,Elementary School,K - 5
+05-016-0620-04-2012,Terrace Elem School,CCSD 62,Cook,Elementary School,K - 5
+05-016-0630-02-0000,,East Maine SD 63,Cook,,
+05-016-0630-02-1003,Gemini Middle School,East Maine SD 63,Cook,Middle/Junior High School,6 - 8
+05-016-0630-02-2006,V H Nelson Elem School,East Maine SD 63,Cook,Elementary School,K - 5
+05-016-0630-02-2009,Mark Twain Elem School,East Maine SD 63,Cook,Elementary School,K - 5
+05-016-0630-02-2010,Washington Elem School,East Maine SD 63,Cook,Elementary School,K - 5
+05-016-0630-02-2011,Melzer School,East Maine SD 63,Cook,Elementary School,K - 5
+05-016-0630-02-2012,Apollo Elem School,East Maine SD 63,Cook,Elementary School,K - 5
+05-016-0630-02-3001,Early Learning Center,East Maine SD 63,Cook,Special School,PK
+05-016-0640-04-0000,,Park Ridge CCSD 64,Cook,,
+05-016-0640-04-1006,Emerson Middle School,Park Ridge CCSD 64,Cook,Middle/Junior High School,6 - 8
+05-016-0640-04-1007,Lincoln Middle School,Park Ridge CCSD 64,Cook,Middle/Junior High School,6 - 8
+05-016-0640-04-2001,George B Carpenter Elem School,Park Ridge CCSD 64,Cook,Elementary School,K - 5
+05-016-0640-04-2004,Eugene Field Elem School,Park Ridge CCSD 64,Cook,Elementary School,K - 5
+05-016-0640-04-2005,Franklin Elementary School,Park Ridge CCSD 64,Cook,Elementary School,K - 5
+05-016-0640-04-2011,Theodore Roosevelt Elem School,Park Ridge CCSD 64,Cook,Elementary School,K - 5
+05-016-0640-04-2012,George Washington Elem School,Park Ridge CCSD 64,Cook,Elementary School,K - 5
+05-016-0640-04-3001,Jefferson School,Park Ridge CCSD 64,Cook,Special School,PK
+05-016-0650-04-0000,,Evanston CCSD 65,Cook,,
+05-016-0650-04-1002,Chute Middle School,Evanston CCSD 65,Cook,Middle/Junior High School,6 - 8
+05-016-0650-04-1007,Haven Middle School,Evanston CCSD 65,Cook,Middle/Junior High School,6 - 8
+05-016-0650-04-1012,Nichols Middle School,Evanston CCSD 65,Cook,Middle/Junior High School,6 - 8
+05-016-0650-04-2004,Dawes Elementary School,Evanston CCSD 65,Cook,Elementary School,K - 5
+05-016-0650-04-2005,Dewey Elem School,Evanston CCSD 65,Cook,Elementary School,K - 5
+05-016-0650-04-2009,Lincoln Elem School,Evanston CCSD 65,Cook,Elementary School,K - 5
+05-016-0650-04-2010,Lincolnwood Elem School,Evanston CCSD 65,Cook,Elementary School,K - 5
+05-016-0650-04-2014,Oakton Elem School,Evanston CCSD 65,Cook,Elementary School,K - 5
+05-016-0650-04-2015,Orrington Elem School,Evanston CCSD 65,Cook,Elementary School,K - 5
+05-016-0650-04-2019,Walker Elem School,Evanston CCSD 65,Cook,Elementary School,K - 5
+05-016-0650-04-2020,Washington Elem School,Evanston CCSD 65,Cook,Elementary School,K - 5
+05-016-0650-04-2021,Willard Elem School,Evanston CCSD 65,Cook,Elementary School,K - 5
+05-016-0650-04-2022,Dr ML King Jr Literary & Fine Arts Sch,Evanston CCSD 65,Cook,Elementary School,K - 8
+05-016-0650-04-2023,Kingsley Elementary School,Evanston CCSD 65,Cook,Elementary School,K - 5
+05-016-0650-04-2024,Dr Bessie Rhodes Sch Global Studies,Evanston CCSD 65,Cook,Elementary School,K - 8
+05-016-0650-04-3020,Joseph E Hill Education Center,Evanston CCSD 65,Cook,Special School,PK
+05-016-0670-02-0000,,Golf ESD 67,Cook,,
+05-016-0670-02-1002,Golf Middle School,Golf ESD 67,Cook,Middle/Junior High School,5 - 8
+05-016-0670-02-2003,Hynes Elem School,Golf ESD 67,Cook,Elementary School,PK - 4
+05-016-0680-02-0000,,Skokie SD 68,Cook,,
+05-016-0680-02-1002,Old Orchard Jr High School,Skokie SD 68,Cook,Middle/Junior High School,PK - 8
+05-016-0680-02-2001,Devonshire Elem School,Skokie SD 68,Cook,Elementary School,K - 5
+05-016-0680-02-2004,Jane Stenson School,Skokie SD 68,Cook,Elementary School,K - 5
+05-016-0680-02-2005,Highland Elementary School,Skokie SD 68,Cook,Elementary School,K - 5
+05-016-0690-02-0000,,Skokie SD 69,Cook,,
+05-016-0690-02-1003,Lincoln Jr High School,Skokie SD 69,Cook,Middle/Junior High School,PK - 8
+05-016-0690-02-2001,Thomas Edison Elem School,Skokie SD 69,Cook,Elementary School,PK - 5
+05-016-0690-02-2004,Madison Elem School,Skokie SD 69,Cook,Elementary School,PK - 2
+05-016-0700-02-0000,,Morton Grove SD 70,Cook,,
+05-016-0700-02-2003,Park View Elem School,Morton Grove SD 70,Cook,Elementary School,PK - 8
+05-016-0710-02-0000,,Niles ESD 71,Cook,,
+05-016-0710-02-2001,Clarence E Culver School,Niles ESD 71,Cook,Elementary School,PK - 8
+05-016-0720-02-0000,,Fairview SD 72,Cook,,
+05-016-0720-02-2002,Fairview South Elementary School,Fairview SD 72,Cook,Elementary School,PK - 8
+05-016-0730-02-0000,,East Prairie SD 73,Cook,,
+05-016-0730-02-2001,East Prairie Elem School,East Prairie SD 73,Cook,Elementary School,PK - 8
+05-016-0735-02-0000,,Skokie SD 73-5,Cook,,
+05-016-0735-02-1003,Oliver McCracken Middle School,Skokie SD 73-5,Cook,Middle/Junior High School,6 - 8
+05-016-0735-02-2002,John Middleton Elem School,Skokie SD 73-5,Cook,Elementary School,1 - 5
+05-016-0735-02-2003,Elizabeth Meyer School,Skokie SD 73-5,Cook,Elementary School,PK - K
+05-016-0740-02-0000,,Lincolnwood SD 74,Cook,,
+05-016-0740-02-1001,Lincoln Hall Middle School,Lincolnwood SD 74,Cook,Middle/Junior High School,6 - 8
+05-016-0740-02-2003,Rutledge Hall Elem School,Lincolnwood SD 74,Cook,Elementary School,3 - 5
+05-016-0740-02-2004,Todd Hall Elem School,Lincolnwood SD 74,Cook,Elementary School,PK - 2
+05-016-2020-17-0000,,Evanston Twp HSD 202,Cook,,
+05-016-2020-17-0001,Evanston Twp High School,Evanston Twp HSD 202,Cook,High School,9 - 12
+05-016-2030-17-0000,,New Trier Twp HSD 203,Cook,,
+05-016-2030-17-0001,New Trier Township H S Winnetka,New Trier Twp HSD 203,Cook,High School,10 - 12
+05-016-2030-17-0002,New Trier Township H S Northfield,New Trier Twp HSD 203,Cook,High School,9
+05-016-2070-17-0000,,Maine Township HSD 207,Cook,,
+05-016-2070-17-0001,Maine East High School,Maine Township HSD 207,Cook,High School,9 - 12
+05-016-2070-17-0003,Maine South High School,Maine Township HSD 207,Cook,High School,9 - 12
+05-016-2070-17-0004,Maine West High School,Maine Township HSD 207,Cook,High School,9 - 12
+05-016-2110-17-0000,,Township HSD 211,Cook,,
+05-016-2110-17-0001,J B Conant High School,Township HSD 211,Cook,High School,9 - 12
+05-016-2110-17-0002,Wm Fremd High School,Township HSD 211,Cook,High School,9 - 12
+05-016-2110-17-0003,Palatine High School,Township HSD 211,Cook,High School,9 - 12
+05-016-2110-17-0004,Schaumburg High School,Township HSD 211,Cook,High School,9 - 12
+05-016-2110-17-0006,Hoffman Estates High School,Township HSD 211,Cook,High School,9 - 12
+05-016-2140-17-0000,,Township HSD 214,Cook,,
+05-016-2140-17-0002,Elk Grove High School,Township HSD 214,Cook,High School,9 - 12
+05-016-2140-17-0004,John Hersey High School,Township HSD 214,Cook,High School,9 - 12
+05-016-2140-17-0005,Prospect High School,Township HSD 214,Cook,High School,9 - 12
+05-016-2140-17-0006,Wheeling High School,Township HSD 214,Cook,High School,9 - 12
+05-016-2140-17-0007,Rolling Meadows High School,Township HSD 214,Cook,High School,9 - 12
+05-016-2140-17-0008,Buffalo Grove High School,Township HSD 214,Cook,High School,9 - 12
+05-016-2190-17-0000,,Niles Twp HSD 219,Cook,,
+05-016-2190-17-0002,Niles North High School,Niles Twp HSD 219,Cook,High School,9 - 12
+05-016-2190-17-0003,Niles West High School,Niles Twp HSD 219,Cook,High School,9 - 12
+05-016-2250-17-0000,,Glenbrook HSD 225,Cook,,
+05-016-2250-17-0001,Glenbrook North High School,Glenbrook HSD 225,Cook,High School,9 - 12
+05-016-2250-17-0002,Glenbrook South High School,Glenbrook HSD 225,Cook,High School,9 - 12
+06-016-0780-02-0000,,Rosemont ESD 78,Cook,,
+06-016-0780-02-2001,Rosemont Elem School,Rosemont ESD 78,Cook,Elementary School,PK - 8
+06-016-0790-02-0000,,Pennoyer SD 79,Cook,,
+06-016-0790-02-2001,Pennoyer Elem School,Pennoyer SD 79,Cook,Elementary School,PK - 8
+06-016-0800-02-0000,,Norridge SD 80,Cook,,
+06-016-0800-02-1001,J Giles Elem School,Norridge SD 80,Cook,Middle/Junior High School,5 - 8
+06-016-0800-02-2002,J Leigh Elem School,Norridge SD 80,Cook,Elementary School,PK - 4
+06-016-0810-02-0000,,Schiller Park SD 81,Cook,,
+06-016-0810-02-1001,Lincoln Middle School,Schiller Park SD 81,Cook,Middle/Junior High School,6 - 8
+06-016-0810-02-2001,John F Kennedy Elem School,Schiller Park SD 81,Cook,Elementary School,PK - 3
+06-016-0810-02-2003,Washington Elem School,Schiller Park SD 81,Cook,Elementary School,4 - 5
+06-016-0830-02-0000,,Mannheim SD 83,Cook,,
+06-016-0830-02-1003,Mannheim Middle School,Mannheim SD 83,Cook,Middle/Junior High School,6 - 8
+06-016-0830-02-2002,Scott Elementary School,Mannheim SD 83,Cook,Elementary School,K - 5
+06-016-0830-02-2004,Roy Elem School,Mannheim SD 83,Cook,Elementary School,K - 5
+06-016-0830-02-2005,Westdale Elem School,Mannheim SD 83,Cook,Elementary School,K - 5
+06-016-0830-02-3002,Mannheim Early Childhood Center,Mannheim SD 83,Cook,Special School,PK
+06-016-0840-02-0000,,Franklin Park SD 84,Cook,,
+06-016-0840-02-1002,Hester Jr High School,Franklin Park SD 84,Cook,Middle/Junior High School,6 - 8
+06-016-0840-02-2003,North Elem School,Franklin Park SD 84,Cook,Elementary School,PK - 5
+06-016-0840-02-2004,Dan H Pietrini Elem School,Franklin Park SD 84,Cook,Elementary School,PK - 5
+06-016-0840-02-2005,Passow Elementary School,Franklin Park SD 84,Cook,Elementary School,PK - 5
+06-016-0845-02-0000,,Rhodes SD 84-5,Cook,,
+06-016-0845-02-2001,Rhodes Elem School,Rhodes SD 84-5,Cook,Elementary School,PK - 8
+06-016-0855-02-0000,,River Grove SD 85-5,Cook,,
+06-016-0855-02-2001,River Grove Elem School,River Grove SD 85-5,Cook,Elementary School,PK - 8
+06-016-0860-02-0000,,Union Ridge SD 86,Cook,,
+06-016-0860-02-2001,Union Ridge Elem School,Union Ridge SD 86,Cook,Elementary School,PK - 8
+06-016-0870-02-0000,,Berkeley SD 87,Cook,,
+06-016-0870-02-1005,MacArthur Middle School,Berkeley SD 87,Cook,Middle/Junior High School,6 - 8
+06-016-0870-02-1006,Northlake Middle School,Berkeley SD 87,Cook,Middle/Junior High School,6 - 8
+06-016-0870-02-2003,Jefferson Primary School,Berkeley SD 87,Cook,Elementary School,PK - 2
+06-016-0870-02-2007,J W Riley Intermediate School,Berkeley SD 87,Cook,Elementary School,3 - 5
+06-016-0870-02-2008,Sunnyside Intermediate School,Berkeley SD 87,Cook,Elementary School,3 - 5
+06-016-0870-02-2010,Whittier Primary School,Berkeley SD 87,Cook,Elementary School,PK - 2
+06-016-0880-02-0000,,Bellwood SD 88,Cook,,
+06-016-0880-02-1007,Roosevelt Middle School,Bellwood SD 88,Cook,Middle/Junior High School,6 - 8
+06-016-0880-02-2001,Grant Elem School,Bellwood SD 88,Cook,Elementary School,K - 5
+06-016-0880-02-2003,Lincoln Elementary School,Bellwood SD 88,Cook,Elementary School,K - 5
+06-016-0880-02-2005,McKinley Elem School,Bellwood SD 88,Cook,Elementary School,K - 5
+06-016-0880-02-2006,Thurgood Marshall Elem School,Bellwood SD 88,Cook,Elementary School,K - 5
+06-016-0880-02-2009,Grant Primary,Bellwood SD 88,Cook,Elementary School,PK
+06-016-0880-02-3003,Early Childhood Cntr/Lincoln Primary,Bellwood SD 88,Cook,Special School,PK
+06-016-0890-02-0000,,Maywood-Melrose Park-Broadview 89,Cook,,
+06-016-0890-02-1001,Irving Middle School,Maywood-Melrose Park-Broadview 89,Cook,Middle/Junior High School,5 - 8
+06-016-0890-02-1002,Stevenson Middle School,Maywood-Melrose Park-Broadview 89,Cook,Middle/Junior High School,6 - 8
+06-016-0890-02-2001,Jane Addams Elem School,Maywood-Melrose Park-Broadview 89,Cook,Elementary School,PK - 5
+06-016-0890-02-2002,Emerson Elem School,Maywood-Melrose Park-Broadview 89,Cook,Elementary School,PK - 5
+06-016-0890-02-2003,Garfield Elem School,Maywood-Melrose Park-Broadview 89,Cook,Elementary School,PK - 5
+06-016-0890-02-2006,Lincoln Elem School,Maywood-Melrose Park-Broadview 89,Cook,Elementary School,PK - 5
+06-016-0890-02-2007,Melrose Park Elem School,Maywood-Melrose Park-Broadview 89,Cook,Elementary School,PK - 5
+06-016-0890-02-2008,Roosevelt Elem School,Maywood-Melrose Park-Broadview 89,Cook,Elementary School,PK - 5
+06-016-0890-02-2012,Washington Dual Language Academy,Maywood-Melrose Park-Broadview 89,Cook,Elementary School,PK - 8
+06-016-0900-02-0000,,River Forest SD 90,Cook,,
+06-016-0900-02-1002,Roosevelt School,River Forest SD 90,Cook,Middle/Junior High School,5 - 8
+06-016-0900-02-2001,Lincoln Elem School,River Forest SD 90,Cook,Elementary School,PK - 4
+06-016-0900-02-2005,Willard Elem School,River Forest SD 90,Cook,Elementary School,PK - 4
+06-016-0910-02-0000,,Forest Park SD 91,Cook,,
+06-016-0910-02-1001,Forest Park Middle School,Forest Park SD 91,Cook,Middle/Junior High School,6 - 8
+06-016-0910-02-2001,Betsy Ross Elem School,Forest Park SD 91,Cook,Elementary School,K - 2
+06-016-0910-02-2003,Field Stevenson Elem School,Forest Park SD 91,Cook,Elementary School,3 - 5
+06-016-0910-02-2004,Garfield Elem School,Forest Park SD 91,Cook,Elementary School,PK - 2
+06-016-0920-02-0000,,Lindop SD 92,Cook,,
+06-016-0920-02-2001,Lindop Elem School,Lindop SD 92,Cook,Elementary School,PK - 8
+06-016-0925-02-0000,,Westchester SD 92-5,Cook,,
+06-016-0925-02-1001,Westchester Middle School,Westchester SD 92-5,Cook,Middle/Junior High School,6 - 8
+06-016-0925-02-2002,Westchester Intermediate School,Westchester SD 92-5,Cook,Elementary School,3 - 5
+06-016-0925-02-2003,Westchester Primary School,Westchester SD 92-5,Cook,Elementary School,PK - 2
+06-016-0930-02-0000,,Hillside SD 93,Cook,,
+06-016-0930-02-2001,Hillside Elem School,Hillside SD 93,Cook,Elementary School,PK - 8
+06-016-0940-02-0000,,Komarek SD 94,Cook,,
+06-016-0940-02-2001,Komarek Elem School,Komarek SD 94,Cook,Elementary School,PK - 8
+06-016-0950-02-0000,,Brookfield Lagrange Park SD 95,Cook,,
+06-016-0950-02-1001,S E Gross  Middle School,Brookfield Lagrange Park SD 95,Cook,Middle/Junior High School,PK - 8
+06-016-0950-02-2002,Brook Park Elem School,Brookfield Lagrange Park SD 95,Cook,Elementary School,K - 5
+06-016-0960-02-0000,,Riverside SD 96,Cook,,
+06-016-0960-02-1004,L J Hauser Jr High School,Riverside SD 96,Cook,Middle/Junior High School,6 - 8
+06-016-0960-02-2001,A F Ames Elem School,Riverside SD 96,Cook,Elementary School,PK - 5
+06-016-0960-02-2002,Blythe Park Elem School,Riverside SD 96,Cook,Elementary School,PK - 5
+06-016-0960-02-2003,Central Elem School,Riverside SD 96,Cook,Elementary School,PK - 5
+06-016-0960-02-2005,Hollywood Elem School,Riverside SD 96,Cook,Elementary School,PK - 5
+06-016-0970-02-0000,,Oak Park ESD 97,Cook,,
+06-016-0970-02-1003,Gwendolyn Brooks Middle School,Oak Park ESD 97,Cook,Middle/Junior High School,6 - 8
+06-016-0970-02-1004,Percy Julian Middle School,Oak Park ESD 97,Cook,Middle/Junior High School,6 - 8
+06-016-0970-02-2001,William Beye Elem School,Oak Park ESD 97,Cook,Elementary School,K - 5
+06-016-0970-02-2003,William Hatch Elem School,Oak Park ESD 97,Cook,Elementary School,PK - 5
+06-016-0970-02-2005,Oliver W Holmes Elem School,Oak Park ESD 97,Cook,Elementary School,K - 5
+06-016-0970-02-2006,Irving Elem School,Oak Park ESD 97,Cook,Elementary School,K - 5
+06-016-0970-02-2007,Abraham Lincoln Elem School,Oak Park ESD 97,Cook,Elementary School,K - 5
+06-016-0970-02-2008,Longfellow Elem School,Oak Park ESD 97,Cook,Elementary School,PK - 5
+06-016-0970-02-2009,Horace Mann Elem School,Oak Park ESD 97,Cook,Elementary School,K - 5
+06-016-0970-02-2010,Whittier Elem School,Oak Park ESD 97,Cook,Elementary School,PK - 5
+06-016-0980-02-0000,,Berwyn North SD 98,Cook,,
+06-016-0980-02-1004,Lincoln Middle School,Berwyn North SD 98,Cook,Middle/Junior High School,6 - 8
+06-016-0980-02-2001,Prairie Oak School,Berwyn North SD 98,Cook,Elementary School,PK - 5
+06-016-0980-02-2002,Karel Havlicek Elem School,Berwyn North SD 98,Cook,Elementary School,PK - 5
+06-016-0980-02-2003,Jefferson Elem School,Berwyn North SD 98,Cook,Elementary School,PK - 5
+06-016-0990-02-0000,,Cicero SD 99,Cook,,
+06-016-0990-02-1002,Unity Jr High School,Cicero SD 99,Cook,Middle/Junior High School,7 - 8
+06-016-0990-02-2001,Daniel Burnham Elem School,Cicero SD 99,Cook,Elementary School,K - 2
+06-016-0990-02-2002,Cicero East Elem School,Cicero SD 99,Cook,Elementary School,4 - 6
+06-016-0990-02-2003,Columbus  East Elem School,Cicero SD 99,Cook,Elementary School,4 - 6
+06-016-0990-02-2004,Drexel Elem School,Cicero SD 99,Cook,Elementary School,K - 6
+06-016-0990-02-2005,Goodwin Elementary School,Cicero SD 99,Cook,Elementary School,PK - 6
+06-016-0990-02-2006,Abe Lincoln Elem School,Cicero SD 99,Cook,Elementary School,PK - 6
+06-016-0990-02-2008,T Roosevelt Elem School,Cicero SD 99,Cook,Elementary School,3 - 6
+06-016-0990-02-2009,Sherlock Elem School,Cicero SD 99,Cook,Elementary School,PK - 6
+06-016-0990-02-2010,Woodrow Wilson Elem School,Cicero SD 99,Cook,Elementary School,K - 6
+06-016-0990-02-2012,Warren Park School,Cicero SD 99,Cook,Elementary School,PK - 6
+06-016-0990-02-2013,Liberty Elem School,Cicero SD 99,Cook,Elementary School,PK - 3
+06-016-0990-02-2014,Cicero West Elementary School,Cicero SD 99,Cook,Elementary School,PK - 3
+06-016-0990-02-2015,Columbus West Elementary School,Cicero SD 99,Cook,Elementary School,PK - 3
+06-016-0990-02-3001,District 99 Early Childhood Center,Cicero SD 99,Cook,Special School,PK
+06-016-1000-02-0000,,Berwyn South SD 100,Cook,,
+06-016-1000-02-1002,Heritage Middle School,Berwyn South SD 100,Cook,Middle/Junior High School,6 - 8
+06-016-1000-02-1003,Freedom Middle School,Berwyn South SD 100,Cook,Middle/Junior High School,6 - 8
+06-016-1000-02-2001,Emerson Elem School,Berwyn South SD 100,Cook,Elementary School,K - 5
+06-016-1000-02-2003,Irving Elem School,Berwyn South SD 100,Cook,Elementary School,PK - 5
+06-016-1000-02-2004,Komensky Elem School,Berwyn South SD 100,Cook,Elementary School,PK - 5
+06-016-1000-02-2006,Pershing Elem School,Berwyn South SD 100,Cook,Elementary School,PK - 5
+06-016-1000-02-2007,Piper School,Berwyn South SD 100,Cook,Elementary School,K - 5
+06-016-1000-02-2008,Hiawatha Elem School,Berwyn South SD 100,Cook,Elementary School,PK - 5
+06-016-1010-02-0000,,Western Springs SD 101,Cook,,
+06-016-1010-02-1006,McClure Jr High School,Western Springs SD 101,Cook,Middle/Junior High School,6 - 8
+06-016-1010-02-2001,Field Park Elem School,Western Springs SD 101,Cook,Elementary School,K - 5
+06-016-1010-02-2002,Forest Hills Elem School,Western Springs SD 101,Cook,Elementary School,PK - 5
+06-016-1010-02-2005,John Laidlaw Elem School,Western Springs SD 101,Cook,Elementary School,K - 5
+06-016-1020-02-0000,,La Grange SD 102,Cook,,
+06-016-1020-02-1004,Park Junior High School,La Grange SD 102,Cook,Middle/Junior High School,7 - 8
+06-016-1020-02-2001,Congress Park Elem School,La Grange SD 102,Cook,Elementary School,K - 6
+06-016-1020-02-2002,Cossitt Ave Elem School,La Grange SD 102,Cook,Elementary School,K - 6
+06-016-1020-02-2003,Forest Road Elem School,La Grange SD 102,Cook,Elementary School,1 - 6
+06-016-1020-02-2007,Ogden Ave Elem School,La Grange SD 102,Cook,Elementary School,K - 6
+06-016-1020-02-2008,Barnsdale Road School,La Grange SD 102,Cook,Elementary School,PK - K
+06-016-1030-02-0000,,Lyons SD 103,Cook,,
+06-016-1030-02-2002,Edison Elem School,Lyons SD 103,Cook,Elementary School,PK - 5
+06-016-1030-02-2004,Home Elem School,Lyons SD 103,Cook,Elementary School,PK - 5
+06-016-1030-02-2005,Lincoln Elem School,Lyons SD 103,Cook,Elementary School,PK - 5
+06-016-1030-02-2006,J W Robinson Jr Elem School,Lyons SD 103,Cook,Elementary School,K - 5
+06-016-1030-02-2007,Washington Middle School,Lyons SD 103,Cook,Elementary School,6 - 8
+06-016-1030-02-2008,Costello School,Lyons SD 103,Cook,Elementary School,PK - 5
+06-016-1050-02-0000,,La Grange SD 105 South,Cook,,
+06-016-1050-02-1001,Wm F Gurrie Middle School,La Grange SD 105 South,Cook,Middle/Junior High School,7 - 8
+06-016-1050-02-2002,Hodgkins Elem School,La Grange SD 105 South,Cook,Elementary School,PK - 6
+06-016-1050-02-2003,Ideal Elem School,La Grange SD 105 South,Cook,Elementary School,K - 6
+06-016-1050-02-2004,Seventh Ave Elem School,La Grange SD 105 South,Cook,Elementary School,K - 6
+06-016-1050-02-2005,Spring Ave Elem School,La Grange SD 105 South,Cook,Elementary School,K - 6
+06-016-1060-02-0000,,LaGrange Highlands SD 106,Cook,,
+06-016-1060-02-1003,Highlands Middle School,LaGrange Highlands SD 106,Cook,Middle/Junior High School,5 - 8
+06-016-1060-02-2001,Highlands Elem School,LaGrange Highlands SD 106,Cook,Elementary School,PK - 4
+06-016-1070-02-0000,,Pleasantdale SD 107,Cook,,
+06-016-1070-02-1001,Pleasantdale Middle Sch,Pleasantdale SD 107,Cook,Middle/Junior High School,5 - 8
+06-016-1070-02-2002,Pleasantdale Elementary School,Pleasantdale SD 107,Cook,Elementary School,PK - 4
+06-016-2000-13-0000,,Oak Park - River Forest SD 200,Cook,,
+06-016-2000-13-0001,Oak Park & River Forest High Sch,Oak Park - River Forest SD 200,Cook,High School,9 - 12
+06-016-2010-17-0000,,J S Morton HSD 201,Cook,,
+06-016-2010-17-0001,J Sterling Morton East High Sch,J S Morton HSD 201,Cook,High School,10 - 12
+06-016-2010-17-0002,J Sterling Morton West High Sch,J S Morton HSD 201,Cook,High School,9 - 12
+06-016-2010-17-0003,J Sterling Morton Freshman Cntr,J S Morton HSD 201,Cook,High School,9
+06-016-2040-17-0000,,Lyons Twp HSD 204,Cook,,
+06-016-2040-17-0001,Lyons Twp High Sch,Lyons Twp HSD 204,Cook,High School,9 - 12
+06-016-2080-17-0000,,Riverside-Brookfield Twp SD 208,Cook,,
+06-016-2080-17-0001,Riverside Brookfield Twp HS,Riverside-Brookfield Twp SD 208,Cook,High School,9 - 12
+06-016-2090-17-0000,,Proviso Twp HSD 209,Cook,,
+06-016-2090-17-0001,Proviso East High School,Proviso Twp HSD 209,Cook,High School,9 - 12
+06-016-2090-17-0002,Proviso West High School,Proviso Twp HSD 209,Cook,High School,9 - 12
+06-016-2090-17-0003,Proviso Math and Science Academy,Proviso Twp HSD 209,Cook,High School,9 - 12
+06-016-2120-16-0000,,Leyden CHSD 212,Cook,,
+06-016-2120-16-0001,East Leyden High School,Leyden CHSD 212,Cook,High School,9 - 12
+06-016-2120-16-0002,West Leyden High School,Leyden CHSD 212,Cook,High School,9 - 12
+06-016-2340-16-0000,,Ridgewood CHSD 234,Cook,,
+06-016-2340-16-0001,Ridgewood Comm High School,Ridgewood CHSD 234,Cook,High School,9 - 12
+06-016-4010-26-0000,,Elmwood Park CUSD 401,Cook,,
+06-016-4010-26-0001,Elmwood Park High School,Elmwood Park CUSD 401,Cook,High School,9 - 12
+06-016-4010-26-1001,Elm Middle School,Elmwood Park CUSD 401,Cook,Middle/Junior High School,6 - 8
+06-016-4010-26-2003,Elmwood Elem School,Elmwood Park CUSD 401,Cook,Elementary School,K - 5
+06-016-4010-26-2004,John Mills Elem School,Elmwood Park CUSD 401,Cook,Elementary School,PK - 5
+07-016-1040-02-0000,,Summit SD 104,Cook,,
+07-016-1040-02-1001,Heritage Middle School,Summit SD 104,Cook,Middle/Junior High School,6 - 8
+07-016-1040-02-2001,Dr Donald Wharton Elem School,Summit SD 104,Cook,Elementary School,K - 5
+07-016-1040-02-2003,Otis P Graves Elem School,Summit SD 104,Cook,Elementary School,PK - 5
+07-016-1040-02-2004,W W Walker Elem School,Summit SD 104,Cook,Elementary School,K - 5
+07-016-1040-02-2005,Walsh Elem School,Summit SD 104,Cook,Elementary School,K - 5
+07-016-1080-02-0000,,Willow Springs SD 108,Cook,,
+07-016-1080-02-2001,Willow Springs Elem School,Willow Springs SD 108,Cook,Elementary School,PK - 8
+07-016-1090-02-0000,,Indian Springs SD 109,Cook,,
+07-016-1090-02-1006,Geo T Wilkins Jr High School,Indian Springs SD 109,Cook,Middle/Junior High School,7 - 8
+07-016-1090-02-2001,Bridgeview Elem School,Indian Springs SD 109,Cook,Elementary School,K - 6
+07-016-1090-02-2002,Frank A Brodnicki Elem School,Indian Springs SD 109,Cook,Elementary School,K - 6
+07-016-1090-02-2004,Robina Lyle Elementary School,Indian Springs SD 109,Cook,Elementary School,K - 6
+07-016-1090-02-2006,George T Wilkins Elem School,Indian Springs SD 109,Cook,Elementary School,K - 6
+07-016-1090-02-3001,Gladness V Player Early Childhood Center,Indian Springs SD 109,Cook,Special School,PK
+07-016-1100-02-0000,,Central Stickney SD 110,Cook,,
+07-016-1100-02-2002,Charles J Sahs Elem School,Central Stickney SD 110,Cook,Elementary School,PK - 8
+07-016-1110-02-0000,,Burbank SD 111,Cook,,
+07-016-1110-02-1001,Liberty Junior High School,Burbank SD 111,Cook,Middle/Junior High School,6 - 8
+07-016-1110-02-2001,Luther Burbank Elem School,Burbank SD 111,Cook,Elementary School,K - 5
+07-016-1110-02-2002,Richard Byrd Elementary School,Burbank SD 111,Cook,Elementary School,K - 5
+07-016-1110-02-2005,J B Kennedy Elem School,Burbank SD 111,Cook,Elementary School,K - 5
+07-016-1110-02-2006,Maddock Elementary School,Burbank SD 111,Cook,Elementary School,K - 5
+07-016-1110-02-2007,F B Mccord Elem School,Burbank SD 111,Cook,Elementary School,PK
+07-016-1110-02-2010,Edward J Tobin Elem School,Burbank SD 111,Cook,Elementary School,K - 5
+07-016-1110-02-2011,Harry E Fry School,Burbank SD 111,Cook,Elementary School,K - 5
+07-016-113A-02-0000,,Lemont-Bromberek CSD 113A,Cook,,
+07-016-113A-02-1002,Old Quarry Middle Sch,Lemont-Bromberek CSD 113A,Cook,Middle/Junior High School,6 - 8
+07-016-113A-02-2002,Oakwood School,Lemont-Bromberek CSD 113A,Cook,Elementary School,PK - 1
+07-016-113A-02-2004,River Valley School,Lemont-Bromberek CSD 113A,Cook,Elementary School,2 - 3
+07-016-113A-02-2005,Central School,Lemont-Bromberek CSD 113A,Cook,Elementary School,4 - 5
+07-016-1170-02-0000,,North Palos SD 117,Cook,,
+07-016-1170-02-1001,H H Conrady Jr High School,North Palos SD 117,Cook,Middle/Junior High School,6 - 8
+07-016-1170-02-2002,Dorn Elementary School,North Palos SD 117,Cook,Elementary School,PK - 1
+07-016-1170-02-2003,Glen Oaks Elem School,North Palos SD 117,Cook,Elementary School,2 - 5
+07-016-1170-02-2004,Oak Ridge Elem School,North Palos SD 117,Cook,Elementary School,2 - 5
+07-016-1170-02-2005,Dr Kenneth M Sorrick School,North Palos SD 117,Cook,Elementary School,PK - 1
+07-016-1180-04-0000,,Palos CCSD 118,Cook,,
+07-016-1180-04-1004,Palos South Middle School,Palos CCSD 118,Cook,Middle/Junior High School,6 - 8
+07-016-1180-04-2002,Palos East Elementary School,Palos CCSD 118,Cook,Elementary School,K - 5
+07-016-1180-04-2003,Palos West Elementary School,Palos CCSD 118,Cook,Elementary School,PK - 5
+07-016-1220-02-0000,,Ridgeland SD 122,Cook,,
+07-016-1220-02-1005,Simmons Middle School,Ridgeland SD 122,Cook,Middle/Junior High School,6 - 8
+07-016-1220-02-2001,Columbus Manor Elem School,Ridgeland SD 122,Cook,Elementary School,K - 5
+07-016-1220-02-2002,Ernest F Kolb Elem School,Ridgeland SD 122,Cook,Elementary School,K - 5
+07-016-1220-02-2003,Harnew Elem School,Ridgeland SD 122,Cook,Elementary School,PK - 5
+07-016-1220-02-2004,George W Lieb Elem School,Ridgeland SD 122,Cook,Elementary School,K - 5
+07-016-1230-02-0000,,Oak Lawn-Hometown SD 123,Cook,,
+07-016-1230-02-1001,Oak Lawn-Hometown Middle Sch,Oak Lawn-Hometown SD 123,Cook,Middle/Junior High School,6 - 8
+07-016-1230-02-2003,J Covington Elem School,Oak Lawn-Hometown SD 123,Cook,Elementary School,K - 5
+07-016-1230-02-2006,J M Hannum Elem School,Oak Lawn-Hometown SD 123,Cook,Elementary School,K - 5
+07-016-1230-02-2007,Hometown Elem School,Oak Lawn-Hometown SD 123,Cook,Elementary School,K - 5
+07-016-1230-02-2008,Kolmar Avenue Elem School,Oak Lawn-Hometown SD 123,Cook,Elementary School,K - 5
+07-016-1230-02-2010,Sward Elem School,Oak Lawn-Hometown SD 123,Cook,Elementary School,K - 5
+07-016-1230-02-3001,School District 123 Early Learning Center,Oak Lawn-Hometown SD 123,Cook,Special School,PK
+07-016-1240-02-0000,,Evergreen Park ESD 124,Cook,,
+07-016-1240-02-1001,Central Middle School,Evergreen Park ESD 124,Cook,Middle/Junior High School,6 - 8
+07-016-1240-02-2002,Northeast Elem School,Evergreen Park ESD 124,Cook,Elementary School,PK - 5
+07-016-1240-02-2003,Northwest School,Evergreen Park ESD 124,Cook,Elementary School,PK - 5
+07-016-1240-02-2004,Southeast Elem School,Evergreen Park ESD 124,Cook,Elementary School,K - 5
+07-016-1240-02-2005,Southwest Elem School,Evergreen Park ESD 124,Cook,Elementary School,K - 5
+07-016-1250-02-0000,,Atwood Heights SD 125,Cook,,
+07-016-1250-02-1001,Hamlin Upper Grade Center,Atwood Heights SD 125,Cook,Middle/Junior High School,6 - 8
+07-016-1250-02-2003,Lawn Manor School,Atwood Heights SD 125,Cook,Elementary School,PK - 2
+07-016-1250-02-2004,Meadow Lane School,Atwood Heights SD 125,Cook,Elementary School,3 - 5
+07-016-1260-02-0000,,Alsip-Hazlgrn-Oaklwn SD 126,Cook,,
+07-016-1260-02-1005,Prairie Jr High School,Alsip-Hazlgrn-Oaklwn SD 126,Cook,Middle/Junior High School,7 - 8
+07-016-1260-02-2001,Hazelgreen Elem School,Alsip-Hazlgrn-Oaklwn SD 126,Cook,Elementary School,K - 6
+07-016-1260-02-2002,Lane Elem School,Alsip-Hazlgrn-Oaklwn SD 126,Cook,Elementary School,K - 6
+07-016-1260-02-2004,Stony Creek Elem School,Alsip-Hazlgrn-Oaklwn SD 126,Cook,Elementary School,K - 6
+07-016-1260-02-3001,District 126 Early Childhood Center,Alsip-Hazlgrn-Oaklwn SD 126,Cook,Special School,PK
+07-016-1270-02-0000,,Worth SD 127,Cook,,
+07-016-1270-02-1005,Worth Jr High School,Worth SD 127,Cook,Middle/Junior High School,6 - 8
+07-016-1270-02-2001,Worth Elem School,Worth SD 127,Cook,Elementary School,PK - 5
+07-016-1270-02-2004,Worthwoods Elem School,Worth SD 127,Cook,Elementary School,K - 5
+07-016-1275-02-0000,,Chicago Ridge SD 127-5,Cook,,
+07-016-1275-02-1001,Elden D Finley Jr High School,Chicago Ridge SD 127-5,Cook,Middle/Junior High School,6 - 8
+07-016-1275-02-2003,Ridge Central Elem School,Chicago Ridge SD 127-5,Cook,Elementary School,PK - 5
+07-016-1275-02-2004,Ridge Lawn Elementary School,Chicago Ridge SD 127-5,Cook,Elementary School,PK - 5
+07-016-1280-02-0000,,Palos Heights SD 128,Cook,,
+07-016-1280-02-1003,Independence Jr High School,Palos Heights SD 128,Cook,Middle/Junior High School,6 - 8
+07-016-1280-02-2002,Chippewa Elem School,Palos Heights SD 128,Cook,Elementary School,1 - 3
+07-016-1280-02-2005,Navajo Heights Elem School,Palos Heights SD 128,Cook,Elementary School,4 - 5
+07-016-1280-02-2006,Indian Hill,Palos Heights SD 128,Cook,Elementary School,PK - K
+07-016-1300-02-0000,,Cook County SD 130,Cook,,
+07-016-1300-02-1001,Everett F Kerr Middle School,Cook County SD 130,Cook,Middle/Junior High School,6 - 8
+07-016-1300-02-1002,Nathan Hale Middle School,Cook County SD 130,Cook,Middle/Junior High School,6 - 8
+07-016-1300-02-1003,Veterans Memorial Middle Sch,Cook County SD 130,Cook,Middle/Junior High School,6 - 8
+07-016-1300-02-2004,Nathan Hale Intermediate,Cook County SD 130,Cook,Elementary School,4 - 5
+07-016-1300-02-2008,Paul Revere Intermediate School,Cook County SD 130,Cook,Elementary School,4 - 5
+07-016-1300-02-2010,Whittier Elementary School,Cook County SD 130,Cook,Elementary School,4 - 5
+07-016-1300-02-2011,Lincoln Elem School,Cook County SD 130,Cook,Elementary School,K - 3
+07-016-1300-02-2012,Nathan Hale Primary School,Cook County SD 130,Cook,Elementary School,PK - 3
+07-016-1300-02-2018,Paul Revere Primary School,Cook County SD 130,Cook,Elementary School,K - 3
+07-016-1300-02-2019,George Washington Elementary Sch,Cook County SD 130,Cook,Elementary School,K - 5
+07-016-1300-02-3001,Horace Mann School,Cook County SD 130,Cook,Special School,PK
+07-016-1320-02-0000,,Calumet Public SD 132,Cook,,
+07-016-1320-02-2001,Burr Oak Elem School,Calumet Public SD 132,Cook,Elementary School,3 - 5
+07-016-1320-02-2002,Calumet Elem School,Calumet Public SD 132,Cook,Elementary School,6 - 8
+07-016-1320-02-2003,Burr Oak Academy,Calumet Public SD 132,Cook,Elementary School,PK - 2
+07-016-1330-02-0000,,Gen George Patton SD 133,Cook,,
+07-016-1330-02-2001,Gen George Patton Elem School,Gen George Patton SD 133,Cook,Elementary School,PK - 8
+07-016-1350-02-0000,,Orland SD 135,Cook,,
+07-016-1350-02-1004,Orland Jr High School,Orland SD 135,Cook,Middle/Junior High School,6 - 8
+07-016-1350-02-1005,Jerling Junior High School,Orland SD 135,Cook,Middle/Junior High School,6 - 8
+07-016-1350-02-1006,Century Junior High School,Orland SD 135,Cook,Middle/Junior High School,6 - 8
+07-016-1350-02-2001,High Point Elem School,Orland SD 135,Cook,Elementary School,3 - 5
+07-016-1350-02-2002,Orland Park Elem School,Orland SD 135,Cook,Elementary School,PK - 2
+07-016-1350-02-2007,Prairie Elem School,Orland SD 135,Cook,Elementary School,PK - 2
+07-016-1350-02-2008,Liberty Elem School,Orland SD 135,Cook,Elementary School,3 - 5
+07-016-1350-02-2010,Orland Center School,Orland SD 135,Cook,Elementary School,PK - 2
+07-016-1350-02-2012,Centennial School,Orland SD 135,Cook,Elementary School,PK - 2
+07-016-1350-02-2013,Meadow Ridge School,Orland SD 135,Cook,Elementary School,3 - 5
+07-016-1400-02-0000,,Kirby SD 140,Cook,,
+07-016-1400-02-1003,Virgil I Grissom Middle School,Kirby SD 140,Cook,Middle/Junior High School,6 - 8
+07-016-1400-02-1004,Prairie View Middle School,Kirby SD 140,Cook,Middle/Junior High School,6 - 8
+07-016-1400-02-2001,Fernway Park Elem School,Kirby SD 140,Cook,Elementary School,PK - 5
+07-016-1400-02-2004,Helen Keller Elem School,Kirby SD 140,Cook,Elementary School,PK - 5
+07-016-1400-02-2005,John A Bannes Elem School,Kirby SD 140,Cook,Elementary School,PK - 5
+07-016-1400-02-2006,Christa McAuliffe School,Kirby SD 140,Cook,Elementary School,PK - 5
+07-016-1400-02-2007,Millennium Elem School,Kirby SD 140,Cook,Elementary School,PK - 5
+07-016-1420-02-0000,,Forest Ridge SD 142,Cook,,
+07-016-1420-02-1001,Jack Hille Middle School,Forest Ridge SD 142,Cook,Middle/Junior High School,6 - 8
+07-016-1420-02-2002,Ridge Early Childhood Center,Forest Ridge SD 142,Cook,Elementary School,PK - K
+07-016-1420-02-2003,Lee R Foster Elem School,Forest Ridge SD 142,Cook,Elementary School,1 - 5
+07-016-1420-02-2004,Kerkstra Elem School,Forest Ridge SD 142,Cook,Elementary School,1 - 5
+07-016-1430-02-0000,,Midlothian SD 143,Cook,,
+07-016-1430-02-2001,Central Park Elem School,Midlothian SD 143,Cook,Elementary School,K - 8
+07-016-1430-02-2002,Kolmar Elem School,Midlothian SD 143,Cook,Elementary School,K - 8
+07-016-1430-02-2004,Springfield Elem School,Midlothian SD 143,Cook,Elementary School,K - 5
+07-016-1430-02-3002,Spaulding School,Midlothian SD 143,Cook,Special School,PK
+07-016-1435-02-0000,,Posen-Robbins ESD 143-5,Cook,,
+07-016-1435-02-1003,Kellar School,Posen-Robbins ESD 143-5,Cook,Middle/Junior High School,6 - 8
+07-016-1435-02-2001,Childs Elem School,Posen-Robbins ESD 143-5,Cook,Elementary School,K - 3
+07-016-1435-02-2006,Posen Elem School,Posen-Robbins ESD 143-5,Cook,Elementary School,4 - 5
+07-016-1435-02-2007,Turner Elem School,Posen-Robbins ESD 143-5,Cook,Elementary School,PK - K
+07-016-1435-02-2010,Gordon School,Posen-Robbins ESD 143-5,Cook,Elementary School,K - 3
+07-016-1440-02-0000,,Prairie-Hills ESD 144,Cook,,
+07-016-1440-02-1002,Prairie-Hills Junior High School,Prairie-Hills ESD 144,Cook,Middle/Junior High School,6 - 8
+07-016-1440-02-2003,Fieldcrest Elem School,Prairie-Hills ESD 144,Cook,Elementary School,PK - 5
+07-016-1440-02-2004,Highlands Elem School,Prairie-Hills ESD 144,Cook,Elementary School,PK - 5
+07-016-1440-02-2005,Markham Park Elem School,Prairie-Hills ESD 144,Cook,Elementary School,PK - 5
+07-016-1440-02-2007,Nob Hill Elem School,Prairie-Hills ESD 144,Cook,Elementary School,PK - 5
+07-016-1440-02-2009,Chateaux School,Prairie-Hills ESD 144,Cook,Elementary School,PK - 5
+07-016-1440-02-2010,Mae Jemison School,Prairie-Hills ESD 144,Cook,Elementary School,PK - 5
+07-016-1440-02-2011,Prairie-Hills STEAM Academy,Prairie-Hills ESD 144,Cook,Elementary School,PK - 5
+07-016-1450-02-0000,,Arbor Park SD 145,Cook,,
+07-016-1450-02-1001,Arbor Park Middle School,Arbor Park SD 145,Cook,Middle/Junior High School,5 - 8
+07-016-1450-02-2002,Kimberly Heights Elementary School,Arbor Park SD 145,Cook,Elementary School,PK - K
+07-016-1450-02-2003,Scarlet Oak Elementary School,Arbor Park SD 145,Cook,Elementary School,3 - 4
+07-016-1450-02-2004,Arbor Elementary School,Arbor Park SD 145,Cook,Elementary School,1 - 2
+07-016-1460-04-0000,,CCSD 146,Cook,,
+07-016-1460-04-1001,Central Middle School,CCSD 146,Cook,Middle/Junior High School,6 - 8
+07-016-1460-04-2002,Bert H Fulton School,CCSD 146,Cook,Elementary School,PK - 5
+07-016-1460-04-2003,Memorial Elem School,CCSD 146,Cook,Elementary School,PK - 5
+07-016-1460-04-2005,Walter F Fierke Ed Center,CCSD 146,Cook,Elementary School,PK - 5
+07-016-1460-04-2006,Arnold W Kruse Ed Center,CCSD 146,Cook,Elementary School,PK - 5
+07-016-1470-02-0000,,W Harvey-Dixmoor PSD 147,Cook,,
+07-016-1470-02-1001,Rosa L Parks Middle School,W Harvey-Dixmoor PSD 147,Cook,Middle/Junior High School,5 - 8
+07-016-1470-02-2004,Lincoln Elem School,W Harvey-Dixmoor PSD 147,Cook,Elementary School,PK - K
+07-016-1470-02-2007,Martin L King Elem School,W Harvey-Dixmoor PSD 147,Cook,Elementary School,1 - 4
+07-016-1480-02-0000,,Dolton SD 148,Cook,,
+07-016-1480-02-1002,Roosevelt Junior High School,Dolton SD 148,Cook,Middle/Junior High School,7 - 8
+07-016-1480-02-1003,Lincoln Junior High School,Dolton SD 148,Cook,Middle/Junior High School,7 - 8
+07-016-1480-02-1004,Washington Junior High,Dolton SD 148,Cook,Middle/Junior High School,7 - 8
+07-016-1480-02-2002,Riverdale School,Dolton SD 148,Cook,Elementary School,K - 4
+07-016-1480-02-2003,Lincoln Elementary School,Dolton SD 148,Cook,Elementary School,K - 6
+07-016-1480-02-2005,Roosevelt Elem School,Dolton SD 148,Cook,Elementary School,K - 6
+07-016-1480-02-2006,Washington Elem School,Dolton SD 148,Cook,Elementary School,K - 6
+07-016-1480-02-2007,Franklin Elementary School,Dolton SD 148,Cook,Elementary School,K - 6
+07-016-1480-02-2010,Park Elementary School,Dolton SD 148,Cook,Elementary School,K - 6
+07-016-1480-02-3002,Early Childhood Cntr,Dolton SD 148,Cook,Special School,PK
+07-016-1490-02-0000,,Dolton SD 149,Cook,,
+07-016-1490-02-1004,S T E M Academy,Dolton SD 149,Cook,Middle/Junior High School,8
+07-016-1490-02-1005,Creative Communications Acad,Dolton SD 149,Cook,Middle/Junior High School,6
+07-016-1490-02-1006,School of Fine Arts,Dolton SD 149,Cook,Middle/Junior High School,7
+07-016-1490-02-2002,Diekman Elem School,Dolton SD 149,Cook,Elementary School,PK - 5
+07-016-1490-02-2005,Caroline Sibley Elem School,Dolton SD 149,Cook,Elementary School,K - 5
+07-016-1490-02-2006,Berger-Vandenberg Elem School,Dolton SD 149,Cook,Elementary School,K - 5
+07-016-1490-02-2009,Carol Moseley Braun School,Dolton SD 149,Cook,Elementary School,K - 5
+07-016-1490-02-2010,New Beginnings Learning Academy,Dolton SD 149,Cook,Elementary School,K - 5
+07-016-1500-02-0000,,South Holland SD 150,Cook,,
+07-016-1500-02-1005,McKinley Jr High School,South Holland SD 150,Cook,Middle/Junior High School,6 - 8
+07-016-1500-02-2001,Greenwood Elem School,South Holland SD 150,Cook,Elementary School,PK - 3
+07-016-1500-02-2002,McKinley Elem School,South Holland SD 150,Cook,Elementary School,4 - 5
+07-016-1510-02-0000,,South Holland SD 151,Cook,,
+07-016-1510-02-1001,Coolidge Middle School,South Holland SD 151,Cook,Middle/Junior High School,6 - 8
+07-016-1510-02-2002,Eisenhower School,South Holland SD 151,Cook,Elementary School,2 - 3
+07-016-1510-02-2004,Madison School,South Holland SD 151,Cook,Elementary School,4 - 5
+07-016-1510-02-2006,Taft School,South Holland SD 151,Cook,Elementary School,PK - 1
+07-016-1520-02-0000,,Harvey SD 152,Cook,,
+07-016-1520-02-1001,Brooks Middle School,Harvey SD 152,Cook,Middle/Junior High School,6 - 8
+07-016-1520-02-2001,Bryant Elem School,Harvey SD 152,Cook,Elementary School,PK - 5
+07-016-1520-02-2002,Maya Angelou Elem Sch,Harvey SD 152,Cook,Elementary School,PK - 5
+07-016-1520-02-2004,Holmes Elem School,Harvey SD 152,Cook,Elementary School,PK - 5
+07-016-1520-02-2008,Whittier Elem School,Harvey SD 152,Cook,Elementary School,PK - 5
+07-016-1520-02-3001,Riley Early Childhood Center,Harvey SD 152,Cook,Special School,
+07-016-1525-02-0000,,Hazel Crest SD 152-5,Cook,,
+07-016-1525-02-2001,Barack H Obama Learning Academy,Hazel Crest SD 152-5,Cook,Elementary School,PK - 8
+07-016-1525-02-2005,Jesse C White Learning Academy,Hazel Crest SD 152-5,Cook,Elementary School,PK - 8
+07-016-1530-02-0000,,Homewood SD 153,Cook,,
+07-016-1530-02-1003,James Hart School,Homewood SD 153,Cook,Middle/Junior High School,6 - 8
+07-016-1530-02-2002,Winston Churchill School,Homewood SD 153,Cook,Elementary School,3 - 5
+07-016-1530-02-2005,Willow School,Homewood SD 153,Cook,Elementary School,PK - 2
+07-016-1540-02-0000,,Thornton SD 154,Cook,,
+07-016-1540-02-2002,Wolcott School,Thornton SD 154,Cook,Elementary School,PK - 8
+07-016-1545-02-0000,,Burnham SD 154-5,Cook,,
+07-016-1545-02-2001,Burnham Elem School,Burnham SD 154-5,Cook,Elementary School,K - 8
+07-016-1550-02-0000,,Calumet City SD 155,Cook,,
+07-016-1550-02-1001,Wentworth Jr High School,Calumet City SD 155,Cook,Middle/Junior High School,6 - 8
+07-016-1550-02-2002,Wilson Elementary School,Calumet City SD 155,Cook,Elementary School,PK - 2
+07-016-1550-02-2004,Wentworth Intermediate School,Calumet City SD 155,Cook,Elementary School,3 - 5
+07-016-1560-02-0000,,Lincoln ESD 156,Cook,,
+07-016-1560-02-2001,Lincoln Elem School,Lincoln ESD 156,Cook,Elementary School,PK - 8
+07-016-1570-02-0000,,Hoover-Schrum Memorial SD 157,Cook,,
+07-016-1570-02-1001,Schrum Memorial School,Hoover-Schrum Memorial SD 157,Cook,Middle/Junior High School,6 - 8
+07-016-1570-02-2001,Hoover Elem School,Hoover-Schrum Memorial SD 157,Cook,Elementary School,PK - 5
+07-016-1580-02-0000,,Lansing SD 158,Cook,,
+07-016-1580-02-1004,Memorial Jr High School,Lansing SD 158,Cook,Middle/Junior High School,6 - 8
+07-016-1580-02-2001,Coolidge Elementary School,Lansing SD 158,Cook,Elementary School,K - 5
+07-016-1580-02-2005,Oak Glen Elem School,Lansing SD 158,Cook,Elementary School,K - 5
+07-016-1580-02-2006,Reavis Elem School,Lansing SD 158,Cook,Elementary School,K - 5
+07-016-1580-02-3001,Lester Crawl Primary Ctr,Lansing SD 158,Cook,Special School,PK - 1
+07-016-1590-02-0000,,ESD 159,Cook,,
+07-016-1590-02-1001,Colin Powell Middle Sch,ESD 159,Cook,Middle/Junior High School,6 - 8
+07-016-1590-02-2002,Sieden Prairie Elementary School,ESD 159,Cook,Elementary School,PK - 5
+07-016-1590-02-2004,Neil Armstrong Elem School,ESD 159,Cook,Elementary School,K - 5
+07-016-1590-02-2005,Woodgate Elem School,ESD 159,Cook,Elementary School,PK - 5
+07-016-1590-02-2006,Marya Yates Elementary School,ESD 159,Cook,Elementary School,K - 5
+07-016-1600-02-0000,,Country Club Hills SD 160,Cook,,
+07-016-1600-02-1001,Southwood Middle School,Country Club Hills SD 160,Cook,Middle/Junior High School,6 - 8
+07-016-1600-02-2003,Zenon J Sykuta  School,Country Club Hills SD 160,Cook,Elementary School,PK - 2
+07-016-1600-02-2004,Meadowview  School,Country Club Hills SD 160,Cook,Elementary School,3 - 5
+07-016-1610-02-0000,,Flossmoor SD 161,Cook,,
+07-016-1610-02-1003,Parker Junior High School,Flossmoor SD 161,Cook,Middle/Junior High School,6 - 8
+07-016-1610-02-2001,Flossmoor Hills Elem School,Flossmoor SD 161,Cook,Elementary School,PK - 5
+07-016-1610-02-2002,Heather Hill Elem School,Flossmoor SD 161,Cook,Elementary School,K - 5
+07-016-1610-02-2006,Serena Hills Elem School,Flossmoor SD 161,Cook,Elementary School,K - 5
+07-016-1610-02-2007,Western Avenue Elem School,Flossmoor SD 161,Cook,Elementary School,PK - 5
+07-016-1620-02-0000,,Matteson ESD 162,Cook,,
+07-016-1620-02-1004,O W Huth Middle School,Matteson ESD 162,Cook,Middle/Junior High School,7 - 8
+07-016-1620-02-2001,Arcadia Elem School,Matteson ESD 162,Cook,Elementary School,K - 4
+07-016-1620-02-2003,Indiana Elem School,Matteson ESD 162,Cook,Elementary School,4 - 6
+07-016-1620-02-2005,Matteson Elem School,Matteson ESD 162,Cook,Elementary School,K - 3
+07-016-1620-02-2008,Sauk Elem School,Matteson ESD 162,Cook,Elementary School,4 - 6
+07-016-1620-02-2009,Illinois School,Matteson ESD 162,Cook,Elementary School,K - 8
+07-016-1620-02-2010,Richton Square School,Matteson ESD 162,Cook,Elementary School,PK
+07-016-1630-02-0000,,Park Forest - Chicago Heights School District 163,Cook,,
+07-016-1630-02-1010,Michelle Obama Sch of Technology and the Arts,Park Forest - Chicago Heights School District 163,Cook,Middle/Junior High School,6 - 8
+07-016-1630-02-2002,Barack Obama Sch of Leadership and STEM,Park Forest - Chicago Heights School District 163,Cook,Elementary School,4 - 6
+07-016-1630-02-2003,Blackhawk Primary Center,Park Forest - Chicago Heights School District 163,Cook,Elementary School,K - 3
+07-016-1630-02-2007,Mohawk Primary Center,Park Forest - Chicago Heights School District 163,Cook,Elementary School,K - 3
+07-016-1630-02-2008,21st Century Primary Center,Park Forest - Chicago Heights School District 163,Cook,Elementary School,K - 3
+07-016-1630-02-3001,Algonquin Primary Center,Park Forest - Chicago Heights School District 163,Cook,Special School,PK
+07-016-1670-02-0000,,Brookwood SD 167,Cook,,
+07-016-1670-02-1002,Brookwood Jr High School,Brookwood SD 167,Cook,Middle/Junior High School,7 - 8
+07-016-1670-02-2001,Brookwood Middle School,Brookwood SD 167,Cook,Elementary School,5 - 6
+07-016-1670-02-2003,Longwood Elem School,Brookwood SD 167,Cook,Elementary School,PK - 4
+07-016-1670-02-2004,Hickory Bend Elem School,Brookwood SD 167,Cook,Elementary School,K - 4
+07-016-1680-04-0000,,CCSD 168,Cook,,
+07-016-1680-04-1003,Rickover Jr High School,CCSD 168,Cook,Middle/Junior High School,6 - 8
+07-016-1680-04-2001,Strassburg Elem,CCSD 168,Cook,Elementary School,3 - 5
+07-016-1680-04-2002,Wagoner Elem,CCSD 168,Cook,Elementary School,PK - 2
+07-016-1690-02-0000,,Ford Heights SD 169,Cook,,
+07-016-1690-02-1001,Cottage Grove Upper Grade Center,Ford Heights SD 169,Cook,Middle/Junior High School,5 - 8
+07-016-1690-02-2002,Medgar Evers Primary Academic Center,Ford Heights SD 169,Cook,Elementary School,PK - 4
+07-016-1700-02-0000,,Chicago Heights SD 170,Cook,,
+07-016-1700-02-1002,Chicago Heights Middle School,Chicago Heights SD 170,Cook,Middle/Junior High School,6 - 8
+07-016-1700-02-2001,Washington-McKinley Elem Sch,Chicago Heights SD 170,Cook,Elementary School,K - 5
+07-016-1700-02-2002,Roosevelt Elem School,Chicago Heights SD 170,Cook,Elementary School,K - 5
+07-016-1700-02-2005,Wilson Elem School,Chicago Heights SD 170,Cook,Elementary School,K - 5
+07-016-1700-02-2007,Garfield Elem School,Chicago Heights SD 170,Cook,Elementary School,K - 5
+07-016-1700-02-2008,U S Grant Elem School,Chicago Heights SD 170,Cook,Elementary School,K - 5
+07-016-1700-02-2009,Greenbriar Elem School,Chicago Heights SD 170,Cook,Elementary School,K - 5
+07-016-1700-02-2011,Jefferson Elem School,Chicago Heights SD 170,Cook,Elementary School,K - 5
+07-016-1700-02-2012,Kennedy Elem School,Chicago Heights SD 170,Cook,Elementary School,K - 5
+07-016-1700-02-2013,Lincoln Elem School,Chicago Heights SD 170,Cook,Elementary School,K - 5
+07-016-1710-02-0000,,Sunnybrook SD 171,Cook,,
+07-016-1710-02-1001,Heritage Middle School,Sunnybrook SD 171,Cook,Middle/Junior High School,5 - 8
+07-016-1710-02-2001,Nathan Hale Elem School,Sunnybrook SD 171,Cook,Elementary School,PK - 4
+07-016-1720-02-0000,,Sandridge SD 172,Cook,,
+07-016-1720-02-2001,Sandridge Elem School,Sandridge SD 172,Cook,Elementary School,PK - 8
+07-016-1940-02-0000,,Steger SD 194,Cook,,
+07-016-1940-02-1001,Columbia Central School,Steger SD 194,Cook,Middle/Junior High School,5 - 8
+07-016-1940-02-2002,Steger Intermediate Center,Steger SD 194,Cook,Elementary School,2 - 4
+07-016-1940-02-2005,Steger Primary Center,Steger SD 194,Cook,Elementary School,PK - 1
+07-016-2050-17-0000,,Thornton Twp HSD 205,Cook,,
+07-016-2050-17-0001,Thornton Township High School,Thornton Twp HSD 205,Cook,High School,9 - 12
+07-016-2050-17-0002,Thornridge High School,Thornton Twp HSD 205,Cook,High School,9 - 12
+07-016-2050-17-0003,Thornwood High School,Thornton Twp HSD 205,Cook,High School,9 - 12
+07-016-2060-17-0000,,Bloom Twp HSD 206,Cook,,
+07-016-2060-17-0001,Bloom High School,Bloom Twp HSD 206,Cook,High School,9 - 12
+07-016-2060-17-0002,Bloom Trail High School,Bloom Twp HSD 206,Cook,High School,9 - 12
+07-016-2100-17-0000,,Lemont Twp HSD 210,Cook,,
+07-016-2100-17-0001,Lemont Twp High School,Lemont Twp HSD 210,Cook,High School,9 - 12
+07-016-2150-17-0000,,Thornton Fractional Twp HSD 215,Cook,,
+07-016-2150-17-0001,Thornton Fractnl No High School,Thornton Fractional Twp HSD 215,Cook,High School,9 - 12
+07-016-2150-17-0002,Thornton Fractnl So High School,Thornton Fractional Twp HSD 215,Cook,High School,9 - 12
+07-016-2170-16-0000,,Argo CHSD 217,Cook,,
+07-016-2170-16-0001,Argo Community High School,Argo CHSD 217,Cook,High School,9 - 12
+07-016-2180-16-0000,,CHSD 218,Cook,,
+07-016-2180-16-0001,DD Eisenhower High Sch (Campus),CHSD 218,Cook,High School,9 - 12
+07-016-2180-16-0004,H L Richards High Sch(Campus),CHSD 218,Cook,High School,9 - 12
+07-016-2180-16-0007,A B Shepard High Sch (Campus),CHSD 218,Cook,High School,9 - 12
+07-016-2200-17-0000,,Reavis Twp HSD 220,Cook,,
+07-016-2200-17-0001,Reavis High School,Reavis Twp HSD 220,Cook,High School,9 - 12
+07-016-2270-17-0000,,Rich Twp HSD 227,Cook,,
+07-016-2270-17-0002,Rich Township High School,Rich Twp HSD 227,Cook,High School,9 - 12
+07-016-2280-16-0000,,Bremen CHSD 228,Cook,,
+07-016-2280-16-0001,Bremen High School,Bremen CHSD 228,Cook,High School,9 - 12
+07-016-2280-16-0002,Tinley Park High School,Bremen CHSD 228,Cook,High School,9 - 12
+07-016-2280-16-0003,Hillcrest High School,Bremen CHSD 228,Cook,High School,9 - 12
+07-016-2280-16-0004,Oak Forest High School,Bremen CHSD 228,Cook,High School,9 - 12
+07-016-2290-16-0000,,Oak Lawn CHSD 229,Cook,,
+07-016-2290-16-0001,Oak Lawn Comm High School,Oak Lawn CHSD 229,Cook,High School,9 - 12
+07-016-2300-13-0000,,Cons HSD 230,Cook,,
+07-016-2300-13-0001,Carl Sandburg High School,Cons HSD 230,Cook,High School,9 - 12
+07-016-2300-13-0002,Amos Alonzo Stagg High School,Cons HSD 230,Cook,High School,9 - 12
+07-016-2300-13-0003,Victor J Andrew High School,Cons HSD 230,Cook,High School,9 - 12
+07-016-2310-16-0000,,Evergreen Park CHSD 231,Cook,,
+07-016-2310-16-0001,Evergreen Park High School,Evergreen Park CHSD 231,Cook,High School,9 - 12
+07-016-2330-16-0000,,Homewood Flossmoor CHSD 233,Cook,,
+07-016-2330-16-0001,Homewood-Flossmoor High School,Homewood Flossmoor CHSD 233,Cook,High School,9 - 12
+07-016-9010-25-0000,,Southland College Prep Charter High School,Cook,,
+07-016-9010-25-001C,Southland College Prep Charter High School,Southland College Prep Charter High School,Cook,High School,9 - 12
+15-016-2990-25-0000,,Chicago Public Schools District 299,Cook,,
+15-016-2990-25-0001,Amundsen High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0003,Bogan High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0006,Carver Military Academy HS,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0011,Farragut Career Academy HS,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0012,Fenger Academy High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0013,Foreman High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0014,Back of The Yards IB HS,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0015,Gage Park High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0016,Harlan Community Academy HS,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0019,Hirsch Metropolitan High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0020,Hubbard High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0021,Hyde Park Academy High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0022,Thomas Kelly College Preparatory,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0023,Kelvyn Park High School,Chicago Public Schools District 299,Cook,High School,7 - 12
+15-016-2990-25-0024,Kennedy High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0025,Kenwood Academy High School,Chicago Public Schools District 299,Cook,High School,7 - 12
+15-016-2990-25-0026,Lake View High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0027,Lane Technical High School,Chicago Public Schools District 299,Cook,High School,7 - 12
+15-016-2990-25-0029,Marshall Metropolitan High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0030,Mather High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0031,Morgan Park High School,Chicago Public Schools District 299,Cook,High School,7 - 12
+15-016-2990-25-0034,Phillips Academy High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0035,Roosevelt High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0036,Schurz High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0037,Senn High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0039,King College Prep High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0041,Steinmetz College Prep HS,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0042,Sullivan High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0043,Taft High School,Chicago Public Schools District 299,Cook,High School,7 - 12
+15-016-2990-25-0044,Tilden Career Communty Academy HS,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0046,Von Steuben Metro Science HS,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0047,Lincoln Park High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0048,Washington G High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0049,Wells Community Academy HS,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0052,Crane Medical Prep HS,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0053,Disney II Magnet HS,Chicago Public Schools District 299,Cook,High School,7 - 12
+15-016-2990-25-010C,Urban Prep Chtr Acad Englewood HS,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-012C,IHSCA Charter High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-013C,Urban Prep Chtr Acad Bronzeville HS,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-015C,EPIC Academy High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-019C,Legal Prep Academy Charter HS,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-020C,IJLA Charter High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-022C,Intrinsic Charter High School,Chicago Public Schools District 299,Cook,High School,7 - 12
+15-016-2990-25-028C,Noble St Chtr-Pritzker College Prep,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-029C,Noble St Chtr Rauner College Prep,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-030C,Noble St Chtr-Rowe-Clark MS Acad,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-031C,Noble St Chtr-Golder College Prep,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-032C,Noble St Chtr-Comer College Prep,Chicago Public Schools District 299,Cook,High School,6 - 12
+15-016-2990-25-033C,Noble St Chtr-UIC College Prep,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-034C,Noble St Chtr-Chicago Bulls Prep,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-035C,Noble St Chtr-Muchin College Prep,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-036C,Noble St Chtr-Johnson College Prep,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-037C,Noble St Chtr-Hansberry College Prep - Silver,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-038C,Noble St Chtr-DRW Trading College Prep,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-039C,Noble St Chtr-Butler College Prep - Crimson,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-040C,Noble St Chtr-Baker Campus,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-041C,Noble St Chtr-Noble Campus,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-042C,Noble St Chtr-ITW Speer Acad,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-043C,Noble St Chtr-The Noble Academy,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-044C,Noble St Chtr - Mansueto,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-046C,North Lawndale Prep Chtr-Collins,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-049C,Acero Chtr Sch Network- Sor Juana Ines de la Cruz K-12,Chicago Public Schools District 299,Cook,High School,K - 12
+15-016-2990-25-050C,Perspectives Chtr - Joslin Campus,Chicago Public Schools District 299,Cook,High School,6 - 12
+15-016-2990-25-051C,Perspectives Chtr - Leadership Acad,Chicago Public Schools District 299,Cook,High School,6 - 12
+15-016-2990-25-0526,Chicago Vocational Career Acad HS,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-052C,Perspectives Chtr - High School of Technology,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0531,Dunbar Vocational Career Acad HS,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0533,Jones College Prep High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0534,Prosser Career Academy HS,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0536,Richards Career Academy HS,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0537,Simeon Career Academy High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-053C,Perspectives Chtr -  IIT Campus,Chicago Public Schools District 299,Cook,High School,6 - 12
+15-016-2990-25-0543,Corliss High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0545,Clemente Community Academy HS,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-054C,YCCS-Scholastic Achievement HS,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-055C,YCCS- McKinley-Lakeside Leadership Academy,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-056C,YCCS-ASPIRA Pantoja Alt HS,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-057C,YCCS-Association House,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-059C,YCCS-CCA Academy HS,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-060C,YCCS-Progressive Leadership Academy,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0616,Manley Career Academy High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0617,Curie Metropolitan High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-061C,YCCS-Community Youth Dev Inst HS,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-062C,YCCS-Albizu Campos Puerto Rican HS,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-063C,YCCS-Innovations of Arts Integr HS,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-065C,YCCS-Latino Youth Alternative HS,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-066C,YCCS-Olive Harvey Mid College HS,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-067C,YCCS-Sullivan House Alt HS,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-068C,YCCS-Truman Middle College HS,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-070C,YCCS-West Town Academy Alt HS,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-071C,YCCS West,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-072C,YCCS-Youth Connection Leadership Academy,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-073C,YCCS Chtr - Chatham,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-074C,ASPIRA Charter - Early College Prep HS,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0763,Julian High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0764,Young Magnet High School,Chicago Public Schools District 299,Cook,High School,7 - 12
+15-016-2990-25-0767,Juarez Community Academy HS,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0772,Chicago HS for Agricult Sciences,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0779,Hancock College Preparatory HS,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0788,Brooks College Prep Academy HS,Chicago Public Schools District 299,Cook,High School,7 - 12
+15-016-2990-25-0794,Northside College Preparatory Hs,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0795,Chicago Military Academy HS,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0796,Payton College Preparatory HS,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-079C,Aspira Charter - Business and Finance HS,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0803,Phoenix Military Academy HS,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0818,Spry Community Links High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0820,Chicago Academy High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0824,Bowen High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0825,North-Grand High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0826,Raby High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0827,Clark Acad Prep Magnet High Schl,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0828,Rickover Naval Academy High Schl,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0829,Uplift Community High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-082C,CICS - Northtown  Campus,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0830,World Language High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0831,Douglass Academy High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0832,Devry Advantage Academy High Schl,Chicago Public Schools District 299,Cook,High School,11 - 12
+15-016-2990-25-0833,Lindblom Math & Science Acad HS,Chicago Public Schools District 299,Cook,High School,7 - 12
+15-016-2990-25-0834,Bronzeville Scholastic HS,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0835,School of Social Justice HS,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0836,Multicultural Arts High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0837,Infinity Math  Science & Tech HS,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-083C,CICS - Ralph Ellison Campus,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0841,Collins Academy STEAM High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0844,Austin College and Career Academy High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0847,Orr Academy High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0848,Air Force Acad High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0849,Alcott College Prep,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-084C,North Lawndale Prep Chtr - Christiana,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0850,Chicago Technology Academy HS,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0851,Chicago HS for the Arts,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0855,Ogden Int High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0856,Williams Medical Prep High Sch,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0857,Westinghouse High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0859,Solorio Academy High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-085C,Acero Chtr Sch Network -  Major Hector P Garcia MD H S,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0860,South Shore Intl Col Prep HS,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0861,Goode STEM Academy HS,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0863,Walter Henri Dyett High School for the Arts,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-0867,Englewood STEM High School,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-086C,Acero Chtr Sch Network Victoria Soto Campus,Chicago Public Schools District 299,Cook,High School,9 - 12
+15-016-2990-25-101C,KIPP Academy Chicago Campus,Chicago Public Schools District 299,Cook,Middle/Junior High School,K - 8
+15-016-2990-25-103C,KIPP Chicago Charters - Bloom Campus,Chicago Public Schools District 299,Cook,Middle/Junior High School,K - 8
+15-016-2990-25-107C,Univ of Chicago Chtr-Woodlawn,Chicago Public Schools District 299,Cook,Middle/Junior High School,6 - 12
+15-016-2990-25-109C,LEARN Chtr - Middle School,Chicago Public Schools District 299,Cook,Middle/Junior High School,6 - 8
+15-016-2990-25-110C,ASPIRA Charter - Haugan Campus,Chicago Public Schools District 299,Cook,Middle/Junior High School,6 - 8
+15-016-2990-25-111C,Art in Motion Charter School,Chicago Public Schools District 299,Cook,Middle/Junior High School,7 - 12
+15-016-2990-25-2046,Jackson M Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2048,Green  W Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2051,Addams Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2052,Harriet Tubman Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2053,Alcott Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2054,Aldridge Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2058,Armour Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2059,Armstrong G Elem IntL Studies,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2062,Audubon Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2063,Avalon Park Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2066,Barnard Elem Comp Math & Sci Ctr,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2067,Barry Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 6
+15-016-2990-25-2068,Barton Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2069,Bass Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-206C,Locke A Elem Charter Academy,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2070,Bateman Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2072,Nicholson Technology Acad Elem Sch,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2078,Beaubien Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2079,Beethoven Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2080,Beidler Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2081,Belding Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2082,Bell Elem School,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2083,Bennett Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2086,Black Magnet Elem School,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2087,Blaine Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2088,Bond Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2089,Mosaic School of Fine Arts,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2090,Bradwell Comm Arts & Sci Elem Sch,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2092,Haley Elem Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2093,Brennemann Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2094,Brentano Elem Math & Science Acad,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2095,Bridge Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2096,Bright Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2097,William H Brown STEM Magnet Elementary School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2098,Brownell Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 6
+15-016-2990-25-2100,Bouchet Elem Math & Science Acad,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2101,Budlong Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2102,Burbank Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2103,Burke Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2104,Burley Elem School,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2105,Burnham Elem Inclusive Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2107,Burnside Elem Scholastic Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2108,Burr Elem School,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2109,Burroughs Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2110,Brunson Math & Sci Specialty Elem,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2112,Byrne Elem School,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2113,Daisy Bates Academy of Social Justice,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2118,Cameron Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2119,Canty Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2120,Carnegie Elem School,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2122,Carroll Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2123,Carter Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2126,Cassell Elem School,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2127,Cather Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2128,Chalmers STEAM Elementary,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2129,Chappell Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2130,Chase Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2132,Clay Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2133,Cleveland Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2134,Clinton Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2135,Clissold Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2136,Coles Elem Language Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2138,Ruth Bader Ginsburg Elementary,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2139,Cook Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2141,Coonley Elem School,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2142,Cooper Elem Dual Language Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2145,Corkery Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2147,Crown Elem Comm Acd Fine Arts Ctr,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2148,Darwin Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2149,Davis N Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-214C,Asian Human Services -Passage Chrtr,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2150,Dawes Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2153,Deneen Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2154,Dett Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2155,Chopin Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2158,Dever Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2159,Dewey Elem Academy of Fine Arts,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2160,Disney Elem Magnet School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2161,Dixon Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2167,Dore Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2169,Drake Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2172,Drummond Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2173,Dubois Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2175,Dulles Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2177,Dunne Technology Acad Elem Sch,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2179,Dvorak Technology Acad Elem Sch,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-217C,Chicago Math & Sci Elem Charter,Chicago Public Schools District 299,Cook,Elementary School,6 - 12
+15-016-2990-25-2180,Earle Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2181,Eberhart Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2182,Ebinger Elem School,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2183,Edgebrook Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2184,Edison Elem Regional Gifted Cntr,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2185,Edwards Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2187,Ellington Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-218C,Namaste Elem Charter School,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2190,Ericson Elem Scholastic Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2191,Esmond Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2192,Everett Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 5
+15-016-2990-25-2193,Evers Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2194,Falconer Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 6
+15-016-2990-25-2195,Faraday Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2198,Farnsworth Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-219C,Erie Elem Charter School,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2202,Fernwood Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2203,Field Elem School,Chicago Public Schools District 299,Cook,Elementary School,5 - 8
+15-016-2990-25-2204,Fiske Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2206,Fort Dearborn Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2207,Franklin Elem Fine Arts Center,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2209,James Farmer Jr. Elementary,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2210,Fulton Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2211,Funston Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2212,Gale Elem Community Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2213,Gallistel Elem Language Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2214,Garvy  J Elem School,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2215,Gary Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-221C,Legacy Elem Charter School,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2220,Goethe Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2222,Owens Community Academy ES,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2223,Goudy Technology Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2224,Graham  A Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2226,Gray Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2227,Greeley Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2229,Greene N Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 5
+15-016-2990-25-2230,Gregory Math & Sci Elem Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2231,Gresham Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2232,Grimes Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2235,Haines Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2236,Gillespie Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2239,Hale Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2240,Hamilton Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2241,Hamline Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2242,Hammond Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2244,Bret Harte Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2246,Harvard Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2247,Haugan Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2249,Hawthorne Elem Scholastic Academy,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-224C,Providence-Englewood Elem Charter,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2252,Hayt Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2254,Healy Elem School,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2255,Hearst Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2256,Hedges Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2257,Hefferan Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2258,Henderson Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2259,Hendricks Elem Community Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2260,Henry Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2263,Herzl Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2265,Hibbard Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 6
+15-016-2990-25-2266,Higgins Elem Community Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2267,King Academy of Social Justice,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2268,Hitch Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2269,Holden Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-226C,Polaris Elem Charter Academy,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2270,Holmes Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2273,Howe Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2275,Hoyne Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2276,Hughes  C Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2280,Hurley Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2281,Irving Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2283,Chicago World Language Academy,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2284,Jahn Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2285,Jamieson Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2288,Jensen Elem Scholastic Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2289,Pilsen Elem Community Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-228C,Catalyst Charter-Circle Rock ES,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2290,Johnson STEAM Elementary,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2292,Joseph Jungman STEM Magnet Elementary School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2293,Kellogg Elem School,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2294,Kershaw Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2296,Kilmer Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2299,Kinzie Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-229C,Academy for Global Citizenship,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2300,Kipling Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2303,Lozano Elem Bilingual & Intl Ctr,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2304,Kozminski Elem Community Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2306,LaSalle Elem Language Academy,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2309,Lawndale Elem Community Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-230C,Rowe Elementary,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2311,Lewis Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2313,Libby Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2314,Lincoln Elem School,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2315,Linne Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2316,Lloyd Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 5
+15-016-2990-25-2317,Locke  J Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2319,Lovett Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2321,Lowell Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2323,Lyon Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2324,Madison Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2326,Manierre Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2328,Mann Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-232C,Catalyst Charter - Maria ES,Chicago Public Schools District 299,Cook,Elementary School,K - 12
+15-016-2990-25-2330,Marquette Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2331,Marsh Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2334,Mason Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2337,Mayer Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2339,Minnie Minoso Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-233C,Montessori of Englewood Chtr ES,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2341,McCormick Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 5
+15-016-2990-25-2344,McCutcheon Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2345,McDade Elem Classical School,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2346,McKay Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2349,McPherson Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2352,Melody Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2353,Mitchell Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2354,Mollison Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2355,Logan Square Elementary,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2356,Moos Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2357,Morrill Elem Math & Sci School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2358,Inter-American Elem Magnet School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-235C,Christopher House Chrt ES,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2361,Mount Greenwood Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2362,Mount Vernon Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2363,Mozart Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2365,Murphy Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2366,Murray Elem Language Academy,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2367,Brown R Elem Community Acad,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2368,Nash Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2369,Neil Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-236C,Chicago Collegiate Charter School,Chicago Public Schools District 299,Cook,Elementary School,5 - 12
+15-016-2990-25-2370,Nettelhorst Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2371,Newberry Elem Math & Science Acad,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2372,Carver Primary School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2373,Nightingale Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2374,Nixon Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 6
+15-016-2990-25-2375,Nobel Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2376,Norwood Park Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2380,Ogden Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2381,Oglesby Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2382,OKeeffe Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2383,Onahan Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2384,Oriole Park Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2385,Piccolo Elem Specialty School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2386,Otis Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2387,OToole Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2389,Owen Elem Scholastic Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2391,Palmer Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2392,Parker Elem Community Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2394,Park Manor Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2395,Parkside Elem Community Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2396,Pasteur Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 4
+15-016-2990-25-2398,Peck Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 4
+15-016-2990-25-2399,Peirce Elem Intl Studies School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2400,Penn Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2401,Washington  H Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2402,John J Pershing STEAM Magnet Elementary,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2403,Peterson Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2404,Pickard Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2405,Pirie Elem Fine Arts & Academic C,Chicago Public Schools District 299,Cook,Elementary School,PK - 6
+15-016-2990-25-2406,Plamondon Elem School,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2409,Portage Park Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-240C,Horizon Sci Academy - Southwest Charter,Chicago Public Schools District 299,Cook,Elementary School,K - 12
+15-016-2990-25-2410,Prescott Elem School,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2412,Prussing Elem School,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2413,Pulaski Intl Sch of Chicago,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2414,Pullman Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2416,Ravenswood Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2417,Ray Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2419,Reavis Elem Math & Sci Spec Schl,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-241C,Great Lakes Academy Charter ES,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2421,Reilly Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2422,Reinberg Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2423,Revere Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2426,Rogers Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2428,Ruggles Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2429,Ryder Elem Math & Sci Spec School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2434,Sauganash Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2435,Sawyer Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2436,Sayre Elem Language Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2437,Ashe Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2438,Scammon Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2442,Schmid Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2444,Schubert Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 5
+15-016-2990-25-2446,Seward Elem Communication Arts Ac,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-244C,Moving Everest Charter School,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2451,Sheridan Elem Math & Science Acad,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2452,Mireles Elem Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2453,Sherman Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2454,Sherwood Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2455,Shields Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 4
+15-016-2990-25-2456,Shoesmith Elem School,Chicago Public Schools District 299,Cook,Elementary School,K - 6
+15-016-2990-25-2457,Shoop Math-Sci Tech Elem Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2458,Skinner Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2459,Smyser Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-245C,KIPP Chicago Charter School - KIPP One Academy,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2460,Smyth  J Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2461,Solomon Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2462,Spencer Technology Acad Elem Sch,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2464,Stagg Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2465,Stevenson Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2468,Stone Elem Scholastic Academy,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2469,Spry Elem Community School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-246C,CICS - Bucktown Campus,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2472,Stowe Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2474,Sullivan Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2475,Sumner Elem Math & Sci Comm Acad,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2476,Sutherland Elem School,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2477,Swift Elem Specialty School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2478,Talcott Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2479,Tanner Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-247C,CICS - Longwood Campus,Chicago Public Schools District 299,Cook,Elementary School,3 - 12
+15-016-2990-25-2480,Taylor Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2484,Thorp  J N Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2486,Thorp  O A Elem Scholastic Acad,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2487,Tilton Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2488,Monarcas Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 5
+15-016-2990-25-248C,CICS - Prairie Campus,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2490,Twain Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2491,Vanderpoel Elem Magnet School,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2492,Lavizzo Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2494,Volta Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2497,Wacker Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2498,Wadsworth Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-249C,CICS - Washington Pk Campus,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2500,Walsh Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2501,Ward  J Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2502,Warren Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2503,Washington  G Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2504,Waters Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2505,Webster Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2506,Wentworth Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2507,Westcott Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2510,Pritzker Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2512,Whistler Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2513,Whitney Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2514,Whittier Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2516,Wildwood Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-251C,CICS - West Belden Campus,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2521,Woodson South Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2525,Young Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-252C,CICS - Avalon/South Shore,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2542,Yates Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-254C,CICS - Irving Park Campus,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-255C,CICS - Loomis Primary Campus,Chicago Public Schools District 299,Cook,Elementary School,K - 2
+15-016-2990-25-258C,Univ of Chicago Chtr-Nth Kenwood,Chicago Public Schools District 299,Cook,Elementary School,PK - 5
+15-016-2990-25-2597,Hernandez Middle School,Chicago Public Schools District 299,Cook,Elementary School,6 - 8
+15-016-2990-25-259C,Acero Chtr Sch Network - Octavio Paz Elem School,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2603,Dirksen Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2605,Depriest Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-260C,Acero Chtr Sch Network - Rufino Tamayo Elem Sch,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2617,Cuffe Math-Sci Tech Elem Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2618,Foster Park Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-261C,Acero Chtr Sch Network - Carlos Fuentes  Elem School,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2620,Hughes L Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2622,Grissom Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-262C,Acero Chtr Sch Network - Bartolome de las Casas Elem Sch,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2634,McNair Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2636,Hay Elem Community Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2637,Cullen Elem School,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-263C,Acero Chtr Sch Network - Officer Donald J Marquez  Elem,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-264C,Acero Chtr Sch Network - SPC Daniel Zizumbo Elem Sch,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-266C,Acero Chtr Sch Network- Sandra Cisneros Elem School,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-267C,Acero Chtr Sch Network - Esmeralda Santiago Elem Sch,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-268C,Acero Chtr Sch Newtwork - Roberto Clemente Elem School,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2700,Clark  G R Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2703,Lee Elem School,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2704,Langford A Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2706,Salazar Elem Bilingual Center,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-270C,Acero Chtr Sch Network - Brighton Park Elem School,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2714,Leland Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2724,Robinson Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 3
+15-016-2990-25-2726,Hanson Park Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2729,White Elem Career Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-272C,LEARN Charter Excel Campus,Chicago Public Schools District 299,Cook,Elementary School,K - 6
+15-016-2990-25-2737,McDowell Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 5
+15-016-2990-25-2739,Keller Elem Gifted Magnet School,Chicago Public Schools District 299,Cook,Elementary School,1 - 8
+15-016-2990-25-273C,LEARN Chtr-Campbell Campus,Chicago Public Schools District 299,Cook,Elementary School,K - 6
+15-016-2990-25-2743,Earhart Elem Opt for Knowl School,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-274C,LEARN Chtr - South Chicago Campus,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-275C,LEARN Chtr -  Hunter Perkins Campus,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2766,Till Elem Math & Science Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2767,Ward  L Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2768,Smith  W Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-276C,LEARN Chtr - 7th Campus,Chicago Public Schools District 299,Cook,Elementary School,K - 5
+15-016-2990-25-2773,Garvey  M Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2775,Joplin Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-277C,CICS - Basil Campus,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2783,Cardenas Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2785,Powell Elem Paideia Comm Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-278C,CICS - Wrightwood,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2799,Curtis Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2800,Beasley Elem Magnet Academic Ctr,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2802,Mays Elem Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2804,Metcalfe Elem Community Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2805,Decatur Classical Elem School,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2806,Kanoon Elem Magnet School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2807,Randolph Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2809,Poe Elem Classical School,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-280C,CICS - Bond Campus,Chicago Public Schools District 299,Cook,Elementary School,K - 6
+15-016-2990-25-2811,Gunsaulus Elem Scholastic Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-281C,Univ of Chicago Chtr-Donoghue,Chicago Public Schools District 299,Cook,Elementary School,PK - 5
+15-016-2990-25-2823,Ninos Heroes Elem Academic Ctr,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2825,De Diego Elem Community Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2826,Turner-Drew Elem Language Academy,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2828,Sabin Elem Magnet School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2829,Maria Saucedo STEAM Magnet Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-282C,KIPP Chicago Charters - Ascend Academy,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2837,Daley Elem Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2838,Madero Middle School,Chicago Public Schools District 299,Cook,Elementary School,6 - 8
+15-016-2990-25-283C,LEARN Chtr - Butler,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2842,Orozco Elem Fine Arts & Sciences,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2844,Morton Elem Career Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-284C,Acero Chtr Sch Network  - Jovita Idar Elem School,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2850,Albany Park Multicultural Elem,Chicago Public Schools District 299,Cook,Elementary School,7 - 8
+15-016-2990-25-2855,South Loop Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2856,Lenart Elem Regional Gifted Ctr,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-285C,Acero Chtr Sch Network - PFC Omar E Torres Elem Sch,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2862,Casals Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2864,Perez Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2867,Ruiz Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2870,Brighton Park Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2873,Evergreen Academy Elem School,Chicago Public Schools District 299,Cook,Elementary School,6 - 8
+15-016-2990-25-2876,Carson Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2877,McAuliffe Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2878,Galileo Elem Math & Sci Schol Acd,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2881,Avondale - Logandale Elementary School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2886,Chavez Elem Multicultural Acad Ct,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2889,Jordan Elem Community School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2892,Kellman Corporate Community Elem,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2893,Finkl Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2895,Ariel Elem Community Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2896,Little Village Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2897,Zapata Elem Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2898,Ortiz De Dominguez Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 2
+15-016-2990-25-2900,Lara Elem Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2901,Telpochcalli Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2902,Wells Preparatory Elem Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2903,Woodlawn Elem Community School,Chicago Public Schools District 299,Cook,Elementary School,PK - 6
+15-016-2990-25-2904,Christopher Elem School,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2908,West Park Elem Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2912,Marine Leadership Academy - Ames,Chicago Public Schools District 299,Cook,Elementary School,7 - 12
+15-016-2990-25-2913,Fairfield Elem Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2914,Sandoval Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 5
+15-016-2990-25-2915,Northwest Middle School,Chicago Public Schools District 299,Cook,Elementary School,6 - 8
+15-016-2990-25-2916,Hampton Elem Fine & Perf Arts Sch,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2918,Colemon J Elem Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2919,Columbia Explorers Elem Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2920,Chicago Academy Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2921,Courtenay Elem Language Arts Ctr,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2922,Ashburn Community Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2923,Belmont-Cragin Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2924,National Teachers Elem Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2926,Talman Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2930,New Field Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 4
+15-016-2990-25-2933,Durkin Park Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2934,Calmeca Acad Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2935,North River Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2936,Claremont STEM Magnet Elementary School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2937,James R Doolittle Academy,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2941,Suder Montessori Elem Magnet Schl,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2943,Tarkington Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2945,Frazier Perspectives Magnet ES,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2949,Disney II Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 6
+15-016-2990-25-2951,Plato Learning Acad  Elem School,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2953,Edison Park Elem School,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2954,Davis M Magnet Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2955,LaSalle II Lang Acad Elem Sch,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2958,Prieto Math-Science Elem Sch,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2959,Skinner North Elem Sch,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2960,South Shore Fine Arts Elem Sch,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2963,Camras Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2964,Garcia Lorca Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2965,West Ridge Elem School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2966,Azuela Elem School,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2967,STEM Magnet Academy Elem,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-2968,Shields Middle School,Chicago Public Schools District 299,Cook,Elementary School,5 - 8
+15-016-2990-25-2969,Sadlowski Elementary School,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2970,Richardson Middle School,Chicago Public Schools District 299,Cook,Elementary School,5 - 8
+15-016-2990-25-2971,Sor Juana Ines de la Cruz,Chicago Public Schools District 299,Cook,Elementary School,PK - 8
+15-016-2990-25-2972,Bronzeville Classical Elementary School,Chicago Public Schools District 299,Cook,Elementary School,K - 8
+15-016-2990-25-3735,Rudolph Elem Learning Center,Chicago Public Schools District 299,Cook,Special School,PK - 8
+15-016-2990-25-3760,Beard Elem School,Chicago Public Schools District 299,Cook,Special School,PK - 3
+15-016-2990-25-3761,Blair Early Childhood Center,Chicago Public Schools District 299,Cook,Special School,PK - 1
+15-016-2990-25-3762,Stock Early Childhood Center,Chicago Public Schools District 299,Cook,Special School,PK
+15-016-2990-25-3781,Vick Early Childhood & Family Ctr,Chicago Public Schools District 299,Cook,Special School,PK
+15-016-2990-25-3787,Thomas Early Childhood Center,Chicago Public Schools District 299,Cook,Special School,PK
+15-016-9000-25-0000,,Horizon Science Acad-McKinley Park Charter Sch,Cook,,
+15-016-9000-25-201C,Horizon Science Acad-McKinley Park Charter Sch,Horizon Science Acad-McKinley Park Charter Sch,Cook,Elementary School,K - 12
+15-016-9010-25-0000,,Horizon Science Acad-Belmont Charter Sch,Cook,,
+15-016-9010-25-201C,Horizon Science Acad-Belmont Charter Sch,Horizon Science Acad-Belmont Charter Sch,Cook,Elementary School,K - 10
+15-016-9020-25-0000,,ACE Amandla Charter School,Cook,,
+15-016-9020-25-201C,ACE Amandla Charter School,ACE Amandla Charter School,Cook,Elementary School,9 - 12
+15-016-9040-25-0000,,Betty Shabazz  International Charter School,Cook,,
+15-016-9040-25-201C,Betty  Shabazz International Charter School,Betty Shabazz  International Charter School,Cook,Elementary School,K - 8
+15-016-9040-25-202C,Barbara A Sizemore Campus,Betty Shabazz  International Charter School,Cook,Elementary School,K - 8
+15-016-9050-25-0000,,Intrinsic 2 Charter High School,Cook,,
+15-016-9050-25-001C,Intrinsic 2 Charter High School,Intrinsic 2 Charter High School,Cook,High School,9 - 12
