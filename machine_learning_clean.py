@@ -218,5 +218,97 @@ model, features = run_post_elasticnet_ols(
 
 print(model.summary())
 ######################################################
+import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
+import numpy as np
+from sklearn.linear_model import ElasticNet
 
+def plot_elasticnet_paths(X, y, feature_names=None, l1_ratio=0.9, top_n=None):
+    """
+    Plots Elastic Net coefficient paths across a range of alphas.
+    
+    Parameters
+    ----------
+    X : pd.DataFrame or np.array
+        Predictor matrix (exclude y)
+    y : pd.Series or np.array
+        Outcome variable
+    feature_names : list of str, optional
+        Names of features. Default: X.columns if X is DataFrame
+    l1_ratio : float
+        Elastic Net l1_ratio (0=L2/Ridge, 1=L1/Lasso)
+    top_n : int or None
+        If specified, only highlights top_n largest coefficients at smallest alpha
+    """
 
+    # Feature names
+    if feature_names is None and hasattr(X, 'columns'):
+        feature_names = X.columns.tolist()
+    elif feature_names is None:
+        feature_names = [f"x{i}" for i in range(X.shape[1])]
+
+    # Alpha grid
+    alphas = np.logspace(-4, 0, 50)
+
+    # Fit Elastic Net across alphas
+    coefs = []
+    for a in alphas:
+        enet = ElasticNet(alpha=a, l1_ratio=l1_ratio, max_iter=10000)
+        enet.fit(X, y)
+        coefs.append(enet.coef_)
+    coefs = np.array(coefs)
+
+    # If top_n specified, select top_n variables by absolute coefficient at smallest alpha
+    if top_n is not None:
+        final_coefs = np.abs(coefs[0, :])
+        top_idx = np.argsort(final_coefs)[-top_n:]
+    else:
+        top_idx = range(coefs.shape[1])
+
+    # Plot
+    plt.figure(figsize=(10,6))
+    for i in range(coefs.shape[1]):
+        if i in top_idx:
+            plt.plot(alphas, coefs[:, i], linewidth=2, label=feature_names[i])
+        else:
+            plt.plot(alphas, coefs[:, i], color='grey', alpha=0.3)
+
+    plt.xscale('log')
+    plt.xlabel('Alpha (log scale)')
+    plt.ylabel('Coefficient value')
+    plt.title(f'Elastic Net Coefficient Paths (l1_ratio={l1_ratio})')
+    plt.axhline(0, color='black', linestyle='--', linewidth=0.8)
+    if top_n is not None:
+        plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
+    plt.show()
+
+################################################################
+X = data_clean.drop(columns=['y_math_prof', 'school_name'])
+y = data_clean['y_math_prof']
+
+# Call the function
+plot_elasticnet_paths(X, y, l1_ratio=res['best_l1_ratio'], top_n=10)
+
+###############################################################
+
+X = data_clean.drop(columns=['y_ela_prof', 'school_name'])
+y = data_clean['y_ela_prof']
+
+# Call the function
+plot_elasticnet_paths(X, y, l1_ratio=res['best_l1_ratio'], top_n=10)
+
+###############################################################
+
+X = data_clean.drop(columns=['y_grad_4yr', 'school_name'])
+y = data_clean['y_grad_4yr']
+
+# Call the function
+plot_elasticnet_paths(X, y, l1_ratio=res['best_l1_ratio'], top_n=10)
+
+###############################################################
+
+X = data_clean.drop(columns=['x_dropout_rate', 'school_name'])
+y = data_clean['x_dropout_rate']
+
+# Call the function
+plot_elasticnet_paths(X, y, l1_ratio=res['best_l1_ratio'], top_n=10)
