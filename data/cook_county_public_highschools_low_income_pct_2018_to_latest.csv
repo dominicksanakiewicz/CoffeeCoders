@@ -1,0 +1,1299 @@
+year,rcdts,school_name,district_name,county,school_type,low_income_pct
+2018,070162170160001,Argo Community High School,Argo CHSD 217,Cook,HIGH SCHOOL,65.4
+2018,070162060170001,Bloom High School,Bloom Twp HSD 206,Cook,HIGH SCHOOL,85.9
+2018,070162060170002,Bloom Trail High School,Bloom Twp HSD 206,Cook,HIGH SCHOOL,77.4
+2018,070162280160001,Bremen High School,Bremen CHSD 228,Cook,HIGH SCHOOL,33.0
+2018,070162280160003,Hillcrest High School,Bremen CHSD 228,Cook,HIGH SCHOOL,48.4
+2018,070162280160004,Oak Forest High School,Bremen CHSD 228,Cook,HIGH SCHOOL,27.8
+2018,070162280160002,Tinley Park High School,Bremen CHSD 228,Cook,HIGH SCHOOL,25.9
+2018,070162180160007,A B Shepard High Sch (Campus),CHSD 218,Cook,HIGH SCHOOL,58.1
+2018,070162180160001,DD Eisenhower High Sch (Campus),CHSD 218,Cook,HIGH SCHOOL,86.4
+2018,070162180160004,H L Richards High Sch(Campus),CHSD 218,Cook,HIGH SCHOOL,59.5
+2018,150162990250848,Air Force Acad High School,City of Chicago SD 299,Cook,HIGH SCHOOL,87.4
+2018,150162990250849,Alcott Humanities High School,City of Chicago SD 299,Cook,HIGH SCHOOL,84.9
+2018,150162990250001,Amundsen High School,City of Chicago SD 299,Cook,HIGH SCHOOL,83.4
+2018,150162990250844,Austin College and Career Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,99.1
+2018,150162990250014,Back of The Yards IB HS,City of Chicago SD 299,Cook,HIGH SCHOOL,95.7
+2018,150162990250003,Bogan High School,City of Chicago SD 299,Cook,HIGH SCHOOL,92.4
+2018,150162990250824,Bowen High School,City of Chicago SD 299,Cook,HIGH SCHOOL,93.5
+2018,150162990250834,Bronzeville Scholastic HS,City of Chicago SD 299,Cook,HIGH SCHOOL,95.3
+2018,150162990250788,Brooks College Prep Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,71.8
+2018,150162990250006,Carver Military Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,93.5
+2018,150162990250820,Chicago Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,83.2
+2018,150162990250862,Chicago Excel Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,98.6
+2018,150162990250772,Chicago HS for Agricult Sciences,City of Chicago SD 299,Cook,HIGH SCHOOL,40.3
+2018,150162990250851,Chicago HS for the Arts,City of Chicago SD 299,Cook,HIGH SCHOOL,44.9
+2018,150162990250795,Chicago Military Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,91.9
+2018,150162990250850,Chicago Technology Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,92.5
+2018,150162990250526,Chicago Vocational Career Acad HS,City of Chicago SD 299,Cook,HIGH SCHOOL,96.1
+2018,150162990250827,Clark Acad Prep Magnet High Schl,City of Chicago SD 299,Cook,HIGH SCHOOL,83.4
+2018,150162990250545,Clemente Community Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,93.9
+2018,150162990250841,Collins Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,98.9
+2018,150162990250543,Corliss High School,City of Chicago SD 299,Cook,HIGH SCHOOL,87.3
+2018,150162990250052,Crane Medical Prep HS,City of Chicago SD 299,Cook,HIGH SCHOOL,86.7
+2018,150162990250617,Curie Metropolitan High School,City of Chicago SD 299,Cook,HIGH SCHOOL,93.1
+2018,150162990250832,Devry Advantage Academy High Schl,City of Chicago SD 299,Cook,HIGH SCHOOL,71.0
+2018,150162990250053,Disney II Magnet HS,City of Chicago SD 299,Cook,HIGH SCHOOL,59.6
+2018,150162990250831,Douglass Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,97.0
+2018,150162990250531,Dunbar Vocational Career Acad HS,City of Chicago SD 299,Cook,HIGH SCHOOL,99.5
+2018,150162990250011,Farragut Career Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,99.5
+2018,150162990250012,Fenger Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,97.5
+2018,150162990250013,Foreman High School,City of Chicago SD 299,Cook,HIGH SCHOOL,95.9
+2018,150162990250015,Gage Park High School,City of Chicago SD 299,Cook,HIGH SCHOOL,99.4
+2018,150162990250861,Goode STEM Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,88.7
+2018,150162990250779,Hancock College Preparatory HS,City of Chicago SD 299,Cook,HIGH SCHOOL,86.3
+2018,150162990250016,Harlan Community Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,96.6
+2018,150162990250017,Harper High School,City of Chicago SD 299,Cook,HIGH SCHOOL,98.5
+2018,150162990250019,Hirsch Metropolitan High School,City of Chicago SD 299,Cook,HIGH SCHOOL,99.3
+2018,150162990250799,Hope College Prep High School,City of Chicago SD 299,Cook,HIGH SCHOOL,97.9
+2018,150162990250020,Hubbard High School,City of Chicago SD 299,Cook,HIGH SCHOOL,96.5
+2018,150162990250021,Hyde Park Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,98.7
+2018,150162990250837,Infinity Math Science & Tech HS,City of Chicago SD 299,Cook,HIGH SCHOOL,95.7
+2018,150162990250533,Jones College Prep High School,City of Chicago SD 299,Cook,HIGH SCHOOL,39.5
+2018,150162990250767,Juarez Community Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,96.3
+2018,150162990250763,Julian High School,City of Chicago SD 299,Cook,HIGH SCHOOL,96.9
+2018,150162990250022,Kelly High School,City of Chicago SD 299,Cook,HIGH SCHOOL,96.1
+2018,150162990250023,Kelvyn Park High School,City of Chicago SD 299,Cook,HIGH SCHOOL,96.1
+2018,150162990250024,Kennedy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,75.0
+2018,150162990250025,Kenwood Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,59.8
+2018,150162990250039,King College Prep High School,City of Chicago SD 299,Cook,HIGH SCHOOL,80.1
+2018,150162990250026,Lake View High School,City of Chicago SD 299,Cook,HIGH SCHOOL,81.0
+2018,150162990250027,Lane Technical High School,City of Chicago SD 299,Cook,HIGH SCHOOL,47.4
+2018,150162990250047,Lincoln Park High School,City of Chicago SD 299,Cook,HIGH SCHOOL,55.2
+2018,150162990250833,Lindblom Math & Science Acad HS,City of Chicago SD 299,Cook,HIGH SCHOOL,67.3
+2018,150162990250616,Manley Career Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,89.0
+2018,150162990250029,Marshall Metropolitan High School,City of Chicago SD 299,Cook,HIGH SCHOOL,97.6
+2018,150162990250030,Mather High School,City of Chicago SD 299,Cook,HIGH SCHOOL,88.1
+2018,150162990250031,Morgan Park High School,City of Chicago SD 299,Cook,HIGH SCHOOL,88.6
+2018,150162990250836,Multicultural Acad of Scholarshp HS,City of Chicago SD 299,Cook,HIGH SCHOOL,99.1
+2018,150162990250825,North-Grand High School,City of Chicago SD 299,Cook,HIGH SCHOOL,95.2
+2018,150162990250794,Northside College Preparatory Hs,City of Chicago SD 299,Cook,HIGH SCHOOL,44.3
+2018,150162990250855,Ogden Int High School,City of Chicago SD 299,Cook,HIGH SCHOOL,52.2
+2018,150162990250847,Orr Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,98.6
+2018,150162990250796,Payton College Preparatory HS,City of Chicago SD 299,Cook,HIGH SCHOOL,31.6
+2018,150162990250034,Phillips Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,95.5
+2018,150162990250803,Phoenix Military Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,94.2
+2018,150162990250534,Prosser Career Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,92.6
+2018,150162990250826,Raby High School,City of Chicago SD 299,Cook,HIGH SCHOOL,99.2
+2018,150162990250536,Richards Career Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,98.2
+2018,150162990250828,Rickover Naval Academy High Schl,City of Chicago SD 299,Cook,HIGH SCHOOL,89.7
+2018,150162990250766,Robeson High School,City of Chicago SD 299,Cook,HIGH SCHOOL,99.3
+2018,150162990250035,Roosevelt High School,City of Chicago SD 299,Cook,HIGH SCHOOL,96.0
+2018,150162990250835,School of Social Justice HS,City of Chicago SD 299,Cook,HIGH SCHOOL,97.9
+2018,150162990250036,Schurz High School,City of Chicago SD 299,Cook,HIGH SCHOOL,92.1
+2018,150162990250037,Senn High School,City of Chicago SD 299,Cook,HIGH SCHOOL,81.3
+2018,150162990250537,Simeon Career Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,90.8
+2018,150162990250859,Solorio Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,94.2
+2018,150162990250860,South Shore Intl Col Prep HS,City of Chicago SD 299,Cook,HIGH SCHOOL,84.4
+2018,150162990250818,Spry Community Links High School,City of Chicago SD 299,Cook,HIGH SCHOOL,96.2
+2018,150162990250041,Steinmetz College Prep HS,City of Chicago SD 299,Cook,HIGH SCHOOL,90.9
+2018,150162990250042,Sullivan High School,City of Chicago SD 299,Cook,HIGH SCHOOL,93.7
+2018,150162990250043,Taft High School,City of Chicago SD 299,Cook,HIGH SCHOOL,54.5
+2018,150162990250843,Team Englewood Comm Acad HS,City of Chicago SD 299,Cook,HIGH SCHOOL,96.7
+2018,150162990250044,Tilden Career Communty Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,94.8
+2018,150162990250829,Uplift Community High School,City of Chicago SD 299,Cook,HIGH SCHOOL,94.6
+2018,150162990250046,Von Steuben Metro Science HS,City of Chicago SD 299,Cook,HIGH SCHOOL,75.5
+2018,150162990250863,Walter Henri Dyett High School for the Arts,City of Chicago SD 299,Cook,HIGH SCHOOL,90.5
+2018,150162990250048,Washington G High School,City of Chicago SD 299,Cook,HIGH SCHOOL,92.2
+2018,150162990250049,Wells Community Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,91.3
+2018,150162990250857,Westinghouse High School,City of Chicago SD 299,Cook,HIGH SCHOOL,81.7
+2018,150162990250856,Williams Medical Prep High Sch,City of Chicago SD 299,Cook,HIGH SCHOOL,97.4
+2018,150162990250830,World Language High School,City of Chicago SD 299,Cook,HIGH SCHOOL,96.3
+2018,150162990250764,Young Magnet High School,City of Chicago SD 299,Cook,HIGH SCHOOL,40.5
+2018,070162300130002,Amos Alonzo Stagg High School,Cons HSD 230,Cook,HIGH SCHOOL,29.0
+2018,070162300130001,Carl Sandburg High School,Cons HSD 230,Cook,HIGH SCHOOL,12.4
+2018,070162300130003,Victor J Andrew High School,Cons HSD 230,Cook,HIGH SCHOOL,17.2
+2018,060164010260001,Elmwood Park High School,Elmwood Park CUSD 401,Cook,HIGH SCHOOL,43.1
+2018,050162020170001,Evanston Twp High School,Evanston Twp HSD 202,Cook,HIGH SCHOOL,38.4
+2018,070162310160001,Evergreen Park High School,Evergreen Park CHSD 231,Cook,HIGH SCHOOL,25.8
+2018,070162330160001,Homewood-Flossmoor High School,Homewood Flossmoor CHSD 233,Cook,HIGH SCHOOL,22.6
+2018,060162010170001,J Sterling Morton East High Sch,J S Morton HSD 201,Cook,HIGH SCHOOL,92.2
+2018,060162010170003,J Sterling Morton Freshman Cntr,J S Morton HSD 201,Cook,HIGH SCHOOL,95.4
+2018,060162010170002,J Sterling Morton West High Sch,J S Morton HSD 201,Cook,HIGH SCHOOL,81.2
+2018,070162100170001,Lemont Twp High School,Lemont Twp HSD 210,Cook,HIGH SCHOOL,13.1
+2018,060162120160001,East Leyden High School,Leyden CHSD 212,Cook,HIGH SCHOOL,51.4
+2018,060162120160002,West Leyden High School,Leyden CHSD 212,Cook,HIGH SCHOOL,61.5
+2018,060162040170001,Lyons Twp High Sch,Lyons Twp HSD 204,Cook,HIGH SCHOOL,12.2
+2018,050162070170001,Maine East High School,Maine Township HSD 207,Cook,HIGH SCHOOL,43.7
+2018,050162070170003,Maine South High School,Maine Township HSD 207,Cook,HIGH SCHOOL,7.3
+2018,050162070170004,Maine West High School,Maine Township HSD 207,Cook,HIGH SCHOOL,34.9
+2018,050162030170002,New Trier Township H S Northfield,New Trier Twp HSD 203,Cook,HIGH SCHOOL,3.7
+2018,050162030170001,New Trier Township H S Winnetka,New Trier Twp HSD 203,Cook,HIGH SCHOOL,3.7
+2018,050162190170002,Niles North High School,Niles Twp HSD 219,Cook,HIGH SCHOOL,31.8
+2018,050162190170003,Niles West High School,Niles Twp HSD 219,Cook,HIGH SCHOOL,30.6
+2018,050162250170001,Glenbrook North High School,Northfield Twp HSD 225,Cook,HIGH SCHOOL,5.8
+2018,050162250170002,Glenbrook South High School,Northfield Twp HSD 225,Cook,HIGH SCHOOL,19.9
+2018,070162290160001,Oak Lawn Comm High School,Oak Lawn CHSD 229,Cook,HIGH SCHOOL,36.3
+2018,060162000130001,Oak Park & River Forest High Sch,Oak Park - River Forest SD 200,Cook,HIGH SCHOOL,21.5
+2018,060162090170001,Proviso East High School,Proviso Twp HSD 209,Cook,HIGH SCHOOL,45.0
+2018,060162090170003,Proviso Math and Science Academy,Proviso Twp HSD 209,Cook,HIGH SCHOOL,23.9
+2018,060162090170002,Proviso West High School,Proviso Twp HSD 209,Cook,HIGH SCHOOL,17.9
+2018,070162200170001,Reavis High School,Reavis Twp HSD 220,Cook,HIGH SCHOOL,51.8
+2018,070162270170002,Rich Central Campus High School,Rich Twp HSD 227,Cook,HIGH SCHOOL,76.0
+2018,070162270170001,Rich East Campus High School,Rich Twp HSD 227,Cook,HIGH SCHOOL,87.2
+2018,070162270170003,Rich South Campus High School,Rich Twp HSD 227,Cook,HIGH SCHOOL,82.9
+2018,060162340160001,Ridgewood Comm High School,Ridgewood CHSD 234,Cook,HIGH SCHOOL,25.0
+2018,060162080170001,Riverside Brookfield Twp HS,Riverside-Brookfield Twp SD 208,Cook,HIGH SCHOOL,14.4
+2018,070162150170001,Thornton Fractnl No High School,Thornton Fractional Twp HSD 215,Cook,HIGH SCHOOL,99.6
+2018,070162150170002,Thornton Fractnl So High School,Thornton Fractional Twp HSD 215,Cook,HIGH SCHOOL,95.2
+2018,070162050170002,Thornridge High School,Thornton Twp HSD 205,Cook,HIGH SCHOOL,55.7
+2018,070162050170001,Thornton Township High School,Thornton Twp HSD 205,Cook,HIGH SCHOOL,53.6
+2018,070162050170003,Thornwood High School,Thornton Twp HSD 205,Cook,HIGH SCHOOL,61.8
+2018,050162110170006,Hoffman Estates High School,Township HSD 211,Cook,HIGH SCHOOL,49.6
+2018,050162110170001,J B Conant High School,Township HSD 211,Cook,HIGH SCHOOL,26.9
+2018,050162110170003,Palatine High School,Township HSD 211,Cook,HIGH SCHOOL,55.0
+2018,050162110170004,Schaumburg High School,Township HSD 211,Cook,HIGH SCHOOL,31.6
+2018,050162110170002,Wm Fremd High School,Township HSD 211,Cook,HIGH SCHOOL,15.0
+2018,050162140170008,Buffalo Grove High School,Township HSD 214,Cook,HIGH SCHOOL,16.3
+2018,050162140170002,Elk Grove High School,Township HSD 214,Cook,HIGH SCHOOL,28.2
+2018,050162140170004,John Hersey High School,Township HSD 214,Cook,HIGH SCHOOL,11.5
+2018,050162140170005,Prospect High School,Township HSD 214,Cook,HIGH SCHOOL,7.5
+2018,050162140170007,Rolling Meadows High School,Township HSD 214,Cook,HIGH SCHOOL,20.3
+2018,050162140170006,Wheeling High School,Township HSD 214,Cook,HIGH SCHOOL,38.7
+2019,070162170160001,Argo Community High School,Argo CHSD 217,Cook,HIGH SCHOOL,64.0
+2019,070162060170001,Bloom High School,Bloom Twp HSD 206,Cook,HIGH SCHOOL,86.2
+2019,070162060170002,Bloom Trail High School,Bloom Twp HSD 206,Cook,HIGH SCHOOL,78.2
+2019,070162280160001,Bremen High School,Bremen CHSD 228,Cook,HIGH SCHOOL,36.8
+2019,070162280160003,Hillcrest High School,Bremen CHSD 228,Cook,HIGH SCHOOL,55.6
+2019,070162280160004,Oak Forest High School,Bremen CHSD 228,Cook,HIGH SCHOOL,28.5
+2019,070162280160002,Tinley Park High School,Bremen CHSD 228,Cook,HIGH SCHOOL,28.9
+2019,070162180160007,A B Shepard High Sch (Campus),CHSD 218,Cook,HIGH SCHOOL,62.8
+2019,070162180160001,DD Eisenhower High Sch (Campus),CHSD 218,Cook,HIGH SCHOOL,84.0
+2019,070162180160004,H L Richards High Sch(Campus),CHSD 218,Cook,HIGH SCHOOL,62.7
+2019,150162990250848,Air Force Acad High School,City of Chicago SD 299,Cook,HIGH SCHOOL,87.2
+2019,150162990250849,Alcott Humanities High School,City of Chicago SD 299,Cook,HIGH SCHOOL,74.5
+2019,150162990250001,Amundsen High School,City of Chicago SD 299,Cook,HIGH SCHOOL,75.3
+2019,150162990250844,Austin College and Career Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,93.8
+2019,150162990250014,Back of The Yards IB HS,City of Chicago SD 299,Cook,HIGH SCHOOL,92.9
+2019,150162990250003,Bogan High School,City of Chicago SD 299,Cook,HIGH SCHOOL,90.0
+2019,150162990250824,Bowen High School,City of Chicago SD 299,Cook,HIGH SCHOOL,86.0
+2019,150162990250834,Bronzeville Scholastic HS,City of Chicago SD 299,Cook,HIGH SCHOOL,71.8
+2019,150162990250788,Brooks College Prep Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,67.6
+2019,150162990250006,Carver Military Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,85.0
+2019,150162990250820,Chicago Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,80.0
+2019,150162990250862,Chicago Excel Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,85.0
+2019,150162990250772,Chicago HS for Agricult Sciences,City of Chicago SD 299,Cook,HIGH SCHOOL,39.8
+2019,150162990250851,Chicago HS for the Arts,City of Chicago SD 299,Cook,HIGH SCHOOL,37.0
+2019,150162990250795,Chicago Military Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,73.9
+2019,150162990250850,Chicago Technology Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,89.3
+2019,150162990250526,Chicago Vocational Career Acad HS,City of Chicago SD 299,Cook,HIGH SCHOOL,92.6
+2019,150162990250827,Clark Acad Prep Magnet High Schl,City of Chicago SD 299,Cook,HIGH SCHOOL,76.4
+2019,150162990250545,Clemente Community Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,87.7
+2019,150162990250841,Collins Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,96.8
+2019,150162990250543,Corliss High School,City of Chicago SD 299,Cook,HIGH SCHOOL,91.2
+2019,150162990250052,Crane Medical Prep HS,City of Chicago SD 299,Cook,HIGH SCHOOL,86.7
+2019,150162990250617,Curie Metropolitan High School,City of Chicago SD 299,Cook,HIGH SCHOOL,88.5
+2019,150162990250832,Devry Advantage Academy High Schl,City of Chicago SD 299,Cook,HIGH SCHOOL,72.5
+2019,150162990250053,Disney II Magnet HS,City of Chicago SD 299,Cook,HIGH SCHOOL,47.8
+2019,150162990250831,Douglass Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,85.2
+2019,150162990250531,Dunbar Vocational Career Acad HS,City of Chicago SD 299,Cook,HIGH SCHOOL,95.8
+2019,150162990250011,Farragut Career Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,97.4
+2019,150162990250012,Fenger Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,92.6
+2019,150162990250013,Foreman High School,City of Chicago SD 299,Cook,HIGH SCHOOL,94.5
+2019,150162990250015,Gage Park High School,City of Chicago SD 299,Cook,HIGH SCHOOL,97.1
+2019,150162990250861,Goode STEM Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,85.8
+2019,150162990250779,Hancock College Preparatory HS,City of Chicago SD 299,Cook,HIGH SCHOOL,81.7
+2019,150162990250016,Harlan Community Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,94.8
+2019,150162990250017,Harper High School,City of Chicago SD 299,Cook,HIGH SCHOOL,90.7
+2019,150162990250019,Hirsch Metropolitan High School,City of Chicago SD 299,Cook,HIGH SCHOOL,99.0
+2019,150162990250020,Hubbard High School,City of Chicago SD 299,Cook,HIGH SCHOOL,95.5
+2019,150162990250021,Hyde Park Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,96.8
+2019,150162990250837,Infinity Math Science & Tech HS,City of Chicago SD 299,Cook,HIGH SCHOOL,95.8
+2019,150162990250533,Jones College Prep High School,City of Chicago SD 299,Cook,HIGH SCHOOL,37.5
+2019,150162990250767,Juarez Community Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,71.9
+2019,150162990250763,Julian High School,City of Chicago SD 299,Cook,HIGH SCHOOL,85.7
+2019,150162990250023,Kelvyn Park High School,City of Chicago SD 299,Cook,HIGH SCHOOL,97.0
+2019,150162990250024,Kennedy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,66.2
+2019,150162990250025,Kenwood Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,57.1
+2019,150162990250039,King College Prep High School,City of Chicago SD 299,Cook,HIGH SCHOOL,79.2
+2019,150162990250026,Lake View High School,City of Chicago SD 299,Cook,HIGH SCHOOL,72.3
+2019,150162990250027,Lane Technical High School,City of Chicago SD 299,Cook,HIGH SCHOOL,43.6
+2019,150162990250047,Lincoln Park High School,City of Chicago SD 299,Cook,HIGH SCHOOL,46.8
+2019,150162990250833,Lindblom Math & Science Acad HS,City of Chicago SD 299,Cook,HIGH SCHOOL,63.9
+2019,150162990250616,Manley Career Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,85.0
+2019,150162990250029,Marshall Metropolitan High School,City of Chicago SD 299,Cook,HIGH SCHOOL,96.8
+2019,150162990250030,Mather High School,City of Chicago SD 299,Cook,HIGH SCHOOL,86.5
+2019,150162990250031,Morgan Park High School,City of Chicago SD 299,Cook,HIGH SCHOOL,86.1
+2019,150162990250836,Multicultural Acad of Scholarshp HS,City of Chicago SD 299,Cook,HIGH SCHOOL,95.5
+2019,150162990250825,North-Grand High School,City of Chicago SD 299,Cook,HIGH SCHOOL,88.6
+2019,150162990250794,Northside College Preparatory Hs,City of Chicago SD 299,Cook,HIGH SCHOOL,44.0
+2019,150162990250855,Ogden Int High School,City of Chicago SD 299,Cook,HIGH SCHOOL,63.6
+2019,150162990250847,Orr Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,92.8
+2019,150162990250796,Payton College Preparatory HS,City of Chicago SD 299,Cook,HIGH SCHOOL,31.0
+2019,150162990250034,Phillips Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,94.4
+2019,150162990250803,Phoenix Military Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,88.6
+2019,150162990250534,Prosser Career Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,89.1
+2019,150162990250826,Raby High School,City of Chicago SD 299,Cook,HIGH SCHOOL,93.9
+2019,150162990250536,Richards Career Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,99.1
+2019,150162990250828,Rickover Naval Academy High Schl,City of Chicago SD 299,Cook,HIGH SCHOOL,86.5
+2019,150162990250035,Roosevelt High School,City of Chicago SD 299,Cook,HIGH SCHOOL,94.1
+2019,150162990250835,School of Social Justice HS,City of Chicago SD 299,Cook,HIGH SCHOOL,95.3
+2019,150162990250036,Schurz High School,City of Chicago SD 299,Cook,HIGH SCHOOL,88.6
+2019,150162990250037,Senn High School,City of Chicago SD 299,Cook,HIGH SCHOOL,79.6
+2019,150162990250537,Simeon Career Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,88.6
+2019,150162990250859,Solorio Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,93.2
+2019,150162990250860,South Shore Intl Col Prep HS,City of Chicago SD 299,Cook,HIGH SCHOOL,82.1
+2019,150162990250818,Spry Community Links High School,City of Chicago SD 299,Cook,HIGH SCHOOL,92.9
+2019,150162990250041,Steinmetz College Prep HS,City of Chicago SD 299,Cook,HIGH SCHOOL,82.9
+2019,150162990250042,Sullivan High School,City of Chicago SD 299,Cook,HIGH SCHOOL,88.1
+2019,150162990250043,Taft High School,City of Chicago SD 299,Cook,HIGH SCHOOL,46.6
+2019,150162990250022,Thomas Kelly College Preparatory,City of Chicago SD 299,Cook,HIGH SCHOOL,94.1
+2019,150162990250044,Tilden Career Communty Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,93.5
+2019,150162990250829,Uplift Community High School,City of Chicago SD 299,Cook,HIGH SCHOOL,90.6
+2019,150162990250046,Von Steuben Metro Science HS,City of Chicago SD 299,Cook,HIGH SCHOOL,66.3
+2019,150162990250863,Walter Henri Dyett High School for the Arts,City of Chicago SD 299,Cook,HIGH SCHOOL,85.3
+2019,150162990250048,Washington G High School,City of Chicago SD 299,Cook,HIGH SCHOOL,85.8
+2019,150162990250049,Wells Community Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,89.7
+2019,150162990250857,Westinghouse High School,City of Chicago SD 299,Cook,HIGH SCHOOL,76.6
+2019,150162990250856,Williams Medical Prep High Sch,City of Chicago SD 299,Cook,HIGH SCHOOL,94.4
+2019,150162990250830,World Language High School,City of Chicago SD 299,Cook,HIGH SCHOOL,96.6
+2019,150162990250764,Young Magnet High School,City of Chicago SD 299,Cook,HIGH SCHOOL,37.8
+2019,070162300130002,Amos Alonzo Stagg High School,Cons HSD 230,Cook,HIGH SCHOOL,33.4
+2019,070162300130001,Carl Sandburg High School,Cons HSD 230,Cook,HIGH SCHOOL,12.4
+2019,070162300130003,Victor J Andrew High School,Cons HSD 230,Cook,HIGH SCHOOL,17.6
+2019,060164010260001,Elmwood Park High School,Elmwood Park CUSD 401,Cook,HIGH SCHOOL,45.8
+2019,050162020170001,Evanston Twp High School,Evanston Twp HSD 202,Cook,HIGH SCHOOL,36.5
+2019,070162310160001,Evergreen Park High School,Evergreen Park CHSD 231,Cook,HIGH SCHOOL,31.6
+2019,070162330160001,Homewood-Flossmoor High School,Homewood Flossmoor CHSD 233,Cook,HIGH SCHOOL,19.6
+2019,060162010170001,J Sterling Morton East High Sch,J S Morton HSD 201,Cook,HIGH SCHOOL,90.9
+2019,060162010170003,J Sterling Morton Freshman Cntr,J S Morton HSD 201,Cook,HIGH SCHOOL,93.7
+2019,060162010170002,J Sterling Morton West High Sch,J S Morton HSD 201,Cook,HIGH SCHOOL,80.5
+2019,070162100170001,Lemont Twp High School,Lemont Twp HSD 210,Cook,HIGH SCHOOL,11.9
+2019,060162120160001,East Leyden High School,Leyden CHSD 212,Cook,HIGH SCHOOL,53.8
+2019,060162120160002,West Leyden High School,Leyden CHSD 212,Cook,HIGH SCHOOL,60.9
+2019,060162040170001,Lyons Twp High Sch,Lyons Twp HSD 204,Cook,HIGH SCHOOL,11.8
+2019,050162070170001,Maine East High School,Maine Township HSD 207,Cook,HIGH SCHOOL,41.6
+2019,050162070170003,Maine South High School,Maine Township HSD 207,Cook,HIGH SCHOOL,6.4
+2019,050162070170004,Maine West High School,Maine Township HSD 207,Cook,HIGH SCHOOL,31.9
+2019,050162030170002,New Trier Township H S Northfield,New Trier Twp HSD 203,Cook,HIGH SCHOOL,2.6
+2019,050162030170001,New Trier Township H S Winnetka,New Trier Twp HSD 203,Cook,HIGH SCHOOL,4.2
+2019,050162190170002,Niles North High School,Niles Twp HSD 219,Cook,HIGH SCHOOL,32.0
+2019,050162190170003,Niles West High School,Niles Twp HSD 219,Cook,HIGH SCHOOL,30.1
+2019,050162250170001,Glenbrook North High School,Northfield Twp HSD 225,Cook,HIGH SCHOOL,4.8
+2019,050162250170002,Glenbrook South High School,Northfield Twp HSD 225,Cook,HIGH SCHOOL,18.0
+2019,070162290160001,Oak Lawn Comm High School,Oak Lawn CHSD 229,Cook,HIGH SCHOOL,39.6
+2019,060162000130001,Oak Park & River Forest High Sch,Oak Park - River Forest SD 200,Cook,HIGH SCHOOL,19.2
+2019,060162090170001,Proviso East High School,Proviso Twp HSD 209,Cook,HIGH SCHOOL,45.8
+2019,060162090170003,Proviso Math and Science Academy,Proviso Twp HSD 209,Cook,HIGH SCHOOL,30.7
+2019,060162090170002,Proviso West High School,Proviso Twp HSD 209,Cook,HIGH SCHOOL,25.3
+2019,070162200170001,Reavis High School,Reavis Twp HSD 220,Cook,HIGH SCHOOL,40.6
+2019,070162270170002,Rich Central Campus High School,Rich Twp HSD 227,Cook,HIGH SCHOOL,74.0
+2019,070162270170001,Rich East Campus High School,Rich Twp HSD 227,Cook,HIGH SCHOOL,82.6
+2019,070162270170003,Rich South Campus High School,Rich Twp HSD 227,Cook,HIGH SCHOOL,80.5
+2019,060162340160001,Ridgewood Comm High School,Ridgewood CHSD 234,Cook,HIGH SCHOOL,30.4
+2019,060162080170001,Riverside Brookfield Twp HS,Riverside-Brookfield Twp SD 208,Cook,HIGH SCHOOL,11.7
+2019,070162150170001,Thornton Fractnl No High School,Thornton Fractional Twp HSD 215,Cook,HIGH SCHOOL,70.7
+2019,070162150170002,Thornton Fractnl So High School,Thornton Fractional Twp HSD 215,Cook,HIGH SCHOOL,65.1
+2019,070162050170002,Thornridge High School,Thornton Twp HSD 205,Cook,HIGH SCHOOL,97.3
+2019,070162050170001,Thornton Township High School,Thornton Twp HSD 205,Cook,HIGH SCHOOL,64.1
+2019,070162050170003,Thornwood High School,Thornton Twp HSD 205,Cook,HIGH SCHOOL,99.2
+2019,050162110170006,Hoffman Estates High School,Township HSD 211,Cook,HIGH SCHOOL,50.6
+2019,050162110170001,J B Conant High School,Township HSD 211,Cook,HIGH SCHOOL,27.9
+2019,050162110170003,Palatine High School,Township HSD 211,Cook,HIGH SCHOOL,55.0
+2019,050162110170004,Schaumburg High School,Township HSD 211,Cook,HIGH SCHOOL,32.8
+2019,050162110170002,Wm Fremd High School,Township HSD 211,Cook,HIGH SCHOOL,15.1
+2019,050162140170008,Buffalo Grove High School,Township HSD 214,Cook,HIGH SCHOOL,15.5
+2019,050162140170002,Elk Grove High School,Township HSD 214,Cook,HIGH SCHOOL,28.7
+2019,050162140170004,John Hersey High School,Township HSD 214,Cook,HIGH SCHOOL,11.6
+2019,050162140170005,Prospect High School,Township HSD 214,Cook,HIGH SCHOOL,6.8
+2019,050162140170007,Rolling Meadows High School,Township HSD 214,Cook,HIGH SCHOOL,20.7
+2019,050162140170006,Wheeling High School,Township HSD 214,Cook,HIGH SCHOOL,36.6
+2020,070162170160001,Argo Community High School,Argo CHSD 217,Cook,HIGH SCHOOL,62.5
+2020,070162060170001,Bloom High School,Bloom Twp HSD 206,Cook,HIGH SCHOOL,83.2
+2020,070162060170002,Bloom Trail High School,Bloom Twp HSD 206,Cook,HIGH SCHOOL,80.6
+2020,070162280160001,Bremen High School,Bremen CHSD 228,Cook,HIGH SCHOOL,33.3
+2020,070162280160003,Hillcrest High School,Bremen CHSD 228,Cook,HIGH SCHOOL,57.1
+2020,070162280160004,Oak Forest High School,Bremen CHSD 228,Cook,HIGH SCHOOL,27.7
+2020,070162280160002,Tinley Park High School,Bremen CHSD 228,Cook,HIGH SCHOOL,28.4
+2020,070162180160007,A B Shepard High Sch (Campus),CHSD 218,Cook,HIGH SCHOOL,57.8
+2020,070162180160001,DD Eisenhower High Sch (Campus),CHSD 218,Cook,HIGH SCHOOL,79.3
+2020,070162180160004,H L Richards High Sch(Campus),CHSD 218,Cook,HIGH SCHOOL,60.3
+2020,150162990250848,Air Force Acad High School,City of Chicago SD 299,Cook,HIGH SCHOOL,83.0
+2020,150162990250849,Alcott College Prep,City of Chicago SD 299,Cook,HIGH SCHOOL,77.1
+2020,150162990250001,Amundsen High School,City of Chicago SD 299,Cook,HIGH SCHOOL,69.2
+2020,150162990250844,Austin College and Career Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,95.4
+2020,150162990250014,Back of The Yards IB HS,City of Chicago SD 299,Cook,HIGH SCHOOL,93.5
+2020,150162990250003,Bogan High School,City of Chicago SD 299,Cook,HIGH SCHOOL,88.4
+2020,150162990250824,Bowen High School,City of Chicago SD 299,Cook,HIGH SCHOOL,93.8
+2020,150162990250834,Bronzeville Scholastic HS,City of Chicago SD 299,Cook,HIGH SCHOOL,96.6
+2020,150162990250788,Brooks College Prep Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,69.7
+2020,150162990250006,Carver Military Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,90.4
+2020,150162990250820,Chicago Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,77.6
+2020,150162990250862,Chicago Excel Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,97.3
+2020,150162990250772,Chicago HS for Agricult Sciences,City of Chicago SD 299,Cook,HIGH SCHOOL,43.6
+2020,150162990250851,Chicago HS for the Arts,City of Chicago SD 299,Cook,HIGH SCHOOL,46.4
+2020,150162990250795,Chicago Military Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,87.0
+2020,150162990250850,Chicago Technology Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,91.7
+2020,150162990250526,Chicago Vocational Career Acad HS,City of Chicago SD 299,Cook,HIGH SCHOOL,96.6
+2020,150162990250827,Clark Acad Prep Magnet High Schl,City of Chicago SD 299,Cook,HIGH SCHOOL,96.4
+2020,150162990250545,Clemente Community Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,93.3
+2020,150162990250841,Collins Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,97.8
+2020,150162990250543,Corliss High School,City of Chicago SD 299,Cook,HIGH SCHOOL,94.6
+2020,150162990250052,Crane Medical Prep HS,City of Chicago SD 299,Cook,HIGH SCHOOL,85.8
+2020,150162990250617,Curie Metropolitan High School,City of Chicago SD 299,Cook,HIGH SCHOOL,89.8
+2020,150162990250832,Devry Advantage Academy High Schl,City of Chicago SD 299,Cook,HIGH SCHOOL,66.2
+2020,150162990250053,Disney II Magnet HS,City of Chicago SD 299,Cook,HIGH SCHOOL,55.4
+2020,150162990250831,Douglass Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,98.2
+2020,150162990250531,Dunbar Vocational Career Acad HS,City of Chicago SD 299,Cook,HIGH SCHOOL,98.8
+2020,150162990250867,Englewood STEM High School,City of Chicago SD 299,Cook,HIGH SCHOOL,98.8
+2020,150162990250011,Farragut Career Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,99.5
+2020,150162990250012,Fenger Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,95.4
+2020,150162990250013,Foreman High School,City of Chicago SD 299,Cook,HIGH SCHOOL,93.0
+2020,150162990250015,Gage Park High School,City of Chicago SD 299,Cook,HIGH SCHOOL,98.4
+2020,150162990250861,Goode STEM Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,87.4
+2020,150162990250779,Hancock College Preparatory HS,City of Chicago SD 299,Cook,HIGH SCHOOL,79.7
+2020,150162990250016,Harlan Community Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,96.0
+2020,150162990250017,Harper High School,City of Chicago SD 299,Cook,HIGH SCHOOL,93.8
+2020,150162990250019,Hirsch Metropolitan High School,City of Chicago SD 299,Cook,HIGH SCHOOL,94.7
+2020,150162990250020,Hubbard High School,City of Chicago SD 299,Cook,HIGH SCHOOL,95.3
+2020,150162990250021,Hyde Park Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,99.0
+2020,150162990250837,Infinity Math Science & Tech HS,City of Chicago SD 299,Cook,HIGH SCHOOL,95.8
+2020,150162990250533,Jones College Prep High School,City of Chicago SD 299,Cook,HIGH SCHOOL,35.1
+2020,150162990250767,Juarez Community Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,93.4
+2020,150162990250763,Julian High School,City of Chicago SD 299,Cook,HIGH SCHOOL,93.2
+2020,150162990250023,Kelvyn Park High School,City of Chicago SD 299,Cook,HIGH SCHOOL,97.3
+2020,150162990250024,Kennedy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,69.5
+2020,150162990250025,Kenwood Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,57.7
+2020,150162990250039,King College Prep High School,City of Chicago SD 299,Cook,HIGH SCHOOL,83.0
+2020,150162990250026,Lake View High School,City of Chicago SD 299,Cook,HIGH SCHOOL,76.6
+2020,150162990250027,Lane Technical High School,City of Chicago SD 299,Cook,HIGH SCHOOL,40.7
+2020,150162990250047,Lincoln Park High School,City of Chicago SD 299,Cook,HIGH SCHOOL,47.5
+2020,150162990250833,Lindblom Math & Science Acad HS,City of Chicago SD 299,Cook,HIGH SCHOOL,62.5
+2020,150162990250616,Manley Career Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,93.7
+2020,150162990250029,Marshall Metropolitan High School,City of Chicago SD 299,Cook,HIGH SCHOOL,99.6
+2020,150162990250030,Mather High School,City of Chicago SD 299,Cook,HIGH SCHOOL,86.4
+2020,150162990250031,Morgan Park High School,City of Chicago SD 299,Cook,HIGH SCHOOL,84.0
+2020,150162990250836,Multicultural Acad of Scholarshp HS,City of Chicago SD 299,Cook,HIGH SCHOOL,96.7
+2020,150162990250825,North-Grand High School,City of Chicago SD 299,Cook,HIGH SCHOOL,93.5
+2020,150162990250794,Northside College Preparatory Hs,City of Chicago SD 299,Cook,HIGH SCHOOL,42.8
+2020,150162990250855,Ogden Int High School,City of Chicago SD 299,Cook,HIGH SCHOOL,66.9
+2020,150162990250847,Orr Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,96.5
+2020,150162990250796,Payton College Preparatory HS,City of Chicago SD 299,Cook,HIGH SCHOOL,29.3
+2020,150162990250034,Phillips Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,96.2
+2020,150162990250803,Phoenix Military Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,90.1
+2020,150162990250534,Prosser Career Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,92.1
+2020,150162990250826,Raby High School,City of Chicago SD 299,Cook,HIGH SCHOOL,95.1
+2020,150162990250536,Richards Career Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,99.1
+2020,150162990250828,Rickover Naval Academy High Schl,City of Chicago SD 299,Cook,HIGH SCHOOL,81.3
+2020,150162990250035,Roosevelt High School,City of Chicago SD 299,Cook,HIGH SCHOOL,94.0
+2020,150162990250835,School of Social Justice HS,City of Chicago SD 299,Cook,HIGH SCHOOL,95.9
+2020,150162990250036,Schurz High School,City of Chicago SD 299,Cook,HIGH SCHOOL,89.9
+2020,150162990250037,Senn High School,City of Chicago SD 299,Cook,HIGH SCHOOL,77.0
+2020,150162990250537,Simeon Career Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,90.7
+2020,150162990250859,Solorio Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,92.9
+2020,150162990250860,South Shore Intl Col Prep HS,City of Chicago SD 299,Cook,HIGH SCHOOL,82.6
+2020,150162990250818,Spry Community Links High School,City of Chicago SD 299,Cook,HIGH SCHOOL,95.9
+2020,150162990250041,Steinmetz College Prep HS,City of Chicago SD 299,Cook,HIGH SCHOOL,87.4
+2020,150162990250042,Sullivan High School,City of Chicago SD 299,Cook,HIGH SCHOOL,92.7
+2020,150162990250043,Taft High School,City of Chicago SD 299,Cook,HIGH SCHOOL,51.7
+2020,150162990250022,Thomas Kelly College Preparatory,City of Chicago SD 299,Cook,HIGH SCHOOL,93.6
+2020,150162990250044,Tilden Career Communty Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,95.4
+2020,150162990250829,Uplift Community High School,City of Chicago SD 299,Cook,HIGH SCHOOL,92.6
+2020,150162990250046,Von Steuben Metro Science HS,City of Chicago SD 299,Cook,HIGH SCHOOL,67.5
+2020,150162990250863,Walter Henri Dyett High School for the Arts,City of Chicago SD 299,Cook,HIGH SCHOOL,87.6
+2020,150162990250048,Washington G High School,City of Chicago SD 299,Cook,HIGH SCHOOL,85.7
+2020,150162990250049,Wells Community Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,91.6
+2020,150162990250857,Westinghouse High School,City of Chicago SD 299,Cook,HIGH SCHOOL,78.8
+2020,150162990250856,Williams Medical Prep High Sch,City of Chicago SD 299,Cook,HIGH SCHOOL,96.8
+2020,150162990250830,World Language High School,City of Chicago SD 299,Cook,HIGH SCHOOL,94.5
+2020,150162990250764,Young Magnet High School,City of Chicago SD 299,Cook,HIGH SCHOOL,35.9
+2020,070162300130002,Amos Alonzo Stagg High School,Cons HSD 230,Cook,HIGH SCHOOL,35.5
+2020,070162300130001,Carl Sandburg High School,Cons HSD 230,Cook,HIGH SCHOOL,15.6
+2020,070162300130003,Victor J Andrew High School,Cons HSD 230,Cook,HIGH SCHOOL,19.8
+2020,060164010260001,Elmwood Park High School,Elmwood Park CUSD 401,Cook,HIGH SCHOOL,45.6
+2020,050162020170001,Evanston Twp High School,Evanston Twp HSD 202,Cook,HIGH SCHOOL,34.7
+2020,070162310160001,Evergreen Park High School,Evergreen Park CHSD 231,Cook,HIGH SCHOOL,33.9
+2020,070162330160001,Homewood-Flossmoor High School,Homewood Flossmoor CHSD 233,Cook,HIGH SCHOOL,18.9
+2020,15016905025001C,Intrinsic 2 Charter High School,Intrinsic 2 Charter High School,Cook,HIGH SCHOOL,82.2
+2020,060162010170001,J Sterling Morton East High Sch,J S Morton HSD 201,Cook,HIGH SCHOOL,88.7
+2020,060162010170003,J Sterling Morton Freshman Cntr,J S Morton HSD 201,Cook,HIGH SCHOOL,93.6
+2020,060162010170002,J Sterling Morton West High Sch,J S Morton HSD 201,Cook,HIGH SCHOOL,80.4
+2020,070162100170001,Lemont Twp High School,Lemont Twp HSD 210,Cook,HIGH SCHOOL,10.7
+2020,060162120160001,East Leyden High School,Leyden CHSD 212,Cook,HIGH SCHOOL,54.5
+2020,060162120160002,West Leyden High School,Leyden CHSD 212,Cook,HIGH SCHOOL,59.5
+2020,060162040170001,Lyons Twp High Sch,Lyons Twp HSD 204,Cook,HIGH SCHOOL,11.3
+2020,050162070170001,Maine East High School,Maine Township HSD 207,Cook,HIGH SCHOOL,37.7
+2020,050162070170003,Maine South High School,Maine Township HSD 207,Cook,HIGH SCHOOL,5.5
+2020,050162070170004,Maine West High School,Maine Township HSD 207,Cook,HIGH SCHOOL,31.7
+2020,050162030170002,New Trier Township H S Northfield,New Trier Twp HSD 203,Cook,HIGH SCHOOL,2.3
+2020,050162030170001,New Trier Township H S Winnetka,New Trier Twp HSD 203,Cook,HIGH SCHOOL,3.3
+2020,050162190170002,Niles North High School,Niles Twp HSD 219,Cook,HIGH SCHOOL,32.9
+2020,050162190170003,Niles West High School,Niles Twp HSD 219,Cook,HIGH SCHOOL,29.0
+2020,050162250170001,Glenbrook North High School,Northfield Twp HSD 225,Cook,HIGH SCHOOL,5.0
+2020,050162250170002,Glenbrook South High School,Northfield Twp HSD 225,Cook,HIGH SCHOOL,18.0
+2020,070162290160001,Oak Lawn Comm High School,Oak Lawn CHSD 229,Cook,HIGH SCHOOL,42.6
+2020,060162000130001,Oak Park & River Forest High Sch,Oak Park - River Forest SD 200,Cook,HIGH SCHOOL,17.8
+2020,060162090170001,Proviso East High School,Proviso Twp HSD 209,Cook,HIGH SCHOOL,70.3
+2020,060162090170003,Proviso Math and Science Academy,Proviso Twp HSD 209,Cook,HIGH SCHOOL,47.8
+2020,060162090170002,Proviso West High School,Proviso Twp HSD 209,Cook,HIGH SCHOOL,51.6
+2020,070162200170001,Reavis High School,Reavis Twp HSD 220,Cook,HIGH SCHOOL,47.9
+2020,070162270170001,Rich East Campus High School,Rich Twp HSD 227,Cook,HIGH SCHOOL,80.3
+2020,070162270170003,Rich South Campus High School,Rich Twp HSD 227,Cook,HIGH SCHOOL,76.1
+2020,070162270170002,Rich Township High School,Rich Twp HSD 227,Cook,HIGH SCHOOL,69.4
+2020,060162340160001,Ridgewood Comm High School,Ridgewood CHSD 234,Cook,HIGH SCHOOL,28.5
+2020,060162080170001,Riverside Brookfield Twp HS,Riverside-Brookfield Twp SD 208,Cook,HIGH SCHOOL,11.3
+2020,070162150170001,Thornton Fractnl No High School,Thornton Fractional Twp HSD 215,Cook,HIGH SCHOOL,77.4
+2020,070162150170002,Thornton Fractnl So High School,Thornton Fractional Twp HSD 215,Cook,HIGH SCHOOL,61.0
+2020,070162050170002,Thornridge High School,Thornton Twp HSD 205,Cook,HIGH SCHOOL,50.5
+2020,070162050170001,Thornton Township High School,Thornton Twp HSD 205,Cook,HIGH SCHOOL,63.2
+2020,070162050170003,Thornwood High School,Thornton Twp HSD 205,Cook,HIGH SCHOOL,64.4
+2020,050162110170006,Hoffman Estates High School,Township HSD 211,Cook,HIGH SCHOOL,48.3
+2020,050162110170001,J B Conant High School,Township HSD 211,Cook,HIGH SCHOOL,26.0
+2020,050162110170003,Palatine High School,Township HSD 211,Cook,HIGH SCHOOL,56.2
+2020,050162110170004,Schaumburg High School,Township HSD 211,Cook,HIGH SCHOOL,31.7
+2020,050162110170002,Wm Fremd High School,Township HSD 211,Cook,HIGH SCHOOL,14.6
+2020,050162140170008,Buffalo Grove High School,Township HSD 214,Cook,HIGH SCHOOL,17.0
+2020,050162140170002,Elk Grove High School,Township HSD 214,Cook,HIGH SCHOOL,33.2
+2020,050162140170004,John Hersey High School,Township HSD 214,Cook,HIGH SCHOOL,11.3
+2020,050162140170005,Prospect High School,Township HSD 214,Cook,HIGH SCHOOL,7.2
+2020,050162140170007,Rolling Meadows High School,Township HSD 214,Cook,HIGH SCHOOL,22.3
+2020,050162140170006,Wheeling High School,Township HSD 214,Cook,HIGH SCHOOL,38.3
+2020,15016906025001C,Urban Prep West Charter School,Urban Prep West Charter School,Cook,HIGH SCHOOL,74.0
+2021,070162170160001,Argo Community High School,Argo CHSD 217,Cook,HIGH SCHOOL,52.3
+2021,070162060170001,Bloom High School,Bloom Twp HSD 206,Cook,HIGH SCHOOL,73.8
+2021,070162060170002,Bloom Trail High School,Bloom Twp HSD 206,Cook,HIGH SCHOOL,69.9
+2021,070162280160001,Bremen High School,Bremen CHSD 228,Cook,HIGH SCHOOL,32.3
+2021,070162280160003,Hillcrest High School,Bremen CHSD 228,Cook,HIGH SCHOOL,61.5
+2021,070162280160004,Oak Forest High School,Bremen CHSD 228,Cook,HIGH SCHOOL,27.3
+2021,070162280160002,Tinley Park High School,Bremen CHSD 228,Cook,HIGH SCHOOL,25.7
+2021,070162180160007,A B Shepard High Sch (Campus),CHSD 218,Cook,HIGH SCHOOL,61.7
+2021,070162180160001,DD Eisenhower High Sch (Campus,CHSD 218,Cook,HIGH SCHOOL,82.5
+2021,070162180160004,H L Richards High Sch(Campus),CHSD 218,Cook,HIGH SCHOOL,60.9
+2021,150162990250848,Air Force Acad High School,City of Chicago SD 299,Cook,HIGH SCHOOL,88.1
+2021,150162990250849,Alcott College Prep,City of Chicago SD 299,Cook,HIGH SCHOOL,74.8
+2021,150162990250001,Amundsen High School,City of Chicago SD 299,Cook,HIGH SCHOOL,58.9
+2021,150162990250844,Austin College and Career Acad,City of Chicago SD 299,Cook,HIGH SCHOOL,95.3
+2021,150162990250014,Back of The Yards IB HS,City of Chicago SD 299,Cook,HIGH SCHOOL,89.0
+2021,150162990250003,Bogan High School,City of Chicago SD 299,Cook,HIGH SCHOOL,87.6
+2021,150162990250824,Bowen High School,City of Chicago SD 299,Cook,HIGH SCHOOL,96.7
+2021,150162990250834,Bronzeville Scholastic HS,City of Chicago SD 299,Cook,HIGH SCHOOL,97.6
+2021,150162990250788,Brooks College Prep Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,62.2
+2021,150162990250006,Carver Military Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,73.8
+2021,150162990250820,Chicago Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,81.6
+2021,150162990250862,Chicago Excel Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,96.9
+2021,150162990250772,Chicago HS for Agricult Scienc,City of Chicago SD 299,Cook,HIGH SCHOOL,49.0
+2021,150162990250851,Chicago HS for the Arts,City of Chicago SD 299,Cook,HIGH SCHOOL,46.8
+2021,150162990250795,Chicago Military Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,81.4
+2021,150162990250850,Chicago Technology Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,93.3
+2021,150162990250526,Chicago Vocational Career Acad,City of Chicago SD 299,Cook,HIGH SCHOOL,92.8
+2021,150162990250827,Clark Acad Prep Magnet High Sc,City of Chicago SD 299,Cook,HIGH SCHOOL,96.5
+2021,150162990250545,Clemente Community Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,92.4
+2021,150162990250841,Collins Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,98.3
+2021,150162990250543,Corliss High School,City of Chicago SD 299,Cook,HIGH SCHOOL,91.7
+2021,150162990250052,Crane Medical Prep HS,City of Chicago SD 299,Cook,HIGH SCHOOL,88.0
+2021,150162990250617,Curie Metropolitan High School,City of Chicago SD 299,Cook,HIGH SCHOOL,87.6
+2021,150162990250832,Devry Advantage Academy High S,City of Chicago SD 299,Cook,HIGH SCHOOL,62.7
+2021,150162990250053,Disney II Magnet HS,City of Chicago SD 299,Cook,HIGH SCHOOL,59.0
+2021,150162990250831,Douglass Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,91.8
+2021,150162990250531,Dunbar Vocational Career Acad,City of Chicago SD 299,Cook,HIGH SCHOOL,98.5
+2021,150162990250867,Englewood STEM High School,City of Chicago SD 299,Cook,HIGH SCHOOL,94.1
+2021,150162990250011,Farragut Career Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,98.3
+2021,150162990250012,Fenger Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,94.4
+2021,150162990250013,Foreman High School,City of Chicago SD 299,Cook,HIGH SCHOOL,92.3
+2021,150162990250015,Gage Park High School,City of Chicago SD 299,Cook,HIGH SCHOOL,94.0
+2021,150162990250861,Goode STEM Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,83.9
+2021,150162990250779,Hancock College Preparatory HS,City of Chicago SD 299,Cook,HIGH SCHOOL,76.9
+2021,150162990250016,Harlan Community Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,89.5
+2021,150162990250017,Harper High School,City of Chicago SD 299,Cook,HIGH SCHOOL,90.5
+2021,150162990250019,Hirsch Metropolitan High Schoo,City of Chicago SD 299,Cook,HIGH SCHOOL,94.0
+2021,150162990250020,Hubbard High School,City of Chicago SD 299,Cook,HIGH SCHOOL,88.3
+2021,150162990250021,Hyde Park Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,98.8
+2021,150162990250837,Infinity Math Science & Tech,City of Chicago SD 299,Cook,HIGH SCHOOL,94.7
+2021,150162990250533,Jones College Prep High School,City of Chicago SD 299,Cook,HIGH SCHOOL,35.8
+2021,150162990250767,Juarez Community Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,91.6
+2021,150162990250763,Julian High School,City of Chicago SD 299,Cook,HIGH SCHOOL,93.3
+2021,150162990250023,Kelvyn Park High School,City of Chicago SD 299,Cook,HIGH SCHOOL,93.8
+2021,150162990250024,Kennedy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,59.9
+2021,150162990250025,Kenwood Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,59.5
+2021,150162990250039,King College Prep High School,City of Chicago SD 299,Cook,HIGH SCHOOL,75.3
+2021,150162990250026,Lake View High School,City of Chicago SD 299,Cook,HIGH SCHOOL,76.3
+2021,150162990250027,Lane Technical High School,City of Chicago SD 299,Cook,HIGH SCHOOL,39.7
+2021,150162990250047,Lincoln Park High School,City of Chicago SD 299,Cook,HIGH SCHOOL,46.3
+2021,150162990250833,Lindblom Math & Science Acad H,City of Chicago SD 299,Cook,HIGH SCHOOL,63.6
+2021,150162990250616,Manley Career Academy High Sch,City of Chicago SD 299,Cook,HIGH SCHOOL,96.3
+2021,150162990250029,Marshall Metropolitan High Sch,City of Chicago SD 299,Cook,HIGH SCHOOL,98.6
+2021,150162990250030,Mather High School,City of Chicago SD 299,Cook,HIGH SCHOOL,84.1
+2021,150162990250031,Morgan Park High School,City of Chicago SD 299,Cook,HIGH SCHOOL,77.3
+2021,150162990250836,Multicultural Arts High School,City of Chicago SD 299,Cook,HIGH SCHOOL,96.0
+2021,150162990250825,North-Grand High School,City of Chicago SD 299,Cook,HIGH SCHOOL,90.3
+2021,150162990250794,Northside College Preparatory,City of Chicago SD 299,Cook,HIGH SCHOOL,40.1
+2021,150162990250855,Ogden Int High School,City of Chicago SD 299,Cook,HIGH SCHOOL,72.0
+2021,150162990250847,Orr Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,95.9
+2021,150162990250796,Payton College Preparatory HS,City of Chicago SD 299,Cook,HIGH SCHOOL,29.6
+2021,150162990250034,Phillips Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,96.4
+2021,150162990250803,Phoenix Military Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,88.8
+2021,150162990250534,Prosser Career Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,88.0
+2021,150162990250826,Raby High School,City of Chicago SD 299,Cook,HIGH SCHOOL,97.1
+2021,150162990250536,Richards Career Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,98.7
+2021,150162990250828,Rickover Naval Academy High Sc,City of Chicago SD 299,Cook,HIGH SCHOOL,78.3
+2021,150162990250035,Roosevelt High School,City of Chicago SD 299,Cook,HIGH SCHOOL,91.1
+2021,150162990250835,School of Social Justice HS,City of Chicago SD 299,Cook,HIGH SCHOOL,92.2
+2021,150162990250036,Schurz High School,City of Chicago SD 299,Cook,HIGH SCHOOL,89.5
+2021,150162990250037,Senn High School,City of Chicago SD 299,Cook,HIGH SCHOOL,76.5
+2021,150162990250537,Simeon Career Academy High Sch,City of Chicago SD 299,Cook,HIGH SCHOOL,81.8
+2021,150162990250859,Solorio Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,92.0
+2021,150162990250860,South Shore Intl Col Prep HS,City of Chicago SD 299,Cook,HIGH SCHOOL,72.4
+2021,150162990250818,Spry Community Links High Scho,City of Chicago SD 299,Cook,HIGH SCHOOL,96.9
+2021,150162990250041,Steinmetz College Prep HS,City of Chicago SD 299,Cook,HIGH SCHOOL,85.0
+2021,150162990250042,Sullivan High School,City of Chicago SD 299,Cook,HIGH SCHOOL,93.3
+2021,150162990250043,Taft High School,City of Chicago SD 299,Cook,HIGH SCHOOL,52.2
+2021,150162990250022,Thomas Kelly College Preparato,City of Chicago SD 299,Cook,HIGH SCHOOL,93.4
+2021,150162990250044,Tilden Career Communty Academy,City of Chicago SD 299,Cook,HIGH SCHOOL,96.1
+2021,150162990250829,Uplift Community High School,City of Chicago SD 299,Cook,HIGH SCHOOL,90.3
+2021,150162990250046,Von Steuben Metro Science HS,City of Chicago SD 299,Cook,HIGH SCHOOL,66.7
+2021,150162990250863,Walter Henri Dyett High School,City of Chicago SD 299,Cook,HIGH SCHOOL,81.7
+2021,150162990250048,Washington G High School,City of Chicago SD 299,Cook,HIGH SCHOOL,85.6
+2021,150162990250049,Wells Community Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,81.7
+2021,150162990250857,Westinghouse High School,City of Chicago SD 299,Cook,HIGH SCHOOL,71.4
+2021,150162990250856,Williams Medical Prep High Sch,City of Chicago SD 299,Cook,HIGH SCHOOL,93.5
+2021,150162990250830,World Language High School,City of Chicago SD 299,Cook,HIGH SCHOOL,96.5
+2021,150162990250764,Young Magnet High School,City of Chicago SD 299,Cook,HIGH SCHOOL,36.4
+2021,070162300130002,Amos Alonzo Stagg High School,Cons HSD 230,Cook,HIGH SCHOOL,36.6
+2021,070162300130001,Carl Sandburg High School,Cons HSD 230,Cook,HIGH SCHOOL,17.3
+2021,070162300130003,Victor J Andrew High School,Cons HSD 230,Cook,HIGH SCHOOL,20.6
+2021,060164010260001,Elmwood Park High School,Elmwood Park CUSD 401,Cook,HIGH SCHOOL,44.2
+2021,050162020170001,Evanston Twp High School,Evanston Twp HSD 202,Cook,HIGH SCHOOL,32.5
+2021,070162310160001,Evergreen Park High School,Evergreen Park CHSD 231,Cook,HIGH SCHOOL,37.5
+2021,070162330160001,Homewood-Flossmoor High School,Homewood Flossmoor CHSD 233,Cook,HIGH SCHOOL,6.0
+2021,15016905025001C,Intrinsic 2 Charter High Schoo,Intrinsic 2 Charter High Schoo,Cook,HIGH SCHOOL,84.2
+2021,060162010170001,J Sterling Morton East High Sc,J S Morton HSD 201,Cook,HIGH SCHOOL,90.9
+2021,060162010170003,J Sterling Morton Freshman Cnt,J S Morton HSD 201,Cook,HIGH SCHOOL,83.5
+2021,060162010170002,J Sterling Morton West High Sc,J S Morton HSD 201,Cook,HIGH SCHOOL,80.2
+2021,070162100170001,Lemont Twp High School,Lemont Twp HSD 210,Cook,HIGH SCHOOL,13.4
+2021,060162120160001,East Leyden High School,Leyden CHSD 212,Cook,HIGH SCHOOL,41.0
+2021,060162120160002,West Leyden High School,Leyden CHSD 212,Cook,HIGH SCHOOL,45.8
+2021,060162040170001,Lyons Twp High Sch,Lyons Twp HSD 204,Cook,HIGH SCHOOL,11.1
+2021,050162070170001,Maine East High School,Maine Township HSD 207,Cook,HIGH SCHOOL,27.5
+2021,050162070170003,Maine South High School,Maine Township HSD 207,Cook,HIGH SCHOOL,5.2
+2021,050162070170004,Maine West High School,Maine Township HSD 207,Cook,HIGH SCHOOL,23.1
+2021,050162030170002,New Trier Township H S Northfi,New Trier Twp HSD 203,Cook,HIGH SCHOOL,2.1
+2021,050162030170001,New Trier Township H S Winnetk,New Trier Twp HSD 203,Cook,HIGH SCHOOL,3.9
+2021,050162190170002,Niles North High School,Niles Twp HSD 219,Cook,HIGH SCHOOL,21.5
+2021,050162190170003,Niles West High School,Niles Twp HSD 219,Cook,HIGH SCHOOL,20.9
+2021,050162250170001,Glenbrook North High School,Northfield Twp HSD 225,Cook,HIGH SCHOOL,4.7
+2021,050162250170002,Glenbrook South High School,Northfield Twp HSD 225,Cook,HIGH SCHOOL,16.7
+2021,070162290160001,Oak Lawn Comm High School,Oak Lawn CHSD 229,Cook,HIGH SCHOOL,37.1
+2021,060162000130001,Oak Park & River Forest High S,Oak Park - River Forest SD 200,Cook,HIGH SCHOOL,16.0
+2021,060162090170001,Proviso East High School,Proviso Twp HSD 209,Cook,HIGH SCHOOL,39.4
+2021,060162090170003,Proviso Math and Science Acade,Proviso Twp HSD 209,Cook,HIGH SCHOOL,17.8
+2021,060162090170002,Proviso West High School,Proviso Twp HSD 209,Cook,HIGH SCHOOL,31.9
+2021,070162200170001,Reavis High School,Reavis Twp HSD 220,Cook,HIGH SCHOOL,47.6
+2021,070162270170002,Rich Township High School,Rich Twp HSD 227,Cook,HIGH SCHOOL,99.7
+2021,060162340160001,Ridgewood Comm High School,Ridgewood CHSD 234,Cook,HIGH SCHOOL,31.6
+2021,060162080170001,Riverside Brookfield Twp HS,Riverside-Brookfield Twp SD 20,Cook,HIGH SCHOOL,9.4
+2021,070162150170001,Thornton Fractnl No High Schoo,Thornton Fractional Twp HSD 21,Cook,HIGH SCHOOL,73.7
+2021,070162150170002,Thornton Fractnl So High Schoo,Thornton Fractional Twp HSD 21,Cook,HIGH SCHOOL,47.2
+2021,070162050170002,Thornridge High School,Thornton Twp HSD 205,Cook,HIGH SCHOOL,77.4
+2021,070162050170001,Thornton Township High School,Thornton Twp HSD 205,Cook,HIGH SCHOOL,87.7
+2021,070162050170003,Thornwood High School,Thornton Twp HSD 205,Cook,HIGH SCHOOL,75.0
+2021,050162110170006,Hoffman Estates High School,Township HSD 211,Cook,HIGH SCHOOL,49.6
+2021,050162110170001,J B Conant High School,Township HSD 211,Cook,HIGH SCHOOL,26.8
+2021,050162110170003,Palatine High School,Township HSD 211,Cook,HIGH SCHOOL,56.2
+2021,050162110170004,Schaumburg High School,Township HSD 211,Cook,HIGH SCHOOL,33.7
+2021,050162110170002,Wm Fremd High School,Township HSD 211,Cook,HIGH SCHOOL,16.6
+2021,050162140170008,Buffalo Grove High School,Township HSD 214,Cook,HIGH SCHOOL,24.1
+2021,050162140170002,Elk Grove High School,Township HSD 214,Cook,HIGH SCHOOL,40.6
+2021,050162140170004,John Hersey High School,Township HSD 214,Cook,HIGH SCHOOL,16.5
+2021,050162140170005,Prospect High School,Township HSD 214,Cook,HIGH SCHOOL,13.2
+2021,050162140170007,Rolling Meadows High School,Township HSD 214,Cook,HIGH SCHOOL,31.2
+2021,050162140170006,Wheeling High School,Township HSD 214,Cook,HIGH SCHOOL,46.9
+2021,15016906025001C,Urban Prep West Charter School,Urban Prep West Charter School,Cook,HIGH SCHOOL,47.6
+2022,070162170160001,Argo Community High School,Argo CHSD 217,Cook,HIGH SCHOOL,47.8
+2022,070162060170001,Bloom High School,Bloom Twp HSD 206,Cook,HIGH SCHOOL,75.4
+2022,070162060170002,Bloom Trail High School,Bloom Twp HSD 206,Cook,HIGH SCHOOL,74.6
+2022,070162280160001,Bremen High School,Bremen CHSD 228,Cook,HIGH SCHOOL,32.4
+2022,070162280160003,Hillcrest High School,Bremen CHSD 228,Cook,HIGH SCHOOL,54.1
+2022,070162280160004,Oak Forest High School,Bremen CHSD 228,Cook,HIGH SCHOOL,28.4
+2022,070162280160002,Tinley Park High School,Bremen CHSD 228,Cook,HIGH SCHOOL,26.4
+2022,070162180160007,A B Shepard High Sch (Campus),CHSD 218,Cook,HIGH SCHOOL,62.6
+2022,070162180160001,DD Eisenhower High Sch (Campus),CHSD 218,Cook,HIGH SCHOOL,82.9
+2022,070162180160004,H L Richards High Sch(Campus),CHSD 218,Cook,HIGH SCHOOL,62.0
+2022,150162990250848,Air Force Acad High School,City of Chicago SD 299,Cook,HIGH SCHOOL,75.6
+2022,150162990250849,Alcott College Prep,City of Chicago SD 299,Cook,HIGH SCHOOL,70.9
+2022,150162990250001,Amundsen High School,City of Chicago SD 299,Cook,HIGH SCHOOL,44.5
+2022,150162990250844,Austin College and Career Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,94.2
+2022,150162990250014,Back of The Yards IB HS,City of Chicago SD 299,Cook,HIGH SCHOOL,92.8
+2022,150162990250003,Bogan High School,City of Chicago SD 299,Cook,HIGH SCHOOL,82.4
+2022,150162990250824,Bowen High School,City of Chicago SD 299,Cook,HIGH SCHOOL,91.9
+2022,150162990250834,Bronzeville Scholastic HS,City of Chicago SD 299,Cook,HIGH SCHOOL,96.7
+2022,150162990250788,Brooks College Prep Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,66.0
+2022,150162990250006,Carver Military Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,84.8
+2022,150162990250820,Chicago Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,76.4
+2022,150162990250862,Chicago Excel Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,86.1
+2022,150162990250772,Chicago HS for Agricult Sciences,City of Chicago SD 299,Cook,HIGH SCHOOL,51.5
+2022,150162990250851,Chicago HS for the Arts,City of Chicago SD 299,Cook,HIGH SCHOOL,50.4
+2022,150162990250795,Chicago Military Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,87.1
+2022,150162990250850,Chicago Technology Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,92.2
+2022,150162990250526,Chicago Vocational Career Acad HS,City of Chicago SD 299,Cook,HIGH SCHOOL,92.3
+2022,150162990250827,Clark Acad Prep Magnet High Schl,City of Chicago SD 299,Cook,HIGH SCHOOL,98.6
+2022,150162990250545,Clemente Community Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,87.4
+2022,150162990250841,Collins Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,94.4
+2022,150162990250543,Corliss High School,City of Chicago SD 299,Cook,HIGH SCHOOL,90.3
+2022,150162990250052,Crane Medical Prep HS,City of Chicago SD 299,Cook,HIGH SCHOOL,88.5
+2022,150162990250617,Curie Metropolitan High School,City of Chicago SD 299,Cook,HIGH SCHOOL,87.3
+2022,150162990250832,Devry Advantage Academy High Schl,City of Chicago SD 299,Cook,HIGH SCHOOL,65.4
+2022,150162990250053,Disney II Magnet HS,City of Chicago SD 299,Cook,HIGH SCHOOL,60.0
+2022,150162990250831,Douglass Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,100.0
+2022,150162990250531,Dunbar Vocational Career Acad HS,City of Chicago SD 299,Cook,HIGH SCHOOL,98.6
+2022,150162990250867,Englewood STEM High School,City of Chicago SD 299,Cook,HIGH SCHOOL,91.6
+2022,150162990250011,Farragut Career Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,98.6
+2022,150162990250012,Fenger Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,88.6
+2022,150162990250013,Foreman High School,City of Chicago SD 299,Cook,HIGH SCHOOL,92.4
+2022,150162990250015,Gage Park High School,City of Chicago SD 299,Cook,HIGH SCHOOL,94.3
+2022,150162990250861,Goode STEM Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,82.7
+2022,150162990250779,Hancock College Preparatory HS,City of Chicago SD 299,Cook,HIGH SCHOOL,71.5
+2022,150162990250016,Harlan Community Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,92.9
+2022,150162990250019,Hirsch Metropolitan High School,City of Chicago SD 299,Cook,HIGH SCHOOL,85.9
+2022,150162990250020,Hubbard High School,City of Chicago SD 299,Cook,HIGH SCHOOL,90.6
+2022,150162990250021,Hyde Park Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,98.7
+2022,150162990250837,Infinity Math Science & Tech HS,City of Chicago SD 299,Cook,HIGH SCHOOL,93.3
+2022,150162990250533,Jones College Prep High School,City of Chicago SD 299,Cook,HIGH SCHOOL,35.5
+2022,150162990250767,Juarez Community Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,90.4
+2022,150162990250763,Julian High School,City of Chicago SD 299,Cook,HIGH SCHOOL,87.8
+2022,150162990250023,Kelvyn Park High School,City of Chicago SD 299,Cook,HIGH SCHOOL,89.8
+2022,150162990250024,Kennedy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,66.4
+2022,150162990250025,Kenwood Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,58.9
+2022,150162990250039,King College Prep High School,City of Chicago SD 299,Cook,HIGH SCHOOL,80.9
+2022,150162990250026,Lake View High School,City of Chicago SD 299,Cook,HIGH SCHOOL,76.0
+2022,150162990250027,Lane Technical High School,City of Chicago SD 299,Cook,HIGH SCHOOL,35.6
+2022,150162990250047,Lincoln Park High School,City of Chicago SD 299,Cook,HIGH SCHOOL,46.4
+2022,150162990250833,Lindblom Math & Science Acad HS,City of Chicago SD 299,Cook,HIGH SCHOOL,50.3
+2022,150162990250616,Manley Career Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,89.5
+2022,150162990250029,Marshall Metropolitan High School,City of Chicago SD 299,Cook,HIGH SCHOOL,98.4
+2022,150162990250030,Mather High School,City of Chicago SD 299,Cook,HIGH SCHOOL,78.8
+2022,150162990250031,Morgan Park High School,City of Chicago SD 299,Cook,HIGH SCHOOL,80.2
+2022,150162990250836,Multicultural Arts High School,City of Chicago SD 299,Cook,HIGH SCHOOL,97.9
+2022,150162990250825,North-Grand High School,City of Chicago SD 299,Cook,HIGH SCHOOL,92.3
+2022,150162990250794,Northside College Preparatory Hs,City of Chicago SD 299,Cook,HIGH SCHOOL,37.1
+2022,150162990250855,Ogden Int High School,City of Chicago SD 299,Cook,HIGH SCHOOL,69.3
+2022,150162990250847,Orr Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,96.6
+2022,150162990250796,Payton College Preparatory HS,City of Chicago SD 299,Cook,HIGH SCHOOL,29.7
+2022,150162990250034,Phillips Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,88.1
+2022,150162990250803,Phoenix Military Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,85.6
+2022,150162990250534,Prosser Career Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,89.1
+2022,150162990250826,Raby High School,City of Chicago SD 299,Cook,HIGH SCHOOL,92.9
+2022,150162990250536,Richards Career Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,88.8
+2022,150162990250828,Rickover Naval Academy High Schl,City of Chicago SD 299,Cook,HIGH SCHOOL,72.6
+2022,150162990250035,Roosevelt High School,City of Chicago SD 299,Cook,HIGH SCHOOL,86.0
+2022,150162990250835,School of Social Justice HS,City of Chicago SD 299,Cook,HIGH SCHOOL,95.3
+2022,150162990250036,Schurz High School,City of Chicago SD 299,Cook,HIGH SCHOOL,88.3
+2022,150162990250037,Senn High School,City of Chicago SD 299,Cook,HIGH SCHOOL,75.7
+2022,150162990250537,Simeon Career Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,84.3
+2022,150162990250859,Solorio Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,92.2
+2022,150162990250860,South Shore Intl Col Prep HS,City of Chicago SD 299,Cook,HIGH SCHOOL,76.1
+2022,150162990250818,Spry Community Links High School,City of Chicago SD 299,Cook,HIGH SCHOOL,86.4
+2022,150162990250041,Steinmetz College Prep HS,City of Chicago SD 299,Cook,HIGH SCHOOL,81.8
+2022,150162990250042,Sullivan High School,City of Chicago SD 299,Cook,HIGH SCHOOL,93.1
+2022,150162990250043,Taft High School,City of Chicago SD 299,Cook,HIGH SCHOOL,49.3
+2022,150162990250022,Thomas Kelly College Preparatory,City of Chicago SD 299,Cook,HIGH SCHOOL,95.1
+2022,150162990250044,Tilden Career Communty Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,91.0
+2022,150162990250829,Uplift Community High School,City of Chicago SD 299,Cook,HIGH SCHOOL,75.0
+2022,150162990250046,Von Steuben Metro Science HS,City of Chicago SD 299,Cook,HIGH SCHOOL,61.8
+2022,150162990250863,Walter Henri Dyett High School for the Arts,City of Chicago SD 299,Cook,HIGH SCHOOL,73.6
+2022,150162990250048,Washington G High School,City of Chicago SD 299,Cook,HIGH SCHOOL,86.3
+2022,150162990250049,Wells Community Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,79.5
+2022,150162990250857,Westinghouse High School,City of Chicago SD 299,Cook,HIGH SCHOOL,76.1
+2022,150162990250856,Williams Medical Prep High Sch,City of Chicago SD 299,Cook,HIGH SCHOOL,98.4
+2022,150162990250830,World Language High School,City of Chicago SD 299,Cook,HIGH SCHOOL,91.5
+2022,150162990250764,Young Magnet High School,City of Chicago SD 299,Cook,HIGH SCHOOL,36.8
+2022,070162300130002,Amos Alonzo Stagg High School,Cons HSD 230,Cook,HIGH SCHOOL,34.8
+2022,070162300130001,Carl Sandburg High School,Cons HSD 230,Cook,HIGH SCHOOL,18.2
+2022,070162300130003,Victor J Andrew High School,Cons HSD 230,Cook,HIGH SCHOOL,21.5
+2022,060164010260001,Elmwood Park High School,Elmwood Park CUSD 401,Cook,HIGH SCHOOL,42.3
+2022,050162020170001,Evanston Twp High School,Evanston Twp HSD 202,Cook,HIGH SCHOOL,31.7
+2022,070162310160001,Evergreen Park High School,Evergreen Park CHSD 231,Cook,HIGH SCHOOL,30.2
+2022,050162250170001,Glenbrook North High School,Glenbrook HSD 225,Cook,HIGH SCHOOL,4.1
+2022,050162250170002,Glenbrook South High School,Glenbrook HSD 225,Cook,HIGH SCHOOL,16.6
+2022,070162330160001,Homewood-Flossmoor High School,Homewood Flossmoor CHSD 233,Cook,HIGH SCHOOL,10.5
+2022,15016905025001C,Intrinsic 2 Charter High School,Intrinsic 2 Charter High School,Cook,HIGH SCHOOL,99.6
+2022,060162010170001,J Sterling Morton East High Sch,J S Morton HSD 201,Cook,HIGH SCHOOL,91.4
+2022,060162010170003,J Sterling Morton Freshman Cntr,J S Morton HSD 201,Cook,HIGH SCHOOL,87.7
+2022,060162010170002,J Sterling Morton West High Sch,J S Morton HSD 201,Cook,HIGH SCHOOL,78.7
+2022,070162100170001,Lemont Twp High School,Lemont Twp HSD 210,Cook,HIGH SCHOOL,13.8
+2022,060162120160001,East Leyden High School,Leyden CHSD 212,Cook,HIGH SCHOOL,40.9
+2022,060162120160002,West Leyden High School,Leyden CHSD 212,Cook,HIGH SCHOOL,47.4
+2022,060162040170001,Lyons Twp High Sch,Lyons Twp HSD 204,Cook,HIGH SCHOOL,11.8
+2022,050162070170001,Maine East High School,Maine Township HSD 207,Cook,HIGH SCHOOL,38.7
+2022,050162070170003,Maine South High School,Maine Township HSD 207,Cook,HIGH SCHOOL,5.5
+2022,050162070170004,Maine West High School,Maine Township HSD 207,Cook,HIGH SCHOOL,32.1
+2022,050162030170002,New Trier Township H S Northfield,New Trier Twp HSD 203,Cook,HIGH SCHOOL,2.8
+2022,050162030170001,New Trier Township H S Winnetka,New Trier Twp HSD 203,Cook,HIGH SCHOOL,3.2
+2022,050162190170002,Niles North High School,Niles Twp HSD 219,Cook,HIGH SCHOOL,32.2
+2022,050162190170003,Niles West High School,Niles Twp HSD 219,Cook,HIGH SCHOOL,27.5
+2022,070162290160001,Oak Lawn Comm High School,Oak Lawn CHSD 229,Cook,HIGH SCHOOL,35.0
+2022,060162000130001,Oak Park & River Forest High Sch,Oak Park - River Forest SD 200,Cook,HIGH SCHOOL,14.2
+2022,060162090170001,Proviso East High School,Proviso Twp HSD 209,Cook,HIGH SCHOOL,45.7
+2022,060162090170003,Proviso Math and Science Academy,Proviso Twp HSD 209,Cook,HIGH SCHOOL,20.1
+2022,060162090170002,Proviso West High School,Proviso Twp HSD 209,Cook,HIGH SCHOOL,27.2
+2022,070162200170001,Reavis High School,Reavis Twp HSD 220,Cook,HIGH SCHOOL,50.1
+2022,070162270170002,Rich Township High School,Rich Twp HSD 227,Cook,HIGH SCHOOL,99.0
+2022,060162340160001,Ridgewood Comm High School,Ridgewood CHSD 234,Cook,HIGH SCHOOL,25.3
+2022,060162080170001,Riverside Brookfield Twp HS,Riverside-Brookfield Twp SD 208,Cook,HIGH SCHOOL,25.6
+2022,070162150170001,Thornton Fractnl No High School,Thornton Fractional Twp HSD 215,Cook,HIGH SCHOOL,84.5
+2022,070162150170002,Thornton Fractnl So High School,Thornton Fractional Twp HSD 215,Cook,HIGH SCHOOL,66.7
+2022,070162050170002,Thornridge High School,Thornton Twp HSD 205,Cook,HIGH SCHOOL,64.7
+2022,070162050170001,Thornton Township High School,Thornton Twp HSD 205,Cook,HIGH SCHOOL,90.1
+2022,070162050170003,Thornwood High School,Thornton Twp HSD 205,Cook,HIGH SCHOOL,63.6
+2022,050162110170006,Hoffman Estates High School,Township HSD 211,Cook,HIGH SCHOOL,44.2
+2022,050162110170001,J B Conant High School,Township HSD 211,Cook,HIGH SCHOOL,24.7
+2022,050162110170003,Palatine High School,Township HSD 211,Cook,HIGH SCHOOL,52.2
+2022,050162110170004,Schaumburg High School,Township HSD 211,Cook,HIGH SCHOOL,29.5
+2022,050162110170002,Wm Fremd High School,Township HSD 211,Cook,HIGH SCHOOL,16.8
+2022,050162140170008,Buffalo Grove High School,Township HSD 214,Cook,HIGH SCHOOL,28.6
+2022,050162140170002,Elk Grove High School,Township HSD 214,Cook,HIGH SCHOOL,44.1
+2022,050162140170004,John Hersey High School,Township HSD 214,Cook,HIGH SCHOOL,19.3
+2022,050162140170005,Prospect High School,Township HSD 214,Cook,HIGH SCHOOL,15.4
+2022,050162140170007,Rolling Meadows High School,Township HSD 214,Cook,HIGH SCHOOL,35.5
+2022,050162140170006,Wheeling High School,Township HSD 214,Cook,HIGH SCHOOL,51.1
+2022,15016906025001C,Urban Prep Charter Acad for Young Men - Downtown Campus,Urban Prep Charter Acad for Young Men - Downtown Campus,Cook,HIGH SCHOOL,100.0
+2023,070162170160001,Argo Community High School,Argo CHSD 217,Cook,HIGH SCHOOL,67.0
+2023,070162060170001,Bloom High School,Bloom Twp HSD 206,Cook,HIGH SCHOOL,78.3
+2023,070162060170002,Bloom Trail High School,Bloom Twp HSD 206,Cook,HIGH SCHOOL,79.7
+2023,070162280160001,Bremen High School,Bremen CHSD 228,Cook,HIGH SCHOOL,36.5
+2023,070162280160003,Hillcrest High School,Bremen CHSD 228,Cook,HIGH SCHOOL,47.7
+2023,070162280160004,Oak Forest High School,Bremen CHSD 228,Cook,HIGH SCHOOL,28.8
+2023,070162280160002,Tinley Park High School,Bremen CHSD 228,Cook,HIGH SCHOOL,23.7
+2023,070162180160007,A B Shepard High Sch (Campus),CHSD 218,Cook,HIGH SCHOOL,63.9
+2023,070162180160001,DD Eisenhower High Sch (Campus),CHSD 218,Cook,HIGH SCHOOL,83.2
+2023,070162180160004,H L Richards High Sch(Campus),CHSD 218,Cook,HIGH SCHOOL,64.9
+2023,150162990250848,Air Force Acad High School,City of Chicago SD 299,Cook,HIGH SCHOOL,79.1
+2023,150162990250849,Alcott College Prep,City of Chicago SD 299,Cook,HIGH SCHOOL,72.0
+2023,150162990250001,Amundsen High School,City of Chicago SD 299,Cook,HIGH SCHOOL,48.8
+2023,150162990250844,Austin College and Career Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,88.2
+2023,150162990250014,Back of The Yards IB HS,City of Chicago SD 299,Cook,HIGH SCHOOL,92.6
+2023,150162990250003,Bogan High School,City of Chicago SD 299,Cook,HIGH SCHOOL,85.2
+2023,150162990250824,Bowen High School,City of Chicago SD 299,Cook,HIGH SCHOOL,93.8
+2023,150162990250834,Bronzeville Scholastic HS,City of Chicago SD 299,Cook,HIGH SCHOOL,97.2
+2023,150162990250788,Brooks College Prep Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,61.0
+2023,150162990250006,Carver Military Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,77.3
+2023,150162990250820,Chicago Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,79.0
+2023,150162990250862,Chicago Excel Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,97.7
+2023,150162990250772,Chicago HS for Agricult Sciences,City of Chicago SD 299,Cook,HIGH SCHOOL,49.9
+2023,150162990250851,Chicago HS for the Arts,City of Chicago SD 299,Cook,HIGH SCHOOL,53.5
+2023,150162990250795,Chicago Military Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,82.3
+2023,150162990250850,Chicago Technology Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,93.7
+2023,150162990250526,Chicago Vocational Career Acad HS,City of Chicago SD 299,Cook,HIGH SCHOOL,92.5
+2023,150162990250827,Clark Acad Prep Magnet High Schl,City of Chicago SD 299,Cook,HIGH SCHOOL,79.4
+2023,150162990250545,Clemente Community Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,90.7
+2023,150162990250841,Collins Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,98.2
+2023,150162990250543,Corliss High School,City of Chicago SD 299,Cook,HIGH SCHOOL,88.1
+2023,150162990250052,Crane Medical Prep HS,City of Chicago SD 299,Cook,HIGH SCHOOL,92.9
+2023,150162990250617,Curie Metropolitan High School,City of Chicago SD 299,Cook,HIGH SCHOOL,84.2
+2023,150162990250832,Devry Advantage Academy High Schl,City of Chicago SD 299,Cook,HIGH SCHOOL,63.4
+2023,150162990250053,Disney II Magnet HS,City of Chicago SD 299,Cook,HIGH SCHOOL,61.7
+2023,150162990250831,Douglass Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,100.0
+2023,150162990250531,Dunbar Vocational Career Acad HS,City of Chicago SD 299,Cook,HIGH SCHOOL,91.5
+2023,150162990250867,Englewood STEM High School,City of Chicago SD 299,Cook,HIGH SCHOOL,92.4
+2023,150162990250011,Farragut Career Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,96.9
+2023,150162990250012,Fenger Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,88.0
+2023,150162990250013,Foreman High School,City of Chicago SD 299,Cook,HIGH SCHOOL,90.2
+2023,150162990250015,Gage Park High School,City of Chicago SD 299,Cook,HIGH SCHOOL,96.4
+2023,150162990250861,Goode STEM Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,85.0
+2023,150162990250779,Hancock College Preparatory HS,City of Chicago SD 299,Cook,HIGH SCHOOL,66.1
+2023,150162990250016,Harlan Community Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,93.2
+2023,150162990250019,Hirsch Metropolitan High School,City of Chicago SD 299,Cook,HIGH SCHOOL,80.4
+2023,150162990250020,Hubbard High School,City of Chicago SD 299,Cook,HIGH SCHOOL,92.8
+2023,150162990250021,Hyde Park Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,97.9
+2023,150162990250837,Infinity Math Science & Tech HS,City of Chicago SD 299,Cook,HIGH SCHOOL,92.9
+2023,150162990250533,Jones College Prep High School,City of Chicago SD 299,Cook,HIGH SCHOOL,37.9
+2023,150162990250767,Juarez Community Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,89.9
+2023,150162990250763,Julian High School,City of Chicago SD 299,Cook,HIGH SCHOOL,81.4
+2023,150162990250023,Kelvyn Park High School,City of Chicago SD 299,Cook,HIGH SCHOOL,89.8
+2023,150162990250024,Kennedy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,64.3
+2023,150162990250025,Kenwood Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,58.9
+2023,150162990250039,King College Prep High School,City of Chicago SD 299,Cook,HIGH SCHOOL,78.1
+2023,150162990250026,Lake View High School,City of Chicago SD 299,Cook,HIGH SCHOOL,77.1
+2023,150162990250027,Lane Technical High School,City of Chicago SD 299,Cook,HIGH SCHOOL,35.7
+2023,150162990250047,Lincoln Park High School,City of Chicago SD 299,Cook,HIGH SCHOOL,45.9
+2023,150162990250833,Lindblom Math & Science Acad HS,City of Chicago SD 299,Cook,HIGH SCHOOL,50.8
+2023,150162990250616,Manley Career Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,98.5
+2023,150162990250029,Marshall Metropolitan High School,City of Chicago SD 299,Cook,HIGH SCHOOL,95.8
+2023,150162990250030,Mather High School,City of Chicago SD 299,Cook,HIGH SCHOOL,75.8
+2023,150162990250031,Morgan Park High School,City of Chicago SD 299,Cook,HIGH SCHOOL,79.7
+2023,150162990250836,Multicultural Arts High School,City of Chicago SD 299,Cook,HIGH SCHOOL,94.6
+2023,150162990250825,North-Grand High School,City of Chicago SD 299,Cook,HIGH SCHOOL,93.1
+2023,150162990250794,Northside College Preparatory Hs,City of Chicago SD 299,Cook,HIGH SCHOOL,35.0
+2023,150162990250855,Ogden Int High School,City of Chicago SD 299,Cook,HIGH SCHOOL,68.6
+2023,150162990250847,Orr Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,96.1
+2023,150162990250796,Payton College Preparatory HS,City of Chicago SD 299,Cook,HIGH SCHOOL,30.3
+2023,150162990250034,Phillips Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,93.3
+2023,150162990250803,Phoenix Military Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,93.0
+2023,150162990250534,Prosser Career Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,87.5
+2023,150162990250826,Raby High School,City of Chicago SD 299,Cook,HIGH SCHOOL,87.2
+2023,150162990250536,Richards Career Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,95.3
+2023,150162990250828,Rickover Naval Academy High Schl,City of Chicago SD 299,Cook,HIGH SCHOOL,69.1
+2023,150162990250035,Roosevelt High School,City of Chicago SD 299,Cook,HIGH SCHOOL,88.2
+2023,150162990250835,School of Social Justice HS,City of Chicago SD 299,Cook,HIGH SCHOOL,94.7
+2023,150162990250036,Schurz High School,City of Chicago SD 299,Cook,HIGH SCHOOL,85.4
+2023,150162990250037,Senn High School,City of Chicago SD 299,Cook,HIGH SCHOOL,72.9
+2023,150162990250537,Simeon Career Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,87.3
+2023,150162990250859,Solorio Academy High School,City of Chicago SD 299,Cook,HIGH SCHOOL,91.6
+2023,150162990250860,South Shore Intl Col Prep HS,City of Chicago SD 299,Cook,HIGH SCHOOL,77.8
+2023,150162990250818,Spry Community Links High School,City of Chicago SD 299,Cook,HIGH SCHOOL,90.4
+2023,150162990250041,Steinmetz College Prep HS,City of Chicago SD 299,Cook,HIGH SCHOOL,89.6
+2023,150162990250042,Sullivan High School,City of Chicago SD 299,Cook,HIGH SCHOOL,92.9
+2023,150162990250043,Taft High School,City of Chicago SD 299,Cook,HIGH SCHOOL,50.9
+2023,150162990250022,Thomas Kelly College Preparatory,City of Chicago SD 299,Cook,HIGH SCHOOL,94.5
+2023,150162990250044,Tilden Career Communty Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,85.1
+2023,150162990250829,Uplift Community High School,City of Chicago SD 299,Cook,HIGH SCHOOL,86.7
+2023,150162990250046,Von Steuben Metro Science HS,City of Chicago SD 299,Cook,HIGH SCHOOL,63.9
+2023,150162990250863,Walter Henri Dyett High School for the Arts,City of Chicago SD 299,Cook,HIGH SCHOOL,82.5
+2023,150162990250048,Washington G High School,City of Chicago SD 299,Cook,HIGH SCHOOL,84.5
+2023,150162990250049,Wells Community Academy HS,City of Chicago SD 299,Cook,HIGH SCHOOL,80.6
+2023,150162990250857,Westinghouse High School,City of Chicago SD 299,Cook,HIGH SCHOOL,77.3
+2023,150162990250856,Williams Medical Prep High Sch,City of Chicago SD 299,Cook,HIGH SCHOOL,93.1
+2023,150162990250830,World Language High School,City of Chicago SD 299,Cook,HIGH SCHOOL,88.4
+2023,150162990250764,Young Magnet High School,City of Chicago SD 299,Cook,HIGH SCHOOL,36.0
+2023,070162300130002,Amos Alonzo Stagg High School,Cons HSD 230,Cook,HIGH SCHOOL,34.3
+2023,070162300130001,Carl Sandburg High School,Cons HSD 230,Cook,HIGH SCHOOL,22.1
+2023,070162300130003,Victor J Andrew High School,Cons HSD 230,Cook,HIGH SCHOOL,21.6
+2023,060164010260001,Elmwood Park High School,Elmwood Park CUSD 401,Cook,HIGH SCHOOL,47.3
+2023,050162020170001,Evanston Twp High School,Evanston Twp HSD 202,Cook,HIGH SCHOOL,35.4
+2023,070162310160001,Evergreen Park High School,Evergreen Park CHSD 231,Cook,HIGH SCHOOL,36.3
+2023,050162250170001,Glenbrook North High School,Glenbrook HSD 225,Cook,HIGH SCHOOL,5.0
+2023,050162250170002,Glenbrook South High School,Glenbrook HSD 225,Cook,HIGH SCHOOL,20.6
+2023,070162330160001,Homewood-Flossmoor High School,Homewood Flossmoor CHSD 233,Cook,HIGH SCHOOL,13.0
+2023,15016905025001C,Intrinsic 2 Charter High School,Intrinsic 2 Charter High School,Cook,HIGH SCHOOL,98.6
+2023,060162010170001,J Sterling Morton East High Sch,J S Morton HSD 201,Cook,HIGH SCHOOL,86.4
+2023,060162010170003,J Sterling Morton Freshman Cntr,J S Morton HSD 201,Cook,HIGH SCHOOL,94.5
+2023,060162010170002,J Sterling Morton West High Sch,J S Morton HSD 201,Cook,HIGH SCHOOL,78.7
+2023,070162100170001,Lemont Twp High School,Lemont Twp HSD 210,Cook,HIGH SCHOOL,14.0
+2023,060162120160001,East Leyden High School,Leyden CHSD 212,Cook,HIGH SCHOOL,55.0
+2023,060162120160002,West Leyden High School,Leyden CHSD 212,Cook,HIGH SCHOOL,59.5
+2023,060162040170001,Lyons Twp High Sch,Lyons Twp HSD 204,Cook,HIGH SCHOOL,12.1
+2023,050162070170001,Maine East High School,Maine Township HSD 207,Cook,HIGH SCHOOL,38.6
+2023,050162070170003,Maine South High School,Maine Township HSD 207,Cook,HIGH SCHOOL,7.5
+2023,050162070170004,Maine West High School,Maine Township HSD 207,Cook,HIGH SCHOOL,31.9
+2023,050162030170002,New Trier Township H S Northfield,New Trier Twp HSD 203,Cook,HIGH SCHOOL,3.3
+2023,050162030170001,New Trier Township H S Winnetka,New Trier Twp HSD 203,Cook,HIGH SCHOOL,3.5
+2023,050162190170002,Niles North High School,Niles Twp HSD 219,Cook,HIGH SCHOOL,28.9
+2023,050162190170003,Niles West High School,Niles Twp HSD 219,Cook,HIGH SCHOOL,28.1
+2023,070162290160001,Oak Lawn Comm High School,Oak Lawn CHSD 229,Cook,HIGH SCHOOL,57.9
+2023,060162000130001,Oak Park & River Forest High Sch,Oak Park - River Forest SD 200,Cook,HIGH SCHOOL,18.5
+2023,060162090170001,Proviso East High School,Proviso Twp HSD 209,Cook,HIGH SCHOOL,33.4
+2023,060162090170003,Proviso Math and Science Academy,Proviso Twp HSD 209,Cook,HIGH SCHOOL,11.3
+2023,060162090170002,Proviso West High School,Proviso Twp HSD 209,Cook,HIGH SCHOOL,21.6
+2023,070162200170001,Reavis High School,Reavis Twp HSD 220,Cook,HIGH SCHOOL,61.4
+2023,070162270170002,Rich Township High School,Rich Twp HSD 227,Cook,HIGH SCHOOL,69.5
+2023,060162340160001,Ridgewood Comm High School,Ridgewood CHSD 234,Cook,HIGH SCHOOL,27.7
+2023,060162080170001,Riverside Brookfield Twp HS,Riverside-Brookfield Twp SD 208,Cook,HIGH SCHOOL,11.7
+2023,070162150170001,Thornton Fractnl No High School,Thornton Fractional Twp HSD 215,Cook,HIGH SCHOOL,76.4
+2023,070162150170002,Thornton Fractnl So High School,Thornton Fractional Twp HSD 215,Cook,HIGH SCHOOL,57.9
+2023,070162050170002,Thornridge High School,Thornton Twp HSD 205,Cook,HIGH SCHOOL,59.6
+2023,070162050170001,Thornton Township High School,Thornton Twp HSD 205,Cook,HIGH SCHOOL,95.3
+2023,070162050170003,Thornwood High School,Thornton Twp HSD 205,Cook,HIGH SCHOOL,52.7
+2023,050162110170006,Hoffman Estates High School,Township HSD 211,Cook,HIGH SCHOOL,48.1
+2023,050162110170001,J B Conant High School,Township HSD 211,Cook,HIGH SCHOOL,29.5
+2023,050162110170003,Palatine High School,Township HSD 211,Cook,HIGH SCHOOL,58.0
+2023,050162110170004,Schaumburg High School,Township HSD 211,Cook,HIGH SCHOOL,34.4
+2023,050162110170002,Wm Fremd High School,Township HSD 211,Cook,HIGH SCHOOL,19.7
+2023,050162140170008,Buffalo Grove High School,Township HSD 214,Cook,HIGH SCHOOL,28.8
+2023,050162140170002,Elk Grove High School,Township HSD 214,Cook,HIGH SCHOOL,45.6
+2023,050162140170004,John Hersey High School,Township HSD 214,Cook,HIGH SCHOOL,18.3
+2023,050162140170005,Prospect High School,Township HSD 214,Cook,HIGH SCHOOL,15.3
+2023,050162140170007,Rolling Meadows High School,Township HSD 214,Cook,HIGH SCHOOL,35.1
+2023,050162140170006,Wheeling High School,Township HSD 214,Cook,HIGH SCHOOL,55.1
+2023,15016906025001C,Urban Prep Charter Acad for Young Men - Downtown Campus,Urban Prep Charter Acad for Young Men - Downtown Campus,Cook,HIGH SCHOOL,
+2024,070162170160001,Argo Community High School,Argo CHSD 217,Cook,High School,67.8
+2024,070162060170001,Bloom High School,Bloom Twp HSD 206,Cook,High School,84.2
+2024,070162060170002,Bloom Trail High School,Bloom Twp HSD 206,Cook,High School,82.4
+2024,070162280160001,Bremen High School,Bremen CHSD 228,Cook,High School,38.5
+2024,070162280160003,Hillcrest High School,Bremen CHSD 228,Cook,High School,54.2
+2024,070162280160004,Oak Forest High School,Bremen CHSD 228,Cook,High School,27.5
+2024,070162280160002,Tinley Park High School,Bremen CHSD 228,Cook,High School,23.8
+2024,070162180160007,A B Shepard High Sch (Campus),CHSD 218,Cook,High School,60.6
+2024,070162180160001,DD Eisenhower High Sch (Campus),CHSD 218,Cook,High School,82.6
+2024,070162180160004,H L Richards High Sch(Campus),CHSD 218,Cook,High School,64.2
+2024,15016299025074C,ASPIRA Charter - Early College Prep HS,Chicago Public Schools District 299,Cook,High School,89.8
+2024,15016299025085C,Acero Chtr Sch Network - Major Hector P Garcia MD H S,Chicago Public Schools District 299,Cook,High School,89.1
+2024,15016299025086C,Acero Chtr Sch Network Victoria Soto Campus,Chicago Public Schools District 299,Cook,High School,95.0
+2024,15016299025049C,Acero Chtr Sch Network- Sor Juana Ines de la Cruz K-12,Chicago Public Schools District 299,Cook,High School,93.0
+2024,150162990250848,Air Force Acad High School,Chicago Public Schools District 299,Cook,High School,84.5
+2024,150162990250849,Alcott College Prep,Chicago Public Schools District 299,Cook,High School,76.8
+2024,150162990250001,Amundsen High School,Chicago Public Schools District 299,Cook,High School,38.9
+2024,15016299025079C,Aspira Charter - Business and Finance HS,Chicago Public Schools District 299,Cook,High School,81.8
+2024,150162990250844,Austin College and Career Academy High School,Chicago Public Schools District 299,Cook,High School,84.7
+2024,150162990250014,Back of The Yards IB HS,Chicago Public Schools District 299,Cook,High School,93.3
+2024,150162990250003,Bogan High School,Chicago Public Schools District 299,Cook,High School,81.9
+2024,150162990250824,Bowen High School,Chicago Public Schools District 299,Cook,High School,95.4
+2024,150162990250834,Bronzeville Scholastic HS,Chicago Public Schools District 299,Cook,High School,95.2
+2024,150162990250788,Brooks College Prep Academy HS,Chicago Public Schools District 299,Cook,High School,63.6
+2024,15016299025082C,CICS - Northtown Campus,Chicago Public Schools District 299,Cook,High School,70.5
+2024,15016299025083C,CICS - Ralph Ellison Campus,Chicago Public Schools District 299,Cook,High School,80.1
+2024,150162990250006,Carver Military Academy HS,Chicago Public Schools District 299,Cook,High School,76.2
+2024,150162990250820,Chicago Academy High School,Chicago Public Schools District 299,Cook,High School,78.7
+2024,150162990250862,Chicago Excel Academy HS,Chicago Public Schools District 299,Cook,High School,94.4
+2024,150162990250772,Chicago HS for Agricult Sciences,Chicago Public Schools District 299,Cook,High School,47.5
+2024,150162990250851,Chicago HS for the Arts,Chicago Public Schools District 299,Cook,High School,54.7
+2024,150162990250795,Chicago Military Academy HS,Chicago Public Schools District 299,Cook,High School,81.3
+2024,150162990250850,Chicago Technology Academy HS,Chicago Public Schools District 299,Cook,High School,92.6
+2024,150162990250526,Chicago Vocational Career Acad HS,Chicago Public Schools District 299,Cook,High School,85.7
+2024,150162990250827,Clark Acad Prep Magnet High Schl,Chicago Public Schools District 299,Cook,High School,99.2
+2024,150162990250545,Clemente Community Academy HS,Chicago Public Schools District 299,Cook,High School,90.4
+2024,150162990250841,Collins Academy STEAM High School,Chicago Public Schools District 299,Cook,High School,97.6
+2024,150162990250543,Corliss High School,Chicago Public Schools District 299,Cook,High School,91.0
+2024,150162990250052,Crane Medical Prep HS,Chicago Public Schools District 299,Cook,High School,89.4
+2024,150162990250617,Curie Metropolitan High School,Chicago Public Schools District 299,Cook,High School,86.8
+2024,150162990250832,Devry Advantage Academy High Schl,Chicago Public Schools District 299,Cook,High School,71.5
+2024,150162990250053,Disney II Magnet HS,Chicago Public Schools District 299,Cook,High School,61.6
+2024,150162990250831,Douglass Academy High School,Chicago Public Schools District 299,Cook,High School,100.0
+2024,150162990250531,Dunbar Vocational Career Acad HS,Chicago Public Schools District 299,Cook,High School,84.4
+2024,15016299025015C,EPIC Academy High School,Chicago Public Schools District 299,Cook,High School,91.8
+2024,150162990250867,Englewood STEM High School,Chicago Public Schools District 299,Cook,High School,89.1
+2024,150162990250011,Farragut Career Academy HS,Chicago Public Schools District 299,Cook,High School,95.3
+2024,150162990250012,Fenger Academy High School,Chicago Public Schools District 299,Cook,High School,85.7
+2024,150162990250013,Foreman High School,Chicago Public Schools District 299,Cook,High School,89.9
+2024,150162990250015,Gage Park High School,Chicago Public Schools District 299,Cook,High School,94.5
+2024,150162990250861,Goode STEM Academy HS,Chicago Public Schools District 299,Cook,High School,78.8
+2024,150162990250779,Hancock College Preparatory HS,Chicago Public Schools District 299,Cook,High School,62.0
+2024,150162990250016,Harlan Community Academy HS,Chicago Public Schools District 299,Cook,High School,93.2
+2024,150162990250019,Hirsch Metropolitan High School,Chicago Public Schools District 299,Cook,High School,81.9
+2024,150162990250020,Hubbard High School,Chicago Public Schools District 299,Cook,High School,93.5
+2024,150162990250021,Hyde Park Academy High School,Chicago Public Schools District 299,Cook,High School,98.1
+2024,15016299025012C,IHSCA Charter High School,Chicago Public Schools District 299,Cook,High School,98.9
+2024,15016299025020C,IJLA Charter High School,Chicago Public Schools District 299,Cook,High School,71.2
+2024,150162990250837,Infinity Math Science & Tech HS,Chicago Public Schools District 299,Cook,High School,92.3
+2024,15016299025022C,Intrinsic Charter High School,Chicago Public Schools District 299,Cook,High School,89.8
+2024,150162990250533,Jones College Prep High School,Chicago Public Schools District 299,Cook,High School,41.1
+2024,150162990250767,Juarez Community Academy HS,Chicago Public Schools District 299,Cook,High School,88.2
+2024,150162990250763,Julian High School,Chicago Public Schools District 299,Cook,High School,80.2
+2024,150162990250023,Kelvyn Park High School,Chicago Public Schools District 299,Cook,High School,84.3
+2024,150162990250024,Kennedy High School,Chicago Public Schools District 299,Cook,High School,65.3
+2024,150162990250025,Kenwood Academy High School,Chicago Public Schools District 299,Cook,High School,56.5
+2024,150162990250039,King College Prep High School,Chicago Public Schools District 299,Cook,High School,83.8
+2024,150162990250026,Lake View High School,Chicago Public Schools District 299,Cook,High School,74.8
+2024,150162990250027,Lane Technical High School,Chicago Public Schools District 299,Cook,High School,36.6
+2024,15016299025019C,Legal Prep Academy Charter HS,Chicago Public Schools District 299,Cook,High School,86.7
+2024,150162990250047,Lincoln Park High School,Chicago Public Schools District 299,Cook,High School,40.1
+2024,150162990250833,Lindblom Math & Science Acad HS,Chicago Public Schools District 299,Cook,High School,58.8
+2024,150162990250616,Manley Career Academy High School,Chicago Public Schools District 299,Cook,High School,96.4
+2024,150162990250029,Marshall Metropolitan High School,Chicago Public Schools District 299,Cook,High School,94.4
+2024,150162990250030,Mather High School,Chicago Public Schools District 299,Cook,High School,81.1
+2024,150162990250031,Morgan Park High School,Chicago Public Schools District 299,Cook,High School,76.7
+2024,150162990250836,Multicultural Arts High School,Chicago Public Schools District 299,Cook,High School,94.5
+2024,15016299025044C,Noble St Chtr - Mansueto,Chicago Public Schools District 299,Cook,High School,90.6
+2024,15016299025029C,Noble St Chtr Rauner College Prep,Chicago Public Schools District 299,Cook,High School,81.1
+2024,15016299025040C,Noble St Chtr-Baker Campus,Chicago Public Schools District 299,Cook,High School,94.6
+2024,15016299025039C,Noble St Chtr-Butler College Prep - Crimson,Chicago Public Schools District 299,Cook,High School,89.8
+2024,15016299025034C,Noble St Chtr-Chicago Bulls Prep,Chicago Public Schools District 299,Cook,High School,86.8
+2024,15016299025032C,Noble St Chtr-Comer College Prep,Chicago Public Schools District 299,Cook,High School,86.2
+2024,15016299025038C,Noble St Chtr-DRW Trading College Prep,Chicago Public Schools District 299,Cook,High School,91.8
+2024,15016299025031C,Noble St Chtr-Golder College Prep,Chicago Public Schools District 299,Cook,High School,90.7
+2024,15016299025037C,Noble St Chtr-Hansberry College Prep - Silver,Chicago Public Schools District 299,Cook,High School,82.5
+2024,15016299025042C,Noble St Chtr-ITW Speer Acad,Chicago Public Schools District 299,Cook,High School,79.6
+2024,15016299025036C,Noble St Chtr-Johnson College Prep,Chicago Public Schools District 299,Cook,High School,90.6
+2024,15016299025035C,Noble St Chtr-Muchin College Prep,Chicago Public Schools District 299,Cook,High School,77.0
+2024,15016299025041C,Noble St Chtr-Noble Campus,Chicago Public Schools District 299,Cook,High School,78.3
+2024,15016299025028C,Noble St Chtr-Pritzker College Prep,Chicago Public Schools District 299,Cook,High School,92.6
+2024,15016299025030C,Noble St Chtr-Rowe-Clark MS Acad,Chicago Public Schools District 299,Cook,High School,99.1
+2024,15016299025043C,Noble St Chtr-The Noble Academy,Chicago Public Schools District 299,Cook,High School,83.7
+2024,15016299025033C,Noble St Chtr-UIC College Prep,Chicago Public Schools District 299,Cook,High School,82.6
+2024,15016299025084C,North Lawndale Prep Chtr - Christiana,Chicago Public Schools District 299,Cook,High School,98.7
+2024,15016299025046C,North Lawndale Prep Chtr-Collins,Chicago Public Schools District 299,Cook,High School,93.6
+2024,150162990250825,North-Grand High School,Chicago Public Schools District 299,Cook,High School,93.2
+2024,150162990250794,Northside College Preparatory Hs,Chicago Public Schools District 299,Cook,High School,36.9
+2024,150162990250855,Ogden Int High School,Chicago Public Schools District 299,Cook,High School,66.7
+2024,150162990250847,Orr Academy High School,Chicago Public Schools District 299,Cook,High School,88.5
+2024,150162990250796,Payton College Preparatory HS,Chicago Public Schools District 299,Cook,High School,33.4
+2024,15016299025052C,Perspectives Chtr - High School of Technology,Chicago Public Schools District 299,Cook,High School,91.6
+2024,15016299025053C,Perspectives Chtr - IIT Campus,Chicago Public Schools District 299,Cook,High School,96.0
+2024,15016299025050C,Perspectives Chtr - Joslin Campus,Chicago Public Schools District 299,Cook,High School,93.3
+2024,15016299025051C,Perspectives Chtr - Leadership Acad,Chicago Public Schools District 299,Cook,High School,93.1
+2024,150162990250034,Phillips Academy High School,Chicago Public Schools District 299,Cook,High School,93.1
+2024,150162990250803,Phoenix Military Academy HS,Chicago Public Schools District 299,Cook,High School,88.5
+2024,150162990250534,Prosser Career Academy HS,Chicago Public Schools District 299,Cook,High School,89.4
+2024,150162990250826,Raby High School,Chicago Public Schools District 299,Cook,High School,97.3
+2024,150162990250536,Richards Career Academy HS,Chicago Public Schools District 299,Cook,High School,96.4
+2024,150162990250828,Rickover Naval Academy High Schl,Chicago Public Schools District 299,Cook,High School,69.9
+2024,150162990250035,Roosevelt High School,Chicago Public Schools District 299,Cook,High School,85.9
+2024,150162990250835,School of Social Justice HS,Chicago Public Schools District 299,Cook,High School,96.3
+2024,150162990250036,Schurz High School,Chicago Public Schools District 299,Cook,High School,89.6
+2024,150162990250037,Senn High School,Chicago Public Schools District 299,Cook,High School,74.2
+2024,150162990250537,Simeon Career Academy High School,Chicago Public Schools District 299,Cook,High School,90.8
+2024,150162990250859,Solorio Academy High School,Chicago Public Schools District 299,Cook,High School,90.7
+2024,150162990250860,South Shore Intl Col Prep HS,Chicago Public Schools District 299,Cook,High School,72.2
+2024,150162990250818,Spry Community Links High School,Chicago Public Schools District 299,Cook,High School,90.0
+2024,150162990250041,Steinmetz College Prep HS,Chicago Public Schools District 299,Cook,High School,89.4
+2024,150162990250042,Sullivan High School,Chicago Public Schools District 299,Cook,High School,78.2
+2024,150162990250043,Taft High School,Chicago Public Schools District 299,Cook,High School,53.7
+2024,150162990250022,Thomas Kelly College Preparatory,Chicago Public Schools District 299,Cook,High School,95.0
+2024,150162990250044,Tilden Career Communty Academy HS,Chicago Public Schools District 299,Cook,High School,85.4
+2024,150162990250829,Uplift Community High School,Chicago Public Schools District 299,Cook,High School,82.3
+2024,15016299025013C,Urban Prep Chtr Acad Bronzeville HS,Chicago Public Schools District 299,Cook,High School,90.9
+2024,15016299025010C,Urban Prep Chtr Acad Englewood HS,Chicago Public Schools District 299,Cook,High School,92.3
+2024,150162990250046,Von Steuben Metro Science HS,Chicago Public Schools District 299,Cook,High School,60.4
+2024,150162990250863,Walter Henri Dyett High School for the Arts,Chicago Public Schools District 299,Cook,High School,85.4
+2024,150162990250048,Washington G High School,Chicago Public Schools District 299,Cook,High School,85.5
+2024,150162990250049,Wells Community Academy HS,Chicago Public Schools District 299,Cook,High School,84.3
+2024,150162990250857,Westinghouse High School,Chicago Public Schools District 299,Cook,High School,72.7
+2024,150162990250856,Williams Medical Prep High Sch,Chicago Public Schools District 299,Cook,High School,81.0
+2024,150162990250830,World Language High School,Chicago Public Schools District 299,Cook,High School,87.3
+2024,15016299025073C,YCCS Chtr - Chatham,Chicago Public Schools District 299,Cook,High School,91.9
+2024,15016299025071C,YCCS West,Chicago Public Schools District 299,Cook,High School,97.0
+2024,15016299025055C,YCCS- McKinley-Lakeside Leadership Academy,Chicago Public Schools District 299,Cook,High School,92.7
+2024,15016299025056C,YCCS-ASPIRA Pantoja Alt HS,Chicago Public Schools District 299,Cook,High School,97.4
+2024,15016299025062C,YCCS-Albizu Campos Puerto Rican HS,Chicago Public Schools District 299,Cook,High School,88.4
+2024,15016299025057C,YCCS-Association House,Chicago Public Schools District 299,Cook,High School,88.9
+2024,15016299025059C,YCCS-CCA Academy HS,Chicago Public Schools District 299,Cook,High School,96.1
+2024,15016299025061C,YCCS-Community Youth Dev Inst HS,Chicago Public Schools District 299,Cook,High School,92.8
+2024,15016299025063C,YCCS-Innovations of Arts Integr HS,Chicago Public Schools District 299,Cook,High School,96.2
+2024,15016299025065C,YCCS-Latino Youth Alternative HS,Chicago Public Schools District 299,Cook,High School,92.4
+2024,15016299025066C,YCCS-Olive Harvey Mid College HS,Chicago Public Schools District 299,Cook,High School,85.4
+2024,15016299025060C,YCCS-Progressive Leadership Academy,Chicago Public Schools District 299,Cook,High School,90.8
+2024,15016299025054C,YCCS-Scholastic Achievement HS,Chicago Public Schools District 299,Cook,High School,95.6
+2024,15016299025067C,YCCS-Sullivan House Alt HS,Chicago Public Schools District 299,Cook,High School,99.7
+2024,15016299025068C,YCCS-Truman Middle College HS,Chicago Public Schools District 299,Cook,High School,82.7
+2024,15016299025070C,YCCS-West Town Academy Alt HS,Chicago Public Schools District 299,Cook,High School,83.0
+2024,15016299025072C,YCCS-Youth Connection Leadership Academy,Chicago Public Schools District 299,Cook,High School,89.2
+2024,150162990250764,Young Magnet High School,Chicago Public Schools District 299,Cook,High School,34.7
+2024,070162300130002,Amos Alonzo Stagg High School,Cons HSD 230,Cook,High School,35.9
+2024,070162300130001,Carl Sandburg High School,Cons HSD 230,Cook,High School,21.6
+2024,070162300130003,Victor J Andrew High School,Cons HSD 230,Cook,High School,23.4
+2024,060164010260001,Elmwood Park High School,Elmwood Park CUSD 401,Cook,High School,41.9
+2024,050162020170001,Evanston Twp High School,Evanston Twp HSD 202,Cook,High School,37.0
+2024,070162310160001,Evergreen Park High School,Evergreen Park CHSD 231,Cook,High School,30.5
+2024,050162250170001,Glenbrook North High School,Glenbrook HSD 225,Cook,High School,4.4
+2024,050162250170002,Glenbrook South High School,Glenbrook HSD 225,Cook,High School,19.2
+2024,070162330160001,Homewood-Flossmoor High School,Homewood Flossmoor CHSD 233,Cook,High School,13.7
+2024,15016905025001C,Intrinsic 2 Charter High School,Intrinsic 2 Charter High School,Cook,High School,88.7
+2024,060162010170001,J Sterling Morton East High Sch,J S Morton HSD 201,Cook,High School,87.5
+2024,060162010170003,J Sterling Morton Freshman Cntr,J S Morton HSD 201,Cook,High School,93.8
+2024,060162010170002,J Sterling Morton West High Sch,J S Morton HSD 201,Cook,High School,78.8
+2024,070162100170001,Lemont Twp High School,Lemont Twp HSD 210,Cook,High School,17.4
+2024,060162120160001,East Leyden High School,Leyden CHSD 212,Cook,High School,37.4
+2024,060162120160002,West Leyden High School,Leyden CHSD 212,Cook,High School,41.6
+2024,060162040170001,Lyons Twp High Sch,Lyons Twp HSD 204,Cook,High School,11.6
+2024,050162070170001,Maine East High School,Maine Township HSD 207,Cook,High School,35.5
+2024,050162070170003,Maine South High School,Maine Township HSD 207,Cook,High School,5.1
+2024,050162070170004,Maine West High School,Maine Township HSD 207,Cook,High School,27.2
+2024,050162030170002,New Trier Township H S Northfield,New Trier Twp HSD 203,Cook,High School,1.1
+2024,050162030170001,New Trier Township H S Winnetka,New Trier Twp HSD 203,Cook,High School,3.6
+2024,050162190170002,Niles North High School,Niles Twp HSD 219,Cook,High School,35.5
+2024,050162190170003,Niles West High School,Niles Twp HSD 219,Cook,High School,32.5
+2024,070162290160001,Oak Lawn Comm High School,Oak Lawn CHSD 229,Cook,High School,61.3
+2024,060162000130001,Oak Park & River Forest High Sch,Oak Park - River Forest SD 200,Cook,High School,19.9
+2024,060162090170001,Proviso East High School,Proviso Twp HSD 209,Cook,High School,21.2
+2024,060162090170003,Proviso Math and Science Academy,Proviso Twp HSD 209,Cook,High School,20.0
+2024,060162090170002,Proviso West High School,Proviso Twp HSD 209,Cook,High School,12.8
+2024,070162200170001,Reavis High School,Reavis Twp HSD 220,Cook,High School,66.8
+2024,070162270170002,Rich Township High School,Rich Twp HSD 227,Cook,High School,59.5
+2024,060162340160001,Ridgewood Comm High School,Ridgewood CHSD 234,Cook,High School,24.9
+2024,060162080170001,Riverside Brookfield Twp HS,Riverside-Brookfield Twp SD 208,Cook,High School,13.7
+2024,07016901025001C,Southland College Prep Charter High School,Southland College Prep Charter High School,Cook,High School,60.2
+2024,070162150170001,Thornton Fractnl No High School,Thornton Fractional Twp HSD 215,Cook,High School,66.5
+2024,070162150170002,Thornton Fractnl So High School,Thornton Fractional Twp HSD 215,Cook,High School,50.0
+2024,070162050170002,Thornridge High School,Thornton Twp HSD 205,Cook,High School,79.7
+2024,070162050170001,Thornton Township High School,Thornton Twp HSD 205,Cook,High School,92.3
+2024,070162050170003,Thornwood High School,Thornton Twp HSD 205,Cook,High School,71.7
+2024,050162110170006,Hoffman Estates High School,Township HSD 211,Cook,High School,52.2
+2024,050162110170001,J B Conant High School,Township HSD 211,Cook,High School,33.9
+2024,050162110170003,Palatine High School,Township HSD 211,Cook,High School,61.5
+2024,050162110170004,Schaumburg High School,Township HSD 211,Cook,High School,38.9
+2024,050162110170002,Wm Fremd High School,Township HSD 211,Cook,High School,22.3
+2024,050162140170008,Buffalo Grove High School,Township HSD 214,Cook,High School,24.3
+2024,050162140170002,Elk Grove High School,Township HSD 214,Cook,High School,39.6
+2024,050162140170004,John Hersey High School,Township HSD 214,Cook,High School,13.7
+2024,050162140170005,Prospect High School,Township HSD 214,Cook,High School,11.3
+2024,050162140170007,Rolling Meadows High School,Township HSD 214,Cook,High School,27.9
+2024,050162140170006,Wheeling High School,Township HSD 214,Cook,High School,46.2
+2025,07-016-2170-16-0001,Argo Community High School,Argo CHSD 217,Cook,High School,64.2
+2025,07-016-2060-17-0001,Bloom High School,Bloom Twp HSD 206,Cook,High School,81.9
+2025,07-016-2060-17-0002,Bloom Trail High School,Bloom Twp HSD 206,Cook,High School,81.1
+2025,07-016-2280-16-0001,Bremen High School,Bremen CHSD 228,Cook,High School,39.0
+2025,07-016-2280-16-0003,Hillcrest High School,Bremen CHSD 228,Cook,High School,52.9
+2025,07-016-2280-16-0004,Oak Forest High School,Bremen CHSD 228,Cook,High School,24.7
+2025,07-016-2280-16-0002,Tinley Park High School,Bremen CHSD 228,Cook,High School,22.2
+2025,07-016-2180-16-0007,A B Shepard High Sch (Campus),CHSD 218,Cook,High School,66.8
+2025,07-016-2180-16-0001,DD Eisenhower High Sch (Campus),CHSD 218,Cook,High School,84.6
+2025,07-016-2180-16-0004,H L Richards High Sch(Campus),CHSD 218,Cook,High School,61.1
+2025,15-016-2990-25-074C,ASPIRA Charter - Early College Prep HS,Chicago Public Schools District 299,Cook,High School,92.1
+2025,15-016-2990-25-085C,Acero Chtr Sch Network - Major Hector P Garcia MD H S,Chicago Public Schools District 299,Cook,High School,89.6
+2025,15-016-2990-25-086C,Acero Chtr Sch Network Victoria Soto Campus,Chicago Public Schools District 299,Cook,High School,98.7
+2025,15-016-2990-25-049C,Acero Chtr Sch Network- Sor Juana Ines de la Cruz K-12,Chicago Public Schools District 299,Cook,High School,89.8
+2025,15-016-2990-25-0848,Air Force Acad High School,Chicago Public Schools District 299,Cook,High School,87.7
+2025,15-016-2990-25-0849,Alcott College Prep,Chicago Public Schools District 299,Cook,High School,73.8
+2025,15-016-2990-25-0001,Amundsen High School,Chicago Public Schools District 299,Cook,High School,35.1
+2025,15-016-2990-25-079C,Aspira Charter - Business and Finance HS,Chicago Public Schools District 299,Cook,High School,83.6
+2025,15-016-2990-25-0844,Austin College and Career Academy High School,Chicago Public Schools District 299,Cook,High School,86.2
+2025,15-016-2990-25-0014,Back of The Yards IB HS,Chicago Public Schools District 299,Cook,High School,93.0
+2025,15-016-2990-25-0003,Bogan High School,Chicago Public Schools District 299,Cook,High School,85.0
+2025,15-016-2990-25-0824,Bowen High School,Chicago Public Schools District 299,Cook,High School,93.5
+2025,15-016-2990-25-0834,Bronzeville Scholastic HS,Chicago Public Schools District 299,Cook,High School,91.1
+2025,15-016-2990-25-0788,Brooks College Prep Academy HS,Chicago Public Schools District 299,Cook,High School,59.0
+2025,15-016-2990-25-082C,CICS - Northtown Campus,Chicago Public Schools District 299,Cook,High School,74.5
+2025,15-016-2990-25-083C,CICS - Ralph Ellison Campus,Chicago Public Schools District 299,Cook,High School,84.4
+2025,15-016-2990-25-0006,Carver Military Academy HS,Chicago Public Schools District 299,Cook,High School,81.2
+2025,15-016-2990-25-0820,Chicago Academy High School,Chicago Public Schools District 299,Cook,High School,77.0
+2025,15-016-2990-25-0772,Chicago HS for Agricult Sciences,Chicago Public Schools District 299,Cook,High School,56.7
+2025,15-016-2990-25-0851,Chicago HS for the Arts,Chicago Public Schools District 299,Cook,High School,58.0
+2025,15-016-2990-25-0795,Chicago Military Academy HS,Chicago Public Schools District 299,Cook,High School,68.2
+2025,15-016-2990-25-0850,Chicago Technology Academy HS,Chicago Public Schools District 299,Cook,High School,92.7
+2025,15-016-2990-25-0526,Chicago Vocational Career Acad HS,Chicago Public Schools District 299,Cook,High School,95.8
+2025,15-016-2990-25-0827,Clark Acad Prep Magnet High Schl,Chicago Public Schools District 299,Cook,High School,89.8
+2025,15-016-2990-25-0545,Clemente Community Academy HS,Chicago Public Schools District 299,Cook,High School,88.3
+2025,15-016-2990-25-0841,Collins Academy STEAM High School,Chicago Public Schools District 299,Cook,High School,97.4
+2025,15-016-2990-25-0543,Corliss High School,Chicago Public Schools District 299,Cook,High School,88.5
+2025,15-016-2990-25-0052,Crane Medical Prep HS,Chicago Public Schools District 299,Cook,High School,86.9
+2025,15-016-2990-25-0617,Curie Metropolitan High School,Chicago Public Schools District 299,Cook,High School,84.9
+2025,15-016-2990-25-0832,Devry Advantage Academy High Schl,Chicago Public Schools District 299,Cook,High School,69.1
+2025,15-016-2990-25-0053,Disney II Magnet HS,Chicago Public Schools District 299,Cook,High School,45.7
+2025,15-016-2990-25-0831,Douglass Academy High School,Chicago Public Schools District 299,Cook,High School,92.6
+2025,15-016-2990-25-0531,Dunbar Vocational Career Acad HS,Chicago Public Schools District 299,Cook,High School,97.6
+2025,15-016-2990-25-015C,EPIC Academy High School,Chicago Public Schools District 299,Cook,High School,95.1
+2025,15-016-2990-25-0867,Englewood STEM High School,Chicago Public Schools District 299,Cook,High School,83.1
+2025,15-016-2990-25-0011,Farragut Career Academy HS,Chicago Public Schools District 299,Cook,High School,95.5
+2025,15-016-2990-25-0012,Fenger Academy High School,Chicago Public Schools District 299,Cook,High School,86.6
+2025,15-016-2990-25-0013,Foreman High School,Chicago Public Schools District 299,Cook,High School,89.5
+2025,15-016-2990-25-0015,Gage Park High School,Chicago Public Schools District 299,Cook,High School,94.5
+2025,15-016-2990-25-0861,Goode STEM Academy HS,Chicago Public Schools District 299,Cook,High School,82.0
+2025,15-016-2990-25-0779,Hancock College Preparatory HS,Chicago Public Schools District 299,Cook,High School,64.6
+2025,15-016-2990-25-0016,Harlan Community Academy HS,Chicago Public Schools District 299,Cook,High School,92.5
+2025,15-016-2990-25-0019,Hirsch Metropolitan High School,Chicago Public Schools District 299,Cook,High School,71.8
+2025,15-016-2990-25-0020,Hubbard High School,Chicago Public Schools District 299,Cook,High School,95.3
+2025,15-016-2990-25-0021,Hyde Park Academy High School,Chicago Public Schools District 299,Cook,High School,98.3
+2025,15-016-2990-25-012C,IHSCA Charter High School,Chicago Public Schools District 299,Cook,High School,92.6
+2025,15-016-2990-25-020C,IJLA Charter High School,Chicago Public Schools District 299,Cook,High School,78.5
+2025,15-016-2990-25-0837,Infinity Math Science & Tech HS,Chicago Public Schools District 299,Cook,High School,92.3
+2025,15-016-2990-25-022C,Intrinsic Charter High School,Chicago Public Schools District 299,Cook,High School,91.2
+2025,15-016-2990-25-0533,Jones College Prep High School,Chicago Public Schools District 299,Cook,High School,37.3
+2025,15-016-2990-25-0767,Juarez Community Academy HS,Chicago Public Schools District 299,Cook,High School,83.9
+2025,15-016-2990-25-0763,Julian High School,Chicago Public Schools District 299,Cook,High School,76.3
+2025,15-016-2990-25-0023,Kelvyn Park High School,Chicago Public Schools District 299,Cook,High School,80.5
+2025,15-016-2990-25-0024,Kennedy High School,Chicago Public Schools District 299,Cook,High School,64.4
+2025,15-016-2990-25-0025,Kenwood Academy High School,Chicago Public Schools District 299,Cook,High School,53.4
+2025,15-016-2990-25-0039,King College Prep High School,Chicago Public Schools District 299,Cook,High School,82.6
+2025,15-016-2990-25-0026,Lake View High School,Chicago Public Schools District 299,Cook,High School,75.0
+2025,15-016-2990-25-0027,Lane Technical High School,Chicago Public Schools District 299,Cook,High School,35.0
+2025,15-016-2990-25-019C,Legal Prep Academy Charter HS,Chicago Public Schools District 299,Cook,High School,97.6
+2025,15-016-2990-25-0047,Lincoln Park High School,Chicago Public Schools District 299,Cook,High School,43.4
+2025,15-016-2990-25-0833,Lindblom Math & Science Acad HS,Chicago Public Schools District 299,Cook,High School,57.7
+2025,15-016-2990-25-0616,Manley Career Academy High School,Chicago Public Schools District 299,Cook,High School,84.7
+2025,15-016-2990-25-0029,Marshall Metropolitan High School,Chicago Public Schools District 299,Cook,High School,95.4
+2025,15-016-2990-25-0030,Mather High School,Chicago Public Schools District 299,Cook,High School,78.3
+2025,15-016-2990-25-0031,Morgan Park High School,Chicago Public Schools District 299,Cook,High School,78.3
+2025,15-016-2990-25-0836,Multicultural Arts High School,Chicago Public Schools District 299,Cook,High School,93.4
+2025,15-016-2990-25-044C,Noble St Chtr - Mansueto,Chicago Public Schools District 299,Cook,High School,91.1
+2025,15-016-2990-25-029C,Noble St Chtr Rauner College Prep,Chicago Public Schools District 299,Cook,High School,84.9
+2025,15-016-2990-25-040C,Noble St Chtr-Baker Campus,Chicago Public Schools District 299,Cook,High School,93.5
+2025,15-016-2990-25-039C,Noble St Chtr-Butler College Prep - Crimson,Chicago Public Schools District 299,Cook,High School,88.4
+2025,15-016-2990-25-034C,Noble St Chtr-Chicago Bulls Prep,Chicago Public Schools District 299,Cook,High School,87.1
+2025,15-016-2990-25-032C,Noble St Chtr-Comer College Prep,Chicago Public Schools District 299,Cook,High School,86.2
+2025,15-016-2990-25-038C,Noble St Chtr-DRW Trading College Prep,Chicago Public Schools District 299,Cook,High School,87.2
+2025,15-016-2990-25-031C,Noble St Chtr-Golder College Prep,Chicago Public Schools District 299,Cook,High School,89.1
+2025,15-016-2990-25-037C,Noble St Chtr-Hansberry College Prep - Silver,Chicago Public Schools District 299,Cook,High School,85.8
+2025,15-016-2990-25-042C,Noble St Chtr-ITW Speer Acad,Chicago Public Schools District 299,Cook,High School,87.2
+2025,15-016-2990-25-036C,Noble St Chtr-Johnson College Prep,Chicago Public Schools District 299,Cook,High School,92.0
+2025,15-016-2990-25-035C,Noble St Chtr-Muchin College Prep,Chicago Public Schools District 299,Cook,High School,72.6
+2025,15-016-2990-25-041C,Noble St Chtr-Noble Campus,Chicago Public Schools District 299,Cook,High School,73.1
+2025,15-016-2990-25-028C,Noble St Chtr-Pritzker College Prep,Chicago Public Schools District 299,Cook,High School,94.0
+2025,15-016-2990-25-030C,Noble St Chtr-Rowe-Clark MS Acad,Chicago Public Schools District 299,Cook,High School,95.2
+2025,15-016-2990-25-043C,Noble St Chtr-The Noble Academy,Chicago Public Schools District 299,Cook,High School,82.0
+2025,15-016-2990-25-033C,Noble St Chtr-UIC College Prep,Chicago Public Schools District 299,Cook,High School,84.6
+2025,15-016-2990-25-084C,North Lawndale Prep Chtr - Christiana,Chicago Public Schools District 299,Cook,High School,99.2
+2025,15-016-2990-25-046C,North Lawndale Prep Chtr-Collins,Chicago Public Schools District 299,Cook,High School,94.7
+2025,15-016-2990-25-0825,North-Grand High School,Chicago Public Schools District 299,Cook,High School,88.2
+2025,15-016-2990-25-0794,Northside College Preparatory Hs,Chicago Public Schools District 299,Cook,High School,36.2
+2025,15-016-2990-25-0855,Ogden Int High School,Chicago Public Schools District 299,Cook,High School,65.6
+2025,15-016-2990-25-0847,Orr Academy High School,Chicago Public Schools District 299,Cook,High School,88.4
+2025,15-016-2990-25-0796,Payton College Preparatory HS,Chicago Public Schools District 299,Cook,High School,33.0
+2025,15-016-2990-25-052C,Perspectives Chtr - High School of Technology,Chicago Public Schools District 299,Cook,High School,94.8
+2025,15-016-2990-25-053C,Perspectives Chtr - IIT Campus,Chicago Public Schools District 299,Cook,High School,93.0
+2025,15-016-2990-25-050C,Perspectives Chtr - Joslin Campus,Chicago Public Schools District 299,Cook,High School,92.8
+2025,15-016-2990-25-051C,Perspectives Chtr - Leadership Acad,Chicago Public Schools District 299,Cook,High School,94.4
+2025,15-016-2990-25-0034,Phillips Academy High School,Chicago Public Schools District 299,Cook,High School,70.0
+2025,15-016-2990-25-0803,Phoenix Military Academy HS,Chicago Public Schools District 299,Cook,High School,87.4
+2025,15-016-2990-25-0534,Prosser Career Academy HS,Chicago Public Schools District 299,Cook,High School,89.1
+2025,15-016-2990-25-0826,Raby High School,Chicago Public Schools District 299,Cook,High School,98.2
+2025,15-016-2990-25-0536,Richards Career Academy HS,Chicago Public Schools District 299,Cook,High School,98.0
+2025,15-016-2990-25-0828,Rickover Naval Academy High Schl,Chicago Public Schools District 299,Cook,High School,64.5
+2025,15-016-2990-25-0035,Roosevelt High School,Chicago Public Schools District 299,Cook,High School,88.0
+2025,15-016-2990-25-0835,School of Social Justice HS,Chicago Public Schools District 299,Cook,High School,93.7
+2025,15-016-2990-25-0036,Schurz High School,Chicago Public Schools District 299,Cook,High School,89.8
+2025,15-016-2990-25-0037,Senn High School,Chicago Public Schools District 299,Cook,High School,73.5
+2025,15-016-2990-25-0537,Simeon Career Academy High School,Chicago Public Schools District 299,Cook,High School,70.4
+2025,15-016-2990-25-0859,Solorio Academy High School,Chicago Public Schools District 299,Cook,High School,90.4
+2025,15-016-2990-25-0860,South Shore Intl Col Prep HS,Chicago Public Schools District 299,Cook,High School,72.7
+2025,15-016-2990-25-0818,Spry Community Links High School,Chicago Public Schools District 299,Cook,High School,80.5
+2025,15-016-2990-25-0041,Steinmetz College Prep HS,Chicago Public Schools District 299,Cook,High School,87.5
+2025,15-016-2990-25-0042,Sullivan High School,Chicago Public Schools District 299,Cook,High School,77.5
+2025,15-016-2990-25-0043,Taft High School,Chicago Public Schools District 299,Cook,High School,49.8
+2025,15-016-2990-25-0022,Thomas Kelly College Preparatory,Chicago Public Schools District 299,Cook,High School,94.1
+2025,15-016-2990-25-0044,Tilden Career Communty Academy HS,Chicago Public Schools District 299,Cook,High School,86.6
+2025,15-016-2990-25-0829,Uplift Community High School,Chicago Public Schools District 299,Cook,High School,71.9
+2025,15-016-2990-25-013C,Urban Prep Chtr Acad Bronzeville HS,Chicago Public Schools District 299,Cook,High School,81.8
+2025,15-016-2990-25-010C,Urban Prep Chtr Acad Englewood HS,Chicago Public Schools District 299,Cook,High School,91.6
+2025,15-016-2990-25-0046,Von Steuben Metro Science HS,Chicago Public Schools District 299,Cook,High School,60.8
+2025,15-016-2990-25-0863,Walter Henri Dyett High School for the Arts,Chicago Public Schools District 299,Cook,High School,83.3
+2025,15-016-2990-25-0048,Washington G High School,Chicago Public Schools District 299,Cook,High School,81.1
+2025,15-016-2990-25-0049,Wells Community Academy HS,Chicago Public Schools District 299,Cook,High School,78.3
+2025,15-016-2990-25-0857,Westinghouse High School,Chicago Public Schools District 299,Cook,High School,59.9
+2025,15-016-2990-25-0856,Williams Medical Prep High Sch,Chicago Public Schools District 299,Cook,High School,75.0
+2025,15-016-2990-25-0830,World Language High School,Chicago Public Schools District 299,Cook,High School,93.4
+2025,15-016-2990-25-073C,YCCS Chtr - Chatham,Chicago Public Schools District 299,Cook,High School,98.0
+2025,15-016-2990-25-071C,YCCS West,Chicago Public Schools District 299,Cook,High School,97.5
+2025,15-016-2990-25-055C,YCCS- McKinley-Lakeside Leadership Academy,Chicago Public Schools District 299,Cook,High School,95.8
+2025,15-016-2990-25-056C,YCCS-ASPIRA Pantoja Alt HS,Chicago Public Schools District 299,Cook,High School,95.4
+2025,15-016-2990-25-062C,YCCS-Albizu Campos Puerto Rican HS,Chicago Public Schools District 299,Cook,High School,92.2
+2025,15-016-2990-25-057C,YCCS-Association House,Chicago Public Schools District 299,Cook,High School,92.1
+2025,15-016-2990-25-059C,YCCS-CCA Academy HS,Chicago Public Schools District 299,Cook,High School,99.2
+2025,15-016-2990-25-061C,YCCS-Community Youth Dev Inst HS,Chicago Public Schools District 299,Cook,High School,87.8
+2025,15-016-2990-25-063C,YCCS-Innovations of Arts Integr HS,Chicago Public Schools District 299,Cook,High School,89.0
+2025,15-016-2990-25-065C,YCCS-Latino Youth Alternative HS,Chicago Public Schools District 299,Cook,High School,93.4
+2025,15-016-2990-25-066C,YCCS-Olive Harvey Mid College HS,Chicago Public Schools District 299,Cook,High School,89.5
+2025,15-016-2990-25-060C,YCCS-Progressive Leadership Academy,Chicago Public Schools District 299,Cook,High School,83.9
+2025,15-016-2990-25-054C,YCCS-Scholastic Achievement HS,Chicago Public Schools District 299,Cook,High School,94.0
+2025,15-016-2990-25-067C,YCCS-Sullivan House Alt HS,Chicago Public Schools District 299,Cook,High School,98.5
+2025,15-016-2990-25-068C,YCCS-Truman Middle College HS,Chicago Public Schools District 299,Cook,High School,80.1
+2025,15-016-2990-25-070C,YCCS-West Town Academy Alt HS,Chicago Public Schools District 299,Cook,High School,87.7
+2025,15-016-2990-25-072C,YCCS-Youth Connection Leadership Academy,Chicago Public Schools District 299,Cook,High School,84.8
+2025,15-016-2990-25-0764,Young Magnet High School,Chicago Public Schools District 299,Cook,High School,33.0
+2025,07-016-2300-13-0002,Amos Alonzo Stagg High School,Cons HSD 230,Cook,High School,29.4
+2025,07-016-2300-13-0001,Carl Sandburg High School,Cons HSD 230,Cook,High School,19.1
+2025,07-016-2300-13-0003,Victor J Andrew High School,Cons HSD 230,Cook,High School,23.4
+2025,06-016-4010-26-0001,Elmwood Park High School,Elmwood Park CUSD 401,Cook,High School,59.6
+2025,05-016-2020-17-0001,Evanston Twp High School,Evanston Twp HSD 202,Cook,High School,34.8
+2025,07-016-2310-16-0001,Evergreen Park High School,Evergreen Park CHSD 231,Cook,High School,26.7
+2025,05-016-2250-17-0001,Glenbrook North High School,Glenbrook HSD 225,Cook,High School,4.6
+2025,05-016-2250-17-0002,Glenbrook South High School,Glenbrook HSD 225,Cook,High School,20.4
+2025,07-016-2330-16-0001,Homewood-Flossmoor High School,Homewood Flossmoor CHSD 233,Cook,High School,15.4
+2025,15-016-9050-25-001C,Intrinsic 2 Charter High School,Intrinsic 2 Charter High School,Cook,High School,43.2
+2025,06-016-2010-17-0001,J Sterling Morton East High Sch,J S Morton HSD 201,Cook,High School,87.1
+2025,06-016-2010-17-0003,J Sterling Morton Freshman Cntr,J S Morton HSD 201,Cook,High School,92.8
+2025,06-016-2010-17-0002,J Sterling Morton West High Sch,J S Morton HSD 201,Cook,High School,78.1
+2025,07-016-2100-17-0001,Lemont Twp High School,Lemont Twp HSD 210,Cook,High School,16.7
+2025,06-016-2120-16-0001,East Leyden High School,Leyden CHSD 212,Cook,High School,54.8
+2025,06-016-2120-16-0002,West Leyden High School,Leyden CHSD 212,Cook,High School,57.6
+2025,06-016-2040-17-0001,Lyons Twp High Sch,Lyons Twp HSD 204,Cook,High School,11.7
+2025,05-016-2070-17-0001,Maine East High School,Maine Township HSD 207,Cook,High School,33.9
+2025,05-016-2070-17-0003,Maine South High School,Maine Township HSD 207,Cook,High School,4.5
+2025,05-016-2070-17-0004,Maine West High School,Maine Township HSD 207,Cook,High School,25.7
+2025,05-016-2030-17-0002,New Trier Township H S Northfield,New Trier Twp HSD 203,Cook,High School,3.2
+2025,05-016-2030-17-0001,New Trier Township H S Winnetka,New Trier Twp HSD 203,Cook,High School,4.9
+2025,05-016-2190-17-0002,Niles North High School,Niles Twp HSD 219,Cook,High School,30.2
+2025,05-016-2190-17-0003,Niles West High School,Niles Twp HSD 219,Cook,High School,29.1
+2025,07-016-2290-16-0001,Oak Lawn Comm High School,Oak Lawn CHSD 229,Cook,High School,63.3
+2025,06-016-2000-13-0001,Oak Park & River Forest High Sch,Oak Park - River Forest SD 200,Cook,High School,18.0
+2025,06-016-2090-17-0001,Proviso East High School,Proviso Twp HSD 209,Cook,High School,52.9
+2025,06-016-2090-17-0003,Proviso Math and Science Academy,Proviso Twp HSD 209,Cook,High School,53.5
+2025,06-016-2090-17-0002,Proviso West High School,Proviso Twp HSD 209,Cook,High School,52.5
+2025,07-016-2200-17-0001,Reavis High School,Reavis Twp HSD 220,Cook,High School,65.8
+2025,07-016-2270-17-0002,Rich Township High School,Rich Twp HSD 227,Cook,High School,42.7
+2025,06-016-2340-16-0001,Ridgewood Comm High School,Ridgewood CHSD 234,Cook,High School,24.4
+2025,06-016-2080-17-0001,Riverside Brookfield Twp HS,Riverside-Brookfield Twp SD 208,Cook,High School,12.5
+2025,07-016-9010-25-001C,Southland College Prep Charter High School,Southland College Prep Charter High School,Cook,High School,45.3
+2025,07-016-2150-17-0001,Thornton Fractnl No High School,Thornton Fractional Twp HSD 215,Cook,High School,79.7
+2025,07-016-2150-17-0002,Thornton Fractnl So High School,Thornton Fractional Twp HSD 215,Cook,High School,67.3
+2025,07-016-2050-17-0002,Thornridge High School,Thornton Twp HSD 205,Cook,High School,85.8
+2025,07-016-2050-17-0001,Thornton Township High School,Thornton Twp HSD 205,Cook,High School,87.4
+2025,07-016-2050-17-0003,Thornwood High School,Thornton Twp HSD 205,Cook,High School,72.4
+2025,05-016-2110-17-0006,Hoffman Estates High School,Township HSD 211,Cook,High School,52.5
+2025,05-016-2110-17-0001,J B Conant High School,Township HSD 211,Cook,High School,34.7
+2025,05-016-2110-17-0003,Palatine High School,Township HSD 211,Cook,High School,62.0
+2025,05-016-2110-17-0004,Schaumburg High School,Township HSD 211,Cook,High School,38.3
+2025,05-016-2110-17-0002,Wm Fremd High School,Township HSD 211,Cook,High School,22.2
+2025,05-016-2140-17-0008,Buffalo Grove High School,Township HSD 214,Cook,High School,24.5
+2025,05-016-2140-17-0002,Elk Grove High School,Township HSD 214,Cook,High School,38.4
+2025,05-016-2140-17-0004,John Hersey High School,Township HSD 214,Cook,High School,12.4
+2025,05-016-2140-17-0005,Prospect High School,Township HSD 214,Cook,High School,11.6
+2025,05-016-2140-17-0007,Rolling Meadows High School,Township HSD 214,Cook,High School,30.4
+2025,05-016-2140-17-0006,Wheeling High School,Township HSD 214,Cook,High School,47.0
