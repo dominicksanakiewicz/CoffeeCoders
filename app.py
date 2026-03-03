@@ -16,6 +16,7 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
+from scipy.stats import pearsonr
 
 # ── Paths ────────────────────────────────────────────────────────────
 ROOT = Path(__file__).resolve().parent
@@ -198,9 +199,15 @@ st.header("3. Real-World Scatter Trends")
 st.markdown(
     "Each plot shows the **raw 1-on-1 relationship** between the driver "
     "and the outcome, overlaid with a simple OLS trend line. "
-    "Points are coloured by **median household income quintile** "
-    "(Q1 = lowest → Q5 = highest)."
+    "Points are coloured by **median household income quintile**."
 )
+
+# Shared colour legend (rendered once, outside the charts)
+legend_items = "  ".join(
+    f'<span style="color:{c}; font-size:22px;">●</span> {q}'
+    for q, c in QUINTILE_COLORS.items()
+)
+st.markdown(f"<div style='text-align:center'>{legend_items}</div>", unsafe_allow_html=True)
 
 n_top = len(top5_features)
 cols_per_row = 3
@@ -222,10 +229,13 @@ for row_idx in range(rows_needed):
             x_arr = sub[feat].values.astype(float)
             y_arr = sub[target].values.astype(float)
 
-            # Univariate OLS trendline — clipped to [0, 100]
+            # Univariate OLS trendline — truncated at [0, 100] boundary
             slope, intercept_ols = np.polyfit(x_arr, y_arr, 1)
             x_line = np.linspace(x_arr.min(), x_arr.max(), 300)
-            y_line = np.clip(intercept_ols + slope * x_line, 0, 100)
+            y_raw = intercept_ols + slope * x_line
+            in_bounds = (y_raw >= 0) & (y_raw <= 100)
+            x_line = x_line[in_bounds]
+            y_line = y_raw[in_bounds]
 
             fig = go.Figure()
 
@@ -238,21 +248,16 @@ for row_idx in range(rows_needed):
                     x=sub.loc[mask, feat],
                     y=sub.loc[mask, target],
                     mode="markers",
-                    marker=dict(
-                        size=5,
-                        opacity=0.45,
-                        color=QUINTILE_COLORS[q_label],
-                    ),
+                    marker=dict(size=5, opacity=0.45, color=QUINTILE_COLORS[q_label]),
                     name=q_label,
-                    legendgroup=q_label,
-                    showlegend=(feat_idx == 0),  # legend only on first chart
+                    showlegend=False,
                 ))
 
-            # OLS trend line
+            # OLS trend line — bright white for dark mode, still visible on light
             fig.add_trace(go.Scatter(
                 x=x_line, y=y_line,
                 mode="lines",
-                line=dict(color="#222222", width=3),
+                line=dict(color="#FF4B4B", width=3),
                 name=f"OLS (slope={slope:+.3f})",
                 showlegend=False,
             ))
@@ -263,25 +268,62 @@ for row_idx in range(rows_needed):
                 yaxis_title=target_label,
                 yaxis_range=[0, 100],
                 height=340,
-                margin=dict(l=10, r=10, t=40, b=10),
-                legend=dict(
-                    orientation="h",
-                    yanchor="bottom", y=1.02,
-                    xanchor="left", x=0,
-                    font=dict(size=9),
-                ),
+                margin=dict(l=10, r=10, t=35, b=10),
             )
             st.plotly_chart(fig, use_container_width=True)
 
 st.caption(
-    "Trend lines are simple univariate OLS clipped to [0, 100]. "
-    "Points coloured by census-tract median household income quintile."
+    "Trend lines are simple univariate OLS, truncated where they "
+    "exit the [0, 100] range."
 )
 
 # ══════════════════════════════════════════════════════════════════════
-# SECTION 4 — What-If Simulator
+# SECTION 4 — Per-Variable Statistics Table
 # ══════════════════════════════════════════════════════════════════════
-st.header("4. What-If Scenario Simulator")
+st.header(f"4. Variable Statistics — {target_label}")
+st.markdown(
+    "Univariate relationship between each predictor and the selected outcome. "
+    "**Std. Coef** and **Raw Coef** come from the multivariate ElasticNet; "
+    "**Pearson r**, **R²**, and **Adj R²** are from simple 1-on-1 regressions."
+)
+
+stat_rows = []
+for c in all_coef_rows:
+    feat = c["feature"]
+    sc = c["coefficient_scaled"]
+    raw_c = c["coefficient_original_units"]
+    if sc == 0:
+        continue
+    sub = df[[feat, target]].dropna()
+    if len(sub) < 3:
+        continue
+    x_vals = sub[feat].values.astype(float)
+    y_vals = sub[target].values.astype(float)
+    corr, pval = pearsonr(x_vals, y_vals)
+    r2 = corr ** 2
+    n = len(sub)
+    adj_r2 = 1 - (1 - r2) * (n - 1) / (n - 2)
+    stat_rows.append({
+        "Variable": label(feat),
+        "Std. Coef": round(sc, 4),
+        "Raw Coef": round(raw_c, 4),
+        "Pearson r": round(corr, 3),
+        "R²": round(r2, 3),
+        "Adj R²": round(adj_r2, 3),
+        "p-value": f"{pval:.2e}" if pval < 0.001 else f"{pval:.4f}",
+        "n": n,
+    })
+
+if stat_rows:
+    st.dataframe(
+        pd.DataFrame(stat_rows).set_index("Variable"),
+        use_container_width=True,
+    )
+
+# ══════════════════════════════════════════════════════════════════════
+# SECTION 5 — What-If Simulator
+# ══════════════════════════════════════════════════════════════════════
+st.header("5. What-If Scenario Simulator")
 st.markdown(
     "Select a baseline school, then adjust the Top-5 drivers. "
     f"The linear model estimates how **{target_label}** would shift."
