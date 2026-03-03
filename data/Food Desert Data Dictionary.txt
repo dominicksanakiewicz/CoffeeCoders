@@ -1,0 +1,17 @@
+Food Desert Data Dictionary
+
+LILATracts_1And10: Number of low-income individuals living more than 1 mile (urban areas) or more than 10 miles (rural areas) from the nearest supermarket, supercenter, or large grocery store in a tract. Low income is defined as annual family income at or below 200 percent of the Federal poverty threshold for family size.
+
+LILATracts_halfAnd10:Number of low-income individuals living more than one-half mile (urban areas) or more than 10 miles (rural areas) from the nearest supermarket, supercenter, or large grocery store in a tract. Low income is defined as annual family income at or below 200 percent of the Federal poverty threshold for family size
+
+LILATracts_1And20:Number of low-income individuals living more than 1 mile (urban areas) or more than 20 miles (rural areas) from the nearest supermarket, supercenter, or large grocery store. Low income is defined as annual family income at or below 200 percent of the Federal poverty threshold for family size
+
+LILATracts_Vehicle:null
+
+LowIncomeTracts: A tract with either a poverty rate of 20 percent or more, or a median family income less than 80 percent of the State-wide median family income; or a tract in a metropolitan area with a median family income less than 80 percent of the surrounding metropolitan area median family income.
+
+LA1and10:  A tract with at least 500 people, or 33 percent of the population, living more than 1 mile (urban areas) or 10 miles (rural areas) from the nearest supermarket, supercenter, or large grocery store.
+LAhalfand10:A tract with at least 500 people, or 33 percent of the population, living more than one-half mile (urban areas) or 10 miles (rural areas) from the nearest supermarket, supercenter, or large grocery store.
+LA1and20:A tract with at least 500 people, or 33 percent of the population, living more than 1 mile (urban areas) or 20 miles (rural areas) from the nearest supermarket, supercenter, or large grocery store.
+
+Source: https://www.ers.usda.gov/data-products/food-access-research-atlas/documentation#definitions
