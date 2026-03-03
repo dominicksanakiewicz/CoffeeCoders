@@ -1,5 +1,5 @@
 """
-ElasticNet pipeline for Cook County High Schools
+ElasticNet pipeline for Cook County High Schools (update)
 =================================================
 Trains one ElasticNet model per y_ target column.
 Exports Top-5 features ranked by |standardized coefficient| to JSON
