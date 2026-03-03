@@ -87,6 +87,21 @@ st.set_page_config(
 )
 
 df, coefs = load_data()
+
+# ── Income quintiles (for scatter colour coding) ─────────────────────
+INCOME_COL = "x_tract_median_hh_income"
+df["income_quintile"] = pd.qcut(
+    df[INCOME_COL].rank(method="first"),   # rank first to handle ties
+    5,
+    labels=["Q1 (Lowest)", "Q2", "Q3", "Q4", "Q5 (Highest)"],
+)
+QUINTILE_COLORS = {
+    "Q1 (Lowest)":  "#d73027",   # red
+    "Q2":           "#fc8d59",   # orange
+    "Q3":           "#fee08b",   # yellow
+    "Q4":           "#91bfdb",   # light blue
+    "Q5 (Highest)": "#4575b4",   # dark blue
+}
 available_targets = [t for t in TARGET_LABELS if t in coefs]
 
 # ══════════════════════════════════════════════════════════════════════
@@ -177,12 +192,14 @@ for rank, feat in enumerate(top5_features, 1):
     )
 
 # ══════════════════════════════════════════════════════════════════════
-# SECTION 3 — Scatter Trends (univariate OLS)
+# SECTION 3 — Scatter Trends (univariate OLS, coloured by income Q)
 # ══════════════════════════════════════════════════════════════════════
 st.header("3. Real-World Scatter Trends")
 st.markdown(
     "Each plot shows the **raw 1-on-1 relationship** between the driver "
-    "and the outcome, overlaid with a simple OLS trend line."
+    "and the outcome, overlaid with a simple OLS trend line. "
+    "Points are coloured by **median household income quintile** "
+    "(Q1 = lowest → Q5 = highest)."
 )
 
 n_top = len(top5_features)
@@ -197,7 +214,7 @@ for row_idx in range(rows_needed):
             break
         feat = top5_features[feat_idx]
         with cols[col_idx]:
-            sub = df[[feat, target]].dropna()
+            sub = df[[feat, target, "income_quintile"]].dropna(subset=[feat, target])
             if sub.empty:
                 st.write(f"No data for {label(feat)}")
                 continue
@@ -205,37 +222,60 @@ for row_idx in range(rows_needed):
             x_arr = sub[feat].values.astype(float)
             y_arr = sub[target].values.astype(float)
 
-            # Univariate OLS trendline
-            slope, intercept = np.polyfit(x_arr, y_arr, 1)
-            x_line = np.linspace(x_arr.min(), x_arr.max(), 100)
-            y_line = intercept + slope * x_line
+            # Univariate OLS trendline — clipped to [0, 100]
+            slope, intercept_ols = np.polyfit(x_arr, y_arr, 1)
+            x_line = np.linspace(x_arr.min(), x_arr.max(), 300)
+            y_line = np.clip(intercept_ols + slope * x_line, 0, 100)
 
             fig = go.Figure()
-            fig.add_trace(go.Scatter(
-                x=x_arr, y=y_arr,
-                mode="markers",
-                marker=dict(size=5, opacity=0.35, color="#3498db"),
-                name="Observations",
-            ))
+
+            # Scatter points by income quintile
+            for q_label in ["Q1 (Lowest)", "Q2", "Q3", "Q4", "Q5 (Highest)"]:
+                mask = sub["income_quintile"] == q_label
+                if not mask.any():
+                    continue
+                fig.add_trace(go.Scatter(
+                    x=sub.loc[mask, feat],
+                    y=sub.loc[mask, target],
+                    mode="markers",
+                    marker=dict(
+                        size=5,
+                        opacity=0.45,
+                        color=QUINTILE_COLORS[q_label],
+                    ),
+                    name=q_label,
+                    legendgroup=q_label,
+                    showlegend=(feat_idx == 0),  # legend only on first chart
+                ))
+
+            # OLS trend line
             fig.add_trace(go.Scatter(
                 x=x_line, y=y_line,
                 mode="lines",
-                line=dict(color="#e74c3c", width=3),
+                line=dict(color="#222222", width=3),
                 name=f"OLS (slope={slope:+.3f})",
+                showlegend=False,
             ))
+
             fig.update_layout(
                 title=dict(text=label(feat), font=dict(size=13)),
                 xaxis_title=label(feat),
                 yaxis_title=target_label,
-                height=320,
+                yaxis_range=[0, 100],
+                height=340,
                 margin=dict(l=10, r=10, t=40, b=10),
-                showlegend=False,
+                legend=dict(
+                    orientation="h",
+                    yanchor="bottom", y=1.02,
+                    xanchor="left", x=0,
+                    font=dict(size=9),
+                ),
             )
             st.plotly_chart(fig, use_container_width=True)
 
 st.caption(
-    "Trend lines are simple univariate OLS — they show the raw "
-    "bivariate pattern immune to multivariate distortion."
+    "Trend lines are simple univariate OLS clipped to [0, 100]. "
+    "Points coloured by census-tract median household income quintile."
 )
 
 # ══════════════════════════════════════════════════════════════════════
