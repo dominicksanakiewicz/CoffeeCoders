@@ -275,16 +275,41 @@ Given the criteria, our options were either a lasso regression, ridge regression
 
 # Findings
 
+To conform with the page requirement we will interpret the most interesting of the significant findings from each of our dependent variables. Our dependent variables are ELA test scores and chronic absenteeism. 
+
+We can see that ELA scores have a positive strong relationship with AP coursework enrollment. There is an adjusted R-squared of 0.84 This suggests that schools with more students enrolled in AP classes have a higher level of ELA proficiency, this makes sense given that AP coursework is more rigorous. The graph below visualizes this relationship.
+
 ```{python}
 plot_scatter_with_ols(
     df=df,
-    x_col="total_n_hh",
+    x_col="x_ap_coursework",
     y_col="y_ela_prof",
-    x_label="Total Households (Tract)",
+    x_label="AP Coursework",
     y_label="Post-Test ELA Score",
-    title="Impact of Household Density on ELA Scores"
+    title="Impact of AP Coursework on ELA Scores"
 )
 ```
+
+We can also see that chronic absenteeism has a positive strong relationship with the number of students experiencing homelessness. There is an adjusted R squared of 0.71. Unfortunately this suggests that schools with a higher homeless population might struggle more in having their students graduate on time.The graph below visualizes this relationship. 
+
+For a more in depth look at our findings please look at our dashboard. The dashboard will allow you to predict the change in Y variables based on changes in our X variables. The link is: https://coffinatededu.streamlit.app/
+
+
+```{python}
+plot_scatter_with_ols(
+    df=df,
+    x_col="x_pct_homeless",
+    y_col="y_chronic_abs",
+    x_label="% Homeless Students",
+    y_label="Chronic Absenteeism (%)",
+    title="Impact of Homelessness on Absenteeism"
+)
+```
+
+Findings #49
+To conform with the page requirement we will interpret the most interesting of the significant findings from each of our dependent variables. Our dependent variables are math test scores and 4 year graduation rate. 
+
+We can see that math scores have a positive strong relationship with the number of households in a census tract.There is an adjusted R-squared of 0.64. This suggests that schools within denser neighborhoods have better math scores. This is likely the case since especially in Chicago, denser neighborhoods could be seen as more likely to live in. The graph below visualizes this relationship.
 
 ```{python}
 plot_scatter_with_ols(
@@ -297,24 +322,18 @@ plot_scatter_with_ols(
 )
 ```
 
+We can also see that the percentage of students on an IEP has a negative relationship with the graduation rate. There is an adjusted R squared of 0.87. This suggests that high schools with more students on an IEP experience lower graduation rates.The graph below visualizes this relationship. 
+
+For a more in depth look at our findings please look at our dashboard. The dashboard will allow you to predict the change in Y variables based on changes in our X variables. The link is: https://coffinatededu.streamlit.app/
+
 ```{python}
 plot_scatter_with_ols(
     df=df,
-    x_col="x_pct_homeless",
-    y_col="y_chronic_abs",
-    x_label="% Homeless Students",
-    y_label="Chronic Absenteeism (%)",
-    title="Impact of Homelessness on Absenteeism"
-)
-```
-```{python}
-plot_scatter_with_ols(
-    df=df,
-    x_col="x_ap_coursework",
-    y_col="y_ela_prof",
-    x_label="AP Coursework",
-    y_label="Post-Test ELA Score",
-    title="Impact of AP Coursework on ELA Scores"
+    x_col="x_pct_iep",
+    y_col="y_grad_4yr",
+    x_label="% IEP Students",
+    y_label="4 Year Graduation Rate",
+    title="Impact of IEP on Graduation Rate"
 )
 ```
 
