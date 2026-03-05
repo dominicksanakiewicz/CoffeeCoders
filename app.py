@@ -118,7 +118,7 @@ def label(feat: str) -> str:
 
 
 # ── Data loading (cached) ───────────────────────────────────────────
-@st.cache_data
+@st.cache_data(ttl="1h")
 def load_data():
     df = pd.read_csv(DATA_PATH)
     with open(COEF_PATH) as f:
