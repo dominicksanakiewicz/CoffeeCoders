@@ -1,0 +1,534 @@
+{
+  "y_chronic_abs": {
+    "intercept": 45.79711168164312,
+    "train_mse": 139.42818737495975,
+    "test_mse": 135.03187913437907,
+    "r2_test": 0.7753864934691065,
+    "best_alpha": 0.040949150623804234,
+    "best_l1_ratio": 0.8,
+    "scaler_mean": {
+      "x_ap_coursework": 232.1553273427471,
+      "x_attendance_rate": 85.19582798459564,
+      "x_dropout_rate": 5.627150192554557,
+      "x_enrollment_x": 1060.4281129653402,
+      "x_enrollment_y": 1060.4281129653402,
+      "x_mobility_rate": 18.071566110397942,
+      "x_pct_asian": 4.797753530166881,
+      "x_pct_black": 42.16720154043646,
+      "x_pct_el": 13.41694480102696,
+      "x_pct_hispanic": 41.215982028241335,
+      "x_pct_homeless": 7.539858793324775,
+      "x_pct_iep": 15.8905648267009,
+      "x_pct_low_income": 72.0413350449294,
+      "x_pct_white": 17.995763799743262,
+      "x_suspension_rate": 7.005519897304237,
+      "x_teacher_attendance": 63.78363286264441,
+      "x_teacher_retention": 81.47105263157894
+    },
+    "scaler_scale": {
+      "x_ap_coursework": 325.7422120487105,
+      "x_attendance_rate": 10.417737012829857,
+      "x_dropout_rate": 9.892260481010839,
+      "x_enrollment_x": 889.4790305177758,
+      "x_enrollment_y": 889.4790305177758,
+      "x_mobility_rate": 22.49650451208626,
+      "x_pct_asian": 6.191735461194158,
+      "x_pct_black": 37.78867773492805,
+      "x_pct_el": 12.634782783264026,
+      "x_pct_hispanic": 30.04761916079253,
+      "x_pct_homeless": 10.055781352999965,
+      "x_pct_iep": 7.073545033942285,
+      "x_pct_low_income": 27.788246123278434,
+      "x_pct_white": 21.198056987659037,
+      "x_suspension_rate": 10.70023791707237,
+      "x_teacher_attendance": 15.675753900790541,
+      "x_teacher_retention": 20.159686390780905
+    },
+    "coefficients": [
+      {
+        "feature": "x_attendance_rate",
+        "coefficient_scaled": -17.689866099966856,
+        "coefficient_original_units": -1.6980526651979295
+      },
+      {
+        "feature": "x_pct_low_income",
+        "coefficient_scaled": 4.66574698732694,
+        "coefficient_original_units": 0.16790361531375694
+      },
+      {
+        "feature": "x_pct_white",
+        "coefficient_scaled": -3.3618967483931033,
+        "coefficient_original_units": -0.15859457073590816
+      },
+      {
+        "feature": "x_pct_homeless",
+        "coefficient_scaled": 2.550069170079524,
+        "coefficient_original_units": 0.2535923445987373
+      },
+      {
+        "feature": "x_mobility_rate",
+        "coefficient_scaled": 2.3197608795433213,
+        "coefficient_original_units": 0.10311650320150974
+      },
+      {
+        "feature": "x_pct_hispanic",
+        "coefficient_scaled": -2.304385696654628,
+        "coefficient_original_units": -0.07669112432247188
+      },
+      {
+        "feature": "x_teacher_attendance",
+        "coefficient_scaled": -2.0741021754269093,
+        "coefficient_original_units": -0.1323127543691733
+      },
+      {
+        "feature": "x_dropout_rate",
+        "coefficient_scaled": -1.957655180792862,
+        "coefficient_original_units": -0.19789765792669659
+      },
+      {
+        "feature": "x_pct_el",
+        "coefficient_scaled": 1.534739080443949,
+        "coefficient_original_units": 0.12146936807468167
+      },
+      {
+        "feature": "x_ap_coursework",
+        "coefficient_scaled": 1.5004707350177853,
+        "coefficient_original_units": 0.004606313457444716
+      },
+      {
+        "feature": "x_pct_iep",
+        "coefficient_scaled": 1.483228573001235,
+        "coefficient_original_units": 0.20968673640783905
+      },
+      {
+        "feature": "x_teacher_retention",
+        "coefficient_scaled": 0.8949075026281055,
+        "coefficient_original_units": 0.044390943652642824
+      },
+      {
+        "feature": "x_enrollment_x",
+        "coefficient_scaled": -0.46478440555056644,
+        "coefficient_original_units": -0.0005225355400228043
+      },
+      {
+        "feature": "x_pct_asian",
+        "coefficient_scaled": -0.34177193728539357,
+        "coefficient_original_units": -0.05519808451562599
+      },
+      {
+        "feature": "x_enrollment_y",
+        "coefficient_scaled": -0.255272266975035,
+        "coefficient_original_units": -0.0002869907645000222
+      },
+      {
+        "feature": "x_pct_black",
+        "coefficient_scaled": 0.17229525868597978,
+        "coefficient_original_units": 0.00455944131981965
+      },
+      {
+        "feature": "x_suspension_rate",
+        "coefficient_scaled": -0.13728078483798506,
+        "coefficient_original_units": -0.01282969462005623
+      }
+    ]
+  },
+  "y_ela_prof": {
+    "intercept": 23.02216088328076,
+    "train_mse": 148.42446397734778,
+    "test_mse": 205.2028789483268,
+    "r2_test": 0.675105272455677,
+    "best_alpha": 0.3906939937054613,
+    "best_l1_ratio": 0.8,
+    "scaler_mean": {
+      "x_ap_coursework": 272.13485804416405,
+      "x_attendance_rate": 85.80843848580442,
+      "x_dropout_rate": 4.536750788643533,
+      "x_enrollment_x": 1159.5528391167193,
+      "x_enrollment_y": 1159.5528391167193,
+      "x_mobility_rate": 15.07981072555205,
+      "x_pct_asian": 4.597318611987381,
+      "x_pct_black": 40.82192429022082,
+      "x_pct_el": 12.666482649842273,
+      "x_pct_hispanic": 41.96372239747633,
+      "x_pct_homeless": 6.1761829652996845,
+      "x_pct_iep": 15.187145110410095,
+      "x_pct_low_income": 70.46080441640378,
+      "x_pct_white": 17.934936908517347,
+      "x_suspension_rate": 7.1999211356466875,
+      "x_teacher_attendance": 64.52082018927445,
+      "x_teacher_retention": 82.93430599369084
+    },
+    "scaler_scale": {
+      "x_ap_coursework": 316.7133215193497,
+      "x_attendance_rate": 9.37063083081132,
+      "x_dropout_rate": 8.966174052503467,
+      "x_enrollment_x": 912.9547600487798,
+      "x_enrollment_y": 912.9547600487798,
+      "x_mobility_rate": 18.662195105269383,
+      "x_pct_asian": 6.680114971153112,
+      "x_pct_black": 36.92084903490155,
+      "x_pct_el": 11.71979793569345,
+      "x_pct_hispanic": 29.485692023306555,
+      "x_pct_homeless": 8.312674216079632,
+      "x_pct_iep": 6.651002655923444,
+      "x_pct_low_income": 28.198097430890606,
+      "x_pct_white": 20.687605104614544,
+      "x_suspension_rate": 9.919794679941875,
+      "x_teacher_attendance": 15.247113041806436,
+      "x_teacher_retention": 19.070993005160947
+    },
+    "coefficients": [
+      {
+        "feature": "x_pct_low_income",
+        "coefficient_scaled": -5.291498030944649,
+        "coefficient_original_units": -0.18765443462678053
+      },
+      {
+        "feature": "x_pct_iep",
+        "coefficient_scaled": -4.0608468643791555,
+        "coefficient_original_units": -0.6105616061906889
+      },
+      {
+        "feature": "x_ap_coursework",
+        "coefficient_scaled": 3.4097480633279713,
+        "coefficient_original_units": 0.010766039290581756
+      },
+      {
+        "feature": "x_pct_white",
+        "coefficient_scaled": 3.0380592996212656,
+        "coefficient_original_units": 0.14685408408842843
+      },
+      {
+        "feature": "x_pct_asian",
+        "coefficient_scaled": 2.2551308602585456,
+        "coefficient_original_units": 0.33758862983600235
+      },
+      {
+        "feature": "x_pct_black",
+        "coefficient_scaled": -2.068056658486532,
+        "coefficient_original_units": -0.05601324759708485
+      },
+      {
+        "feature": "x_pct_el",
+        "coefficient_scaled": -1.8244384633716053,
+        "coefficient_original_units": -0.15567149479729106
+      },
+      {
+        "feature": "x_attendance_rate",
+        "coefficient_scaled": 1.7769726262317893,
+        "coefficient_original_units": 0.1896321238468784
+      },
+      {
+        "feature": "x_mobility_rate",
+        "coefficient_scaled": -1.670416299655817,
+        "coefficient_original_units": -0.08950802894479251
+      },
+      {
+        "feature": "x_suspension_rate",
+        "coefficient_scaled": -1.0104957271366686,
+        "coefficient_original_units": -0.1018665970153517
+      },
+      {
+        "feature": "x_enrollment_x",
+        "coefficient_scaled": 0.0,
+        "coefficient_original_units": 0.0
+      },
+      {
+        "feature": "x_enrollment_y",
+        "coefficient_scaled": 0.0,
+        "coefficient_original_units": 0.0
+      },
+      {
+        "feature": "x_dropout_rate",
+        "coefficient_scaled": -0.0,
+        "coefficient_original_units": -0.0
+      },
+      {
+        "feature": "x_pct_hispanic",
+        "coefficient_scaled": -0.0,
+        "coefficient_original_units": -0.0
+      },
+      {
+        "feature": "x_pct_homeless",
+        "coefficient_scaled": -0.0,
+        "coefficient_original_units": -0.0
+      },
+      {
+        "feature": "x_teacher_attendance",
+        "coefficient_scaled": -0.0,
+        "coefficient_original_units": -0.0
+      },
+      {
+        "feature": "x_teacher_retention",
+        "coefficient_scaled": 0.0,
+        "coefficient_original_units": 0.0
+      }
+    ]
+  },
+  "y_grad_4yr": {
+    "intercept": 80.73720626631854,
+    "train_mse": 102.72520040349006,
+    "test_mse": 79.06653299850824,
+    "r2_test": 0.7492831954096701,
+    "best_alpha": 0.10481131341546852,
+    "best_l1_ratio": 0.1,
+    "scaler_mean": {
+      "x_ap_coursework": 225.43994778067886,
+      "x_attendance_rate": 85.07604438642299,
+      "x_dropout_rate": 5.579699738903394,
+      "x_enrollment_x": 1045.4503916449087,
+      "x_enrollment_y": 1045.4503916449087,
+      "x_mobility_rate": 17.825,
+      "x_pct_asian": 4.6994125326370755,
+      "x_pct_black": 41.613772845953,
+      "x_pct_el": 14.046605744125328,
+      "x_pct_hispanic": 43.740339425587464,
+      "x_pct_homeless": 7.477676240208877,
+      "x_pct_iep": 15.818407310704961,
+      "x_pct_low_income": 73.32878590078329,
+      "x_pct_white": 16.50985639686684,
+      "x_suspension_rate": 6.80065274151436,
+      "x_teacher_attendance": 63.4270234986945,
+      "x_teacher_retention": 80.57787206266318
+    },
+    "scaler_scale": {
+      "x_ap_coursework": 324.98679173320517,
+      "x_attendance_rate": 10.029446554583226,
+      "x_dropout_rate": 9.796944249102678,
+      "x_enrollment_x": 886.6899426110137,
+      "x_enrollment_y": 886.6899426110137,
+      "x_mobility_rate": 21.900644870806435,
+      "x_pct_asian": 6.067086303029395,
+      "x_pct_black": 36.97827708405381,
+      "x_pct_el": 12.854966031242776,
+      "x_pct_hispanic": 29.651449172087606,
+      "x_pct_homeless": 9.818436477425367,
+      "x_pct_iep": 7.113302587655729,
+      "x_pct_low_income": 26.55525891062933,
+      "x_pct_white": 18.676269502717208,
+      "x_suspension_rate": 10.241142111162718,
+      "x_teacher_attendance": 15.404272453084154,
+      "x_teacher_retention": 20.82464271088105
+    },
+    "coefficients": [
+      {
+        "feature": "x_mobility_rate",
+        "coefficient_scaled": -6.05638404018285,
+        "coefficient_original_units": -0.2765390734341349
+      },
+      {
+        "feature": "x_dropout_rate",
+        "coefficient_scaled": -5.521055179345592,
+        "coefficient_original_units": -0.5635486983455353
+      },
+      {
+        "feature": "x_attendance_rate",
+        "coefficient_scaled": 2.705088584730431,
+        "coefficient_original_units": 0.26971464178093335
+      },
+      {
+        "feature": "x_suspension_rate",
+        "coefficient_scaled": -1.904930639762112,
+        "coefficient_original_units": -0.18600763655898897
+      },
+      {
+        "feature": "x_pct_iep",
+        "coefficient_scaled": -1.8082391930509583,
+        "coefficient_original_units": -0.2542052964524435
+      },
+      {
+        "feature": "x_pct_el",
+        "coefficient_scaled": -1.6171919451620362,
+        "coefficient_original_units": -0.12580289525710178
+      },
+      {
+        "feature": "x_pct_low_income",
+        "coefficient_scaled": -1.1935570949926697,
+        "coefficient_original_units": -0.044946166746464
+      },
+      {
+        "feature": "x_pct_homeless",
+        "coefficient_scaled": -1.1460110277879638,
+        "coefficient_original_units": -0.11672031798778575
+      },
+      {
+        "feature": "x_teacher_retention",
+        "coefficient_scaled": -1.0896516621276804,
+        "coefficient_original_units": -0.052325107194195856
+      },
+      {
+        "feature": "x_ap_coursework",
+        "coefficient_scaled": 0.9345730727612963,
+        "coefficient_original_units": 0.002875726326528757
+      },
+      {
+        "feature": "x_enrollment_x",
+        "coefficient_scaled": -0.6335985822230445,
+        "coefficient_original_units": -0.0007145661090474339
+      },
+      {
+        "feature": "x_enrollment_y",
+        "coefficient_scaled": -0.6286011287073138,
+        "coefficient_original_units": -0.0007089300312308582
+      },
+      {
+        "feature": "x_pct_black",
+        "coefficient_scaled": 0.5322588066268503,
+        "coefficient_original_units": 0.014393823850067287
+      },
+      {
+        "feature": "x_pct_white",
+        "coefficient_scaled": 0.4280245041992746,
+        "coefficient_original_units": 0.022918094223099608
+      },
+      {
+        "feature": "x_teacher_attendance",
+        "coefficient_scaled": -0.293295602162954,
+        "coefficient_original_units": -0.019039886697422837
+      },
+      {
+        "feature": "x_pct_hispanic",
+        "coefficient_scaled": -0.28473037644472277,
+        "coefficient_original_units": -0.009602578774219026
+      },
+      {
+        "feature": "x_pct_asian",
+        "coefficient_scaled": 0.14525922971562813,
+        "coefficient_original_units": 0.023942172974051452
+      }
+    ]
+  },
+  "y_math_prof": {
+    "intercept": 19.72374392220421,
+    "train_mse": 124.98361408145111,
+    "test_mse": 202.36396037698404,
+    "r2_test": 0.6384417330052636,
+    "best_alpha": 0.033932217718953266,
+    "best_l1_ratio": 0.1,
+    "scaler_mean": {
+      "x_ap_coursework": 305.2674230145867,
+      "x_attendance_rate": 86.02666126418151,
+      "x_dropout_rate": 4.61191247974068,
+      "x_enrollment_x": 1204.3249594813615,
+      "x_enrollment_y": 1204.3249594813615,
+      "x_mobility_rate": 15.362560777957862,
+      "x_pct_asian": 5.13905996758509,
+      "x_pct_black": 40.693841166936785,
+      "x_pct_el": 12.367828200972447,
+      "x_pct_hispanic": 39.561993517017825,
+      "x_pct_homeless": 6.441572123176661,
+      "x_pct_iep": 15.529173419773096,
+      "x_pct_low_income": 69.16515397082658,
+      "x_pct_white": 20.366126418152348,
+      "x_suspension_rate": 6.742868719611022,
+      "x_teacher_attendance": 65.65964343598056,
+      "x_teacher_retention": 82.77123176661266
+    },
+    "scaler_scale": {
+      "x_ap_coursework": 321.0751384494167,
+      "x_attendance_rate": 9.492173387984414,
+      "x_dropout_rate": 9.00775889605485,
+      "x_enrollment_x": 935.4709379573272,
+      "x_enrollment_y": 935.4709379573272,
+      "x_mobility_rate": 19.105126941534323,
+      "x_pct_asian": 6.523083143962596,
+      "x_pct_black": 37.267096227884494,
+      "x_pct_el": 11.597126760195431,
+      "x_pct_hispanic": 29.02823148685457,
+      "x_pct_homeless": 9.25858388125794,
+      "x_pct_iep": 6.883557426940697,
+      "x_pct_low_income": 28.542349064683933,
+      "x_pct_white": 21.389990768876185,
+      "x_suspension_rate": 9.44878445891316,
+      "x_teacher_attendance": 15.325347649759536,
+      "x_teacher_retention": 19.49031652362313
+    },
+    "coefficients": [
+      {
+        "feature": "x_pct_el",
+        "coefficient_scaled": -5.191323668656094,
+        "coefficient_original_units": -0.4476387795013298
+      },
+      {
+        "feature": "x_pct_black",
+        "coefficient_scaled": -5.098676999436373,
+        "coefficient_original_units": -0.13681444264555745
+      },
+      {
+        "feature": "x_pct_asian",
+        "coefficient_scaled": 4.650424812769401,
+        "coefficient_original_units": 0.7129182182927679
+      },
+      {
+        "feature": "x_ap_coursework",
+        "coefficient_scaled": 3.8742891452747408,
+        "coefficient_original_units": 0.012066612083342945
+      },
+      {
+        "feature": "x_pct_low_income",
+        "coefficient_scaled": -3.2076916094966967,
+        "coefficient_original_units": -0.11238358840848328
+      },
+      {
+        "feature": "x_pct_white",
+        "coefficient_scaled": 3.028675669522503,
+        "coefficient_original_units": 0.14159312653511852
+      },
+      {
+        "feature": "x_pct_iep",
+        "coefficient_scaled": -2.834994988753786,
+        "coefficient_original_units": -0.4118502705676941
+      },
+      {
+        "feature": "x_mobility_rate",
+        "coefficient_scaled": -2.16974807871506,
+        "coefficient_original_units": -0.11356889097648722
+      },
+      {
+        "feature": "x_attendance_rate",
+        "coefficient_scaled": 1.8212471006896385,
+        "coefficient_original_units": 0.1918682925656466
+      },
+      {
+        "feature": "x_suspension_rate",
+        "coefficient_scaled": -0.8813984294750162,
+        "coefficient_original_units": -0.09328167377588784
+      },
+      {
+        "feature": "x_dropout_rate",
+        "coefficient_scaled": 0.7592120993775895,
+        "coefficient_original_units": 0.08428423852575621
+      },
+      {
+        "feature": "x_pct_homeless",
+        "coefficient_scaled": 0.6501342026050436,
+        "coefficient_original_units": 0.07021961575798907
+      },
+      {
+        "feature": "x_enrollment_x",
+        "coefficient_scaled": -0.5687857930508419,
+        "coefficient_original_units": -0.0006080208053206114
+      },
+      {
+        "feature": "x_enrollment_y",
+        "coefficient_scaled": -0.5534903689300688,
+        "coefficient_original_units": -0.0005916702983191093
+      },
+      {
+        "feature": "x_teacher_attendance",
+        "coefficient_scaled": -0.41737297773033843,
+        "coefficient_original_units": -0.0272341605077316
+      },
+      {
+        "feature": "x_pct_hispanic",
+        "coefficient_scaled": 0.3737133223225553,
+        "coefficient_original_units": 0.012874133324029447
+      },
+      {
+        "feature": "x_teacher_retention",
+        "coefficient_scaled": 0.11309443601626626,
+        "coefficient_original_units": 0.005802596170215645
+      }
+    ]
+  }
+}
