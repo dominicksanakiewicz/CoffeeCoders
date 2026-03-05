@@ -137,6 +137,12 @@ df, coefs = load_data()
 
 # ── Income quintiles (for scatter colour coding) ─────────────────────
 INCOME_COL = "x_median_hh_income"
+if INCOME_COL not in df.columns:
+    st.error(
+        f"Column '{INCOME_COL}' not found in data. "
+        f"Available columns: {sorted(df.columns.tolist())}"
+    )
+    st.stop()
 df["income_quintile"] = pd.qcut(
     df[INCOME_COL].rank(method="first"),   # rank first to handle ties
     5,
