@@ -62,7 +62,15 @@ academic.columns
 academic_seg = pd.merge(academic, seg, left_on=['school_name', 'year'], right_on=['school', 'year'], how='left')
 
 demo_aca = pd.merge(demographic, academic_seg, left_on = 'RCDTS', right_on ='school_id', how='outer')
-school_loc_unique = school_loc.drop_duplicates(subset='NAME')
+
+# Fix: fill missing School Name with school_name from academic data
+# Schools only in academic (not in demo) would otherwise have School Name = NaN,
+# causing all downstream location/tract matching to fail
+demo_aca['School Name'] = demo_aca['School Name'].fillna(demo_aca['school_name'])
+demo_aca['School Name'] = demo_aca['School Name'].str.strip()
+
+school_loc_unique = school_loc.drop_duplicates(subset='NAME').copy()
+school_loc_unique['NAME'] = school_loc_unique['NAME'].str.strip()
 
 merge_schools = pd.merge(demo_aca, school_loc_unique, left_on='School Name', right_on='NAME', how='left')
 
@@ -163,19 +171,33 @@ merged = merged.merge(income_drop, on=["TRACTID", "year"], how="left")
 merged = merged.merge(desert_drop, on="TRACTID", how="left")
 merged = merged.merge(transport_drop, on="TRACTID", how="left")
 
-merged_clean = merged.drop(columns=['TRACTID', 'TRACTLABEL', 'index_left', 
-                                    'RCDTS', 'school_id', 'geometry', 
-                                    'LAT', 'LON', 'OBJECTID','CensusTract', 'GEOID', 
-                                    'TRACTLABEL','RCDTS', 'school_id', 'school_name', 
-                                    'NCESSCH', 'LEAID', 'NAME', 'OPSTFIPS', 'STREET', 'CITY', 
+merged_clean = merged.drop(columns=['TRACTID', 'TRACTLABEL', 'index_left',
+                                    'RCDTS', 'school_id', 'geometry',
+                                    'LAT', 'LON', 'OBJECTID', 'CensusTract', 'GEOID',
+                                    'school_name', 'school',
+                                    'NCESSCH', 'LEAID', 'NAME', 'OPSTFIPS', 'STREET', 'CITY',
                                     'STATE', 'ZIP', 'STFIP', 'CNTY', 'NMCNTY', 'LOCALE',
-                                    'CBSA', 'NMCBSA', 'CBSATYPE', 'CSA', 
-                                    'NMCSA', 'NECTA', 'NMNECTA', 'CD', 'SLDL', 'SLDU', 
-                                    'SCHOOLYEAR', 'State','County'])
-merged_clean.head(10)
-len(merged)
-merged_clean.columns
-merged_test = merged_clean.groupby('year')['x_enrollment'].sum().reset_index()
-merged_test
+                                    'CBSA', 'NMCBSA', 'CBSATYPE', 'CSA',
+                                    'NMCSA', 'NECTA', 'NMNECTA', 'CD', 'SLDL', 'SLDU',
+                                    'SCHOOLYEAR', 'State', 'County'], errors='ignore')
+# Clean string fields: strip whitespace and normalize school_type
+for col in ['School Name', 'district', 'county', 'grades_served']:
+    if col in merged_clean.columns:
+        merged_clean[col] = merged_clean[col].str.strip()
 
-merged_clean.to_csv('final_merged.csv')
+merged_clean['school_type'] = merged_clean['school_type'].str.strip().str.upper()
+
+# Normalize grades_served: "9 10 11 12" -> "9 - 12", "K 1 2 ... 12" -> "K - 12"
+def normalize_grades(val):
+    if pd.isna(val):
+        return val
+    parts = val.split()
+    if '-' in parts:
+        return f'Grade {parts[0]} - {parts[-1]}'
+    if len(parts) >= 2:
+        return f'Grade {parts[0]} - {parts[-1]}'
+    return f'Grade {val}'
+
+merged_clean['grades_served'] = merged_clean['grades_served'].apply(normalize_grades)
+
+merged_clean.to_csv('final_merged.csv', index=False)
