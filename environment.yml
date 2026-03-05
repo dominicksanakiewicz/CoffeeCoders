@@ -1,0 +1,22 @@
+name: cook_county_school_analysis
+channels:
+  - conda-forge
+dependencies:
+- geopandas
+- pandas 
+- os
+- matplotlib
+- shapely
+- contextily 
+- csv
+- numpy
+- geopy
+- time
+- requests
+- datetime
+- streamlit 
+- json
+- pathlib
+- plotly
+- scipy
+
