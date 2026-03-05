@@ -19,22 +19,9 @@ academic = pd.read_csv(os.path.join(DATA,"panel_yx_highschools_base_new.csv"))
 cook = gpd.read_file(os.path.join(DATA,'cook_county/PVS_25_v2_tracts2020_17031.shp'))
 income = pd.read_csv(os.path.join(DATA,'cook_tract_income_v7_2016_2024.csv'))
 desert = pd.read_csv(os.path.join(DATA,'cook_food_access_2019.csv'))
+seg = pd.read_csv(os.path.join(DATA,'school_segregation_all_final.csv'))
 
 school_loc = gpd.read_file(os.path.join(DATA,'Public_School_Locations_2021-22.geojson'))
-# path = "C:/Users/amand/student30538-w26/CoffeeCoders/data"
-# os.chdir(path)
-
-# demo = pd.read_csv("cook_county_high_school_demographics.csv")
-# transport = pd.read_csv("CTA_-_Bus_Routes_20260129.csv")
-# grocery = gpd.read_file('grocery_store_shapefile_v0/grocery_stores.shp')
-
-# academic = pd.read_csv("panel_yx_highschools_base_new.csv")
-# cook = gpd.read_file('cook_county/PVS_25_v2_tracts2020_17031.shp')
-# income = pd.read_csv('cook_tract_income_v7_2016_2024.csv')
-# desert = pd.read_csv('cook_food_access_2019.csv')
-
-# school_loc = gpd.read_file('Public_School_Locations_2021-22.geojson')
-
 
 ###########################################################################
 # Clean census level data, keeping only columns with less than 50% NAs
@@ -56,31 +43,37 @@ income['GEOID'] = income['GEOID'].astype(int)
 cook_income = pd.merge(cook_clean, income, left_on='TRACTID', right_on='GEOID', how='right')
 cook_income = cook_income[cook_income['TRACTID'].notna()]
 
-income.columns
-na_counts = cook_income.isna().sum()
-na_counts
-len(income)
-len(cook_clean)
-rows_with_na = cook_income[cook_income.isna().any(axis=1)]
-rows_with_na
+# income.columns
+# na_counts = cook_income.isna().sum()
+# na_counts
+# len(income)
+# len(cook_clean)
+# rows_with_na = cook_income[cook_income.isna().any(axis=1)]
+# rows_with_na
 
-# cook_clean['TRACTID'] = cook_clean['TRACTID'].str.strip()
-# income['GEOID'] = income['GEOID'].str.strip()
-
-# test= cook_clean[cook_clean['TRACTID'] == '17031806003']
-# test
-# income.head()
 
 ###########################################################################
 demo = demo.replace("*", np.nan)
 demographic = demo.loc[:, demo.isna().mean() <= 0.5]
 demographic = demographic[demographic['County']=='Cook']
 demographic = demographic[['RCDTS', 'School Name']]
-demo_aca = pd.merge(demographic, academic, left_on = 'RCDTS', right_on ='school_id', how='outer')
-school_loc_unique = school_loc.drop_duplicates(subset='NAME')
+
+academic.columns
+academic_seg = pd.merge(academic, seg, left_on=['school_name', 'year'], right_on=['school', 'year'], how='left')
+
+demo_aca = pd.merge(demographic, academic_seg, left_on = 'RCDTS', right_on ='school_id', how='outer')
+
+# Fix: fill missing School Name with school_name from academic data
+# Schools only in academic (not in demo) would otherwise have School Name = NaN,
+# causing all downstream location/tract matching to fail
+demo_aca['School Name'] = demo_aca['School Name'].fillna(demo_aca['school_name'])
+demo_aca['School Name'] = demo_aca['School Name'].str.strip()
+
+school_loc_unique = school_loc.drop_duplicates(subset='NAME').copy()
+school_loc_unique['NAME'] = school_loc_unique['NAME'].str.strip()
 
 merge_schools = pd.merge(demo_aca, school_loc_unique, left_on='School Name', right_on='NAME', how='left')
-merge_schools.to_csv('merge_test_aca.csv')
+
 ###########################################################################
 
 missing_schools = [
@@ -178,16 +171,33 @@ merged = merged.merge(income_drop, on=["TRACTID", "year"], how="left")
 merged = merged.merge(desert_drop, on="TRACTID", how="left")
 merged = merged.merge(transport_drop, on="TRACTID", how="left")
 
-merged_clean = merged.drop(columns=['TRACTID', 'TRACTLABEL', 'index_left', 
-                                    'RCDTS', 'school_id', 'geometry', 
-                                    'LAT', 'LON', 'OBJECTID','CensusTract', 'GEOID', 
-                                    'TRACTLABEL','RCDTS', 'school_id', 'school_name', 'district', 
-                                    'county', 'school_type', 'grades_served',
-                                    'NCESSCH', 'LEAID', 'NAME', 'OPSTFIPS', 'STREET', 'CITY', 
+merged_clean = merged.drop(columns=['TRACTID', 'TRACTLABEL', 'index_left',
+                                    'RCDTS', 'school_id', 'geometry',
+                                    'LAT', 'LON', 'OBJECTID', 'CensusTract', 'GEOID',
+                                    'school_name', 'school',
+                                    'NCESSCH', 'LEAID', 'NAME', 'OPSTFIPS', 'STREET', 'CITY',
                                     'STATE', 'ZIP', 'STFIP', 'CNTY', 'NMCNTY', 'LOCALE',
-                                    'CBSA', 'NMCBSA', 'CBSATYPE', 'CSA', 
-                                    'NMCSA', 'NECTA', 'NMNECTA', 'CD', 'SLDL', 'SLDU', 
-                                    'SCHOOLYEAR', 'State','County'])
-merged_clean.head()
+                                    'CBSA', 'NMCBSA', 'CBSATYPE', 'CSA',
+                                    'NMCSA', 'NECTA', 'NMNECTA', 'CD', 'SLDL', 'SLDU',
+                                    'SCHOOLYEAR', 'State', 'County'], errors='ignore')
+# Clean string fields: strip whitespace and normalize school_type
+for col in ['School Name', 'district', 'county', 'grades_served']:
+    if col in merged_clean.columns:
+        merged_clean[col] = merged_clean[col].str.strip()
 
-merged_clean.to_csv('final_merged.csv')
+merged_clean['school_type'] = merged_clean['school_type'].str.strip().str.upper()
+
+# Normalize grades_served: "9 10 11 12" -> "9 - 12", "K 1 2 ... 12" -> "K - 12"
+def normalize_grades(val):
+    if pd.isna(val):
+        return val
+    parts = val.split()
+    if '-' in parts:
+        return f'Grade {parts[0]} - {parts[-1]}'
+    if len(parts) >= 2:
+        return f'Grade {parts[0]} - {parts[-1]}'
+    return f'Grade {val}'
+
+merged_clean['grades_served'] = merged_clean['grades_served'].apply(normalize_grades)
+
+merged_clean.to_csv('final_merged.csv', index=False)
