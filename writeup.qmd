@@ -2,8 +2,6 @@
 title: "Write-Up"
 format: html
 ---
-
-
 ```{python}
 import geopandas as gpd
 import pandas as pd
@@ -53,7 +51,6 @@ cook_income = cook_income[cook_income['TRACTID'].notna()]
 
 ```{python}
 school_loc = school_loc[school_loc['STATE']=='IL']
-school_loc
 ```
 ```{python}
 
@@ -94,8 +91,6 @@ merge_schools_geo = gpd.GeoDataFrame(
 merge_schools_geo = merge_schools_geo.to_crs(epsg=3857)
 merge_schools_geo = merge_schools_geo.to_crs(cook_clean.crs)
 
-
-
 ```
 
 ```{python}
@@ -107,23 +102,6 @@ gdf_transport = gpd.GeoDataFrame(
     crs="EPSG:4326"
 )
 gdf_transport_3857 = gdf_transport.to_crs(epsg=3857)
-```
-
-```{python}
-merge_schools_geo.crs
-cook_income.crs
-```
-```{python}
-fig, ax = plt.subplots(figsize=(10, 10))
-merge_schools_geo.plot(
-    ax=ax,
-    color="red",
-    markersize=20,
-    alpha=0.7,
-    label="schools",
-)
-ax.set(title='test')
-
 ```
 
 ```{python}
@@ -272,9 +250,6 @@ def plot_scatter_with_ols(
 ```
 
 ```{python}
-df.columns
-```
-```{python}
 plot_scatter_with_ols(
     df=df,
     x_col="x_ap_coursework",
@@ -284,3 +259,114 @@ plot_scatter_with_ols(
     title="AP Coursework & ELA Scores"
 )
 ```
+
+# Motivating question
+Our project aimed to explore what publicly available data can best explain the variance in education outcomes in Cook County? Cook County presents an interesting case study since it captures a vast range of incomes, education outcomes, and food security statuses. 
+
+Figure one shows a map of Cook County. The gradient denotes the variety in incomes, with the darker colors signifying wealthier census tracts. The red dots are all of the public high schools in Chicago. Public transit is represented by the green lines on the map. We can see that the wealthiest census tracts are concentrated in both the north sides of Chicago, and Cook County. Naturally, the concentration of high schools is denser in the city of Chicago since the majority of Cook County’s residents live there. 
+
+# Data Sources
+With the exception of food deserts, which are fixed to 2019, the scope of our data is from 2018 to 2024. Our data was sourced from sources across all levels of government. We used the Census’s 5 Year American Community Survey data to capture household income, demographics per tract. Finally, we used the USDA’s Economic Research Survey (ERS) to capture food desert data per census tract. We used this data as our independent variables. Our dependent variables came from the Illinois School Board of Education (ISBE) School Report Card. They were: chronic absenteeism, four-year graduation rate, English Language Arts (ELA) proficiency, and math proficiency. The ISBE defines chronic absenteeism as a student being absent for 10 or more percent of the school year, or 18 days. Both ELA and math proficiency are derived from standardized tests. We used a couple of different metrics constructed to model segregation that we encountered in the literature. These include the segregation quotient from Aguirre-Nuñez, Carlos, et al (2024) and the dissimilarity index Green (2022).
+
+# Methodology
+We wanted to use one of the machine learning methods from PPHA 30545 to help identify the most significant independent variables This was done both to demonstrate our command of the material and to mitigate the problem of overfitting. Given the amount of data, it’s likely that a standard OLS regression model would have been overfitted.
+
+Given the criteria, our options were either a lasso regression, ridge regression, or an elastic net. We ultimately decided to use an elastic net because it incorporates both penalty terms present in the lasso and ridge regressions; the elastic net uses the L1 penalty term from lasso and the L2 penalty term from ridge. The formula for the elastic net is as follows: OLS + λ{α∥β∥1​+[(1−α​)/2] ∥β∥22} where α is the L1 formula from lasso, and 1-α is the L2 penalty term from ridge.
+
+# Findings
+
+To conform with the page requirement we will interpret the most interesting of the significant findings from each of our dependent variables. Our dependent variables are ELA test scores and chronic absenteeism. 
+
+We can see that ELA scores have a positive strong relationship with AP coursework enrollment. There is an adjusted R-squared of 0.84 This suggests that schools with more students enrolled in AP classes have a higher level of ELA proficiency, this makes sense given that AP coursework is more rigorous. The graph below visualizes this relationship.
+
+```{python}
+plot_scatter_with_ols(
+    df=df,
+    x_col="x_ap_coursework",
+    y_col="y_ela_prof",
+    x_label="AP Coursework",
+    y_label="Post-Test ELA Score",
+    title="Impact of AP Coursework on ELA Scores"
+)
+```
+
+We can also see that chronic absenteeism has a positive strong relationship with the number of students experiencing homelessness. There is an adjusted R squared of 0.71. Unfortunately this suggests that schools with a higher homeless population might struggle more in having their students graduate on time.The graph below visualizes this relationship. 
+
+For a more in depth look at our findings please look at our dashboard. The dashboard will allow you to predict the change in Y variables based on changes in our X variables. The link is: https://coffinatededu.streamlit.app/
+
+
+```{python}
+plot_scatter_with_ols(
+    df=df,
+    x_col="x_pct_homeless",
+    y_col="y_chronic_abs",
+    x_label="% Homeless Students",
+    y_label="Chronic Absenteeism (%)",
+    title="Impact of Homelessness on Absenteeism"
+)
+```
+
+Findings #49
+To conform with the page requirement we will interpret the most interesting of the significant findings from each of our dependent variables. Our dependent variables are math test scores and 4 year graduation rate. 
+
+We can see that math scores have a positive strong relationship with the number of households in a census tract.There is an adjusted R-squared of 0.64. This suggests that schools within denser neighborhoods have better math scores. This is likely the case since especially in Chicago, denser neighborhoods could be seen as more likely to live in. The graph below visualizes this relationship.
+
+```{python}
+plot_scatter_with_ols(
+    df=df,
+    x_col="total_n_hh",
+    y_col="y_math_prof",
+    x_label="Total Households (Tract)",
+    y_label="Post-Test Math Score",
+    title="Impact of Household Density on Math Scores"
+)
+```
+
+We can also see that the percentage of students on an IEP has a negative relationship with the graduation rate. There is an adjusted R squared of 0.87. This suggests that high schools with more students on an IEP experience lower graduation rates.The graph below visualizes this relationship. 
+
+For a more in depth look at our findings please look at our dashboard. The dashboard will allow you to predict the change in Y variables based on changes in our X variables. The link is: https://coffinatededu.streamlit.app/
+
+```{python}
+plot_scatter_with_ols(
+    df=df,
+    x_col="x_pct_iep",
+    y_col="y_grad_4yr",
+    x_label="% IEP Students",
+    y_label="4 Year Graduation Rate",
+    title="Impact of IEP on Graduation Rate"
+)
+```
+
+# Assumptions and Discussion
+As mentioned in the data section, all of our data is publicly available; unfortunately, that also means that we did not have access to some of the proprietary data needed to fill gaps in the publicly available data. This section will discuss the assumptions we made to address this problem.
+
+Our food desert data has been fixed to 2019, the latest publicly available data from the 2019 ERS. The City of Chicago’s Open Data Portal has slightly more recent data, but does not encompass the entirety of Cook County. Given that mapping out food deserts across the county is not fully within the scope of this project, we decided to keep the 2019 status constant across the entire scope of our work. 
+
+Another key assumption we made was the math and ELA scores are independent of each other.  Ünal et al. (2023) suggests a strong relationship between the two scores, (r = 0.52), contradicting our assumption. Because there were a limited number of dependent variables available, we chose to assume otherwise.
+
+Education mobility was one of the metrics used as an independent variable, this is the ratio of the change in student population to the total student population. Because the scope of our research only included public high schools, we chose to assume that all attrition remained within the public school system. Ultimately, this is our justification for including student mobility as an independent variable.
+
+Our final assumption is that the student population is representative of their census tract and vice versa. Throughout our project we used tract level data and school level data interchangeably. This assumption is our justification for doing so. 
+
+# REFERENCES:
+Aguirre-Nuñez, Carlos, et al. “Socio-Spatial Analysis of Migrant School Students According to Residential Segregation and Academic Performance in Santiago de Chile.” Heliyon 10, no. 9 (2024). https://pmc.ncbi.nlm.nih.gov/articles/PMC11076905/
+
+City of Chicago. CTA – “L” (Rail) Lines – Shapefile. Chicago Data Portal. https://data.cityofchicago.org/Transportation/CTA-L-Rail-Lines-Shapefile/53r7-y88m
+
+Green, Rodney D. “The Dissimilarity Index: A Tutorial.” Howard University College of Arts and Sciences Centers. Accessed March 4, 2026. https://coascenters.howard.edu/dissimilarity-index-tutorial
+
+Illinois State Board of Education. Illinois Report Card. Accessed March 4, 2026. https://www.illinoisreportcard.com/.
+
+Unal, Zehra & Greene, Nathaniel & Lin, Xin & Geary, David. (2023). What is the Source of the Correlation Between Reading and Mathematics Achievement? Two Meta-Analytic Studies. Educational Psychology Review. 35. 10.1007/s10648-023-09717-5. 
+
+University of Chicago. Canvas Course Site, Course 66732. Canvas Learning Management System. https://canvas.uchicago.edu/courses/66732
+
+United States Census Bureau. Table B17026: Ratio of Income to Poverty Level of Families. 2015–2019 American Community Survey 5-Year Estimates. https://data.census.gov/table/B17026
+
+United States Census Bureau. Table B17026: Ratio of Income to Poverty Level of Families. 2020–2024 American Community Survey 5-Year Estimates. https://data.census.gov/table/ACSDT5Y2024.B17026
+
+U.S. Department of Agriculture, Economic Research Service. Food Access Research Atlas. https://www.ers.usda.gov/data-products/food-access-research-atlas/
+
+
+
+
