@@ -31,6 +31,7 @@ desert = pd.read_csv(os.path.join(DATA,'cook_food_access_2019.csv'))
 seg = pd.read_csv(os.path.join(DATA,'school_segregation_all_final.csv'))
 
 school_loc = gpd.read_file(os.path.join(DATA,'Public_School_Locations_2021-22.geojson'))
+df = pd.read_csv(os.path.join(DATA,'final_merged.csv'))
 ```
 
 ```{python}
@@ -164,4 +165,122 @@ cx.add_basemap(
 ax.set_axis_off()
 plt.show()
 
+```
+
+```{python}
+
+import numpy as np
+import plotly.graph_objects as go
+df["income_quintile"] = pd.qcut(
+    df['median_hh_income'].rank(method="first"),   # rank first to handle ties
+    5,
+    labels=["Q1 (Lowest)", "Q2", "Q3", "Q4", "Q5 (Highest)"],
+)
+QUINTILE_COLORS = {
+    "Q1 (Lowest)":  "#d73027",   # red
+    "Q2":           "#fc8d59",   # orange
+    "Q3":           "#fee08b",   # yellow
+    "Q4":           "#91bfdb",   # light blue
+    "Q5 (Highest)": "#4575b4",   # dark blue
+}
+def plot_scatter_with_ols(
+    df,
+    x_col,
+    y_col,
+    x_label=None,
+    y_label=None,
+    title=None,
+    quintile_col="income_quintile",
+    y_max=100,
+):
+    """
+    Scatter plot of two columns with OLS trendline, colored by quintiles.
+    
+    Parameters:
+    -----------
+    df : pandas.DataFrame
+        The data.
+    x_col : str
+        Column name for x-axis.
+    y_col : str
+        Column name for y-axis.
+    x_label : str, optional
+        Label for x-axis. Defaults to x_col.
+    y_label : str, optional
+        Label for y-axis. Defaults to y_col.
+    title : str, optional
+        Plot title. Defaults to "{x_col} vs {y_col}".
+    quintile_col : str
+        Column name containing quintile categories. Default is 'income_quintile'.
+    y_max : float
+        Maximum value for y-axis (e.g., 100). Default is 100.
+    """
+    
+    sub = df[[x_col, y_col, quintile_col]].dropna(subset=[x_col, y_col])
+    if sub.empty:
+        print(f"No data for {x_col} vs {y_col}")
+        return
+    
+    x_arr = sub[x_col].values.astype(float)
+    y_arr = sub[y_col].values.astype(float)
+    
+    # OLS trendline
+    slope, intercept_ols = np.polyfit(x_arr, y_arr, 1)
+    x_line = np.linspace(x_arr.min(), x_arr.max(), 300)
+    y_line = intercept_ols + slope * x_line
+    in_bounds = (y_line >= 0) & (y_line <= y_max)
+    x_line = x_line[in_bounds]
+    y_line = y_line[in_bounds]
+    
+    # Plotly figure
+    fig = go.Figure()
+    
+    # Scatter by quintile
+    for q_label, color in QUINTILE_COLORS.items():
+        mask = sub[quintile_col] == q_label
+        if mask.any():
+            fig.add_trace(go.Scatter(
+                x=sub.loc[mask, x_col],
+                y=sub.loc[mask, y_col],
+                mode="markers",
+                marker=dict(size=5, opacity=0.45, color=color),
+                name=q_label
+            ))
+    
+    # OLS trendline
+    fig.add_trace(go.Scatter(
+        x=x_line,
+        y=y_line,
+        mode="lines",
+        line=dict(color="#FF4B4B", width=3),
+        name=f"OLS (slope={slope:+.3f})"
+    ))
+    
+    fig.update_layout(
+        title=title if title is not None else f"{x_col} vs {y_col}",
+        xaxis_title=x_label if x_label is not None else x_col,
+        yaxis_title=y_label if y_label is not None else y_col,
+        yaxis_range=[0, y_max],
+        height=400,
+        width=600,
+        margin=dict(l=40, r=20, t=50, b=40),
+        legend_title="Income Quintile"
+    )
+    
+    fig.show()
+
+```
+
+```{python}
+df.columns
+```
+```{python}
+plot_scatter_with_ols(
+    df=df,
+    x_col="x_ap_coursework",
+    y_col="y_ela_prof",
+    x_label="AP Coursework",
+    y_label="Post-Test ELA Score",
+    title="AP Coursework & ELA Scores"
+)
 ```
