@@ -18,11 +18,3 @@ The data processing flow is as follows: our pre processing file is called prepro
 This is the link to our dashboard*: https://coffinatededu.streamlit.app/
 
 *please note that the dashboard must be "woken up" before running. This is a Streamlit feature, not a bug.
-
-# Y Variables Data Update
-y_variables_long.csv includes main y variables (ELA Proficiency & Math Proficiency), and sub y variables (chronic absenteeism, and graduation rate only for high schools).
-
-cook_county_schools_master.csv includes the school id and other identifiers.
-
-# X Variables Data Update and X & Y merge for school layer
-x_data_dictionary.csv includes the x variables used for school layer and the report shows the quality of the data. And I merged the x and y variables and standardized the school id
