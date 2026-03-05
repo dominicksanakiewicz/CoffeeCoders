@@ -1,0 +1,339 @@
+---
+title: "Write-Up"
+format:
+  pdf:
+    toc: true
+    number-sections: true
+    fig-cap-location: bottom
+    geometry: margin=1in
+---
+```{python}
+#| echo: false
+import geopandas as gpd
+import pandas as pd
+import os
+import matplotlib.pyplot as plt
+from shapely import wkt
+import contextily as cx
+import csv
+import numpy as np
+from geopy.geocoders import ArcGIS
+import time
+from shapely.geometry import Point
+import requests
+from datetime import datetime
+import plotly.graph_objects as go
+```
+
+```{python}
+#| echo: false
+DATA = os.path.join(os.getcwd(), "Final_Data")
+demo = pd.read_csv(os.path.join(DATA, "cook_county_high_school_demographics.csv"))
+transport = pd.read_csv(os.path.join(DATA,'CTA_-_Bus_Routes_20260129.csv'))
+academic = pd.read_csv(os.path.join(DATA,"panel_yx_highschools_base_new.csv"))
+cook = gpd.read_file(os.path.join(DATA,'cook_county/PVS_25_v2_tracts2020_17031.shp'))
+income = pd.read_csv(os.path.join(DATA,'cook_tract_income_v7_2016_2024.csv'))
+desert = pd.read_csv(os.path.join(DATA,'cook_food_access_2019.csv'))
+seg = pd.read_csv(os.path.join(DATA,'school_segregation_all_final.csv'))
+
+school_loc = gpd.read_file(os.path.join(DATA,'Public_School_Locations_2021-22.geojson'))
+df = pd.read_csv(os.path.join(DATA,'final_merged.csv'))
+```
+
+```{python}
+#| echo: false
+cook_3857 = cook.to_crs(epsg=3857)
+cook_3857.head()
+threshold = 0.5
+cook_clean = cook_3857.loc[:, cook_3857.apply(lambda col: ((col.isna()) | (col.isnull())).mean() <= threshold)]
+cook_clean = cook_clean[['TRACTID', 'TRACTLABEL', 'POP20', 'geometry']]
+cook_clean['TRACTID'] = cook_clean['TRACTID'].astype(int)
+
+income['year'].unique()
+income['median_hh_income'] = income['median_hh_income'].apply(
+    lambda x: np.nan if x is not None and x < 0 else x
+)
+income['GEOID'] = income['GEOID'].astype(int)
+cook_income = pd.merge(cook_clean, income, left_on='TRACTID', right_on='GEOID', how='right')
+cook_income = cook_income[cook_income['TRACTID'].notna()]
+```
+
+```{python}
+#| echo: false
+school_loc = school_loc[school_loc['STATE']=='IL']
+```
+```{python}
+#| echo: false
+demo = demo.replace("*", np.nan)
+demographic = demo.loc[:, demo.isna().mean() <= 0.5]
+demographic = demographic[demographic['County']=='Cook']
+demographic = demographic[['RCDTS', 'School Name']]
+
+academic.columns
+academic_seg = pd.merge(academic, seg, left_on=['school_name', 'year'], right_on=['school', 'year'], how='left')
+
+demo_aca = pd.merge(demographic, academic_seg, left_on = 'RCDTS', right_on ='school_id', how='outer')
+school_loc_unique = school_loc.drop_duplicates(subset='NAME')
+
+merge_schools = pd.merge(demo_aca, school_loc_unique, left_on='School Name', right_on='NAME', how='left')
+school_loc_unique.head()
+##########################################################################
+missing_schools = [
+    {'School Name': 'Acero Chtr Sch Network -  Major Hector P Garcia MD H S', 'LAT': 41.8085443, 'LON': -87.7333591},
+    {'School Name': 'Acero Chtr Sch Network- Sor Juana Ines de la Cruz K-12', 'LAT': 42.0160989, 'LON': -87.6871158},
+    {'School Name': 'Collins Academy STEAM High School', 'LAT': 41.8640799, 'LON': -87.7036933}
+]
+
+for school in missing_schools:
+    mask = merge_schools["School Name"] == school["School Name"]
+    merge_schools.loc[mask, "LAT"] = school["LAT"]
+    merge_schools.loc[mask, "LON"] = school["LON"]
+
+###########################################################################
+
+merge_schools_geo = gpd.GeoDataFrame(
+    merge_schools,
+    geometry=[Point(xy) for xy in zip(merge_schools['LON'], merge_schools['LAT'])],
+    crs="EPSG:4326"  # WGS84 lat/lon
+)
+
+merge_schools_geo = merge_schools_geo.to_crs(epsg=3857)
+merge_schools_geo = merge_schools_geo.to_crs(cook_clean.crs)
+
+```
+
+```{python}
+#| echo: false
+transport['geometry'] = transport['the_geom'].apply(wkt.loads)
+
+gdf_transport = gpd.GeoDataFrame(
+    transport,
+    geometry="geometry",
+    crs="EPSG:4326"
+)
+gdf_transport_3857 = gdf_transport.to_crs(epsg=3857)
+```
+
+# Disclaimer
+The Coffee Coders are made up of two groups from the University of Chicago Harris School of Public Policy's Data Visualization Course, groups 24 and 49.
+Coffee Coders Group 24:Dominick Sanakiewicz (dominicksanakiewicz) & Abraham Sadat (abrahamsadat96) 
+Coffee Coders Group 49: Amanda Gu (AmandaAtHarris) & Zhen Zang (UChiZhen)
+
+As discussed with Professor Peter Ganon groups #24 and #49 will have similar motivating questions, data, and methodologies. The groups also presented together. Therefore the main distinction between the two groups’ write ups will be the findings. Group #24 focused on ELA scores and chronic absenteeism, while Group #49 focused on math proficiency and 4 year graduation rates as their dependent variables.
+
+# Motivating question
+Our project aimed to explore what publicly available data can best explain the variance in education outcomes in Cook County? Cook County presents an interesting case study since it captures a vast range of incomes, education outcomes, and food security statuses. 
+
+Figure one shows a map of Cook County. The gradient denotes the variety in incomes, with the darker colors signifying wealthier census tracts. The red dots are all of the public high schools in Chicago. Public transit is represented by the green lines on the map. We can see that the wealthiest census tracts are concentrated in both the north sides of Chicago, and Cook County. Naturally, the concentration of high schools is denser in the city of Chicago since the majority of Cook County’s residents live there. 
+
+```{python}
+#| echo: false
+fig, ax = plt.subplots(figsize=(6, 6), dpi=300)
+
+cook_income.plot(
+    column='median_hh_income',
+    scheme='Quantiles',
+    k=5,
+    cmap='Blues',                    
+    ax=ax,
+    edgecolor='black',                 
+    linewidth=0.5
+)
+merge_schools_geo.plot(
+    ax=ax,
+    color="red",
+    markersize=20,
+    alpha=0.7,
+    label="schools"
+)
+gdf_transport_3857.plot(
+    ax=ax,
+    linewidth=1,
+    edgecolor="green",
+    alpha=0.5,
+    label="Transport"
+)
+ax.set(title='Median Income')
+ax.legend(
+          fontsize=10,
+          frameon=False,
+          title="Map Layers",
+          loc='lower left')
+cx.add_basemap(
+    ax,
+    source=cx.providers.CartoDB.Positron
+)
+
+ax.set_axis_off()
+plt.show()
+```
+
+```{python}
+#| echo: false
+df["income_quintile"] = pd.qcut(
+    df['median_hh_income'].rank(method="first"),   # rank first to handle ties
+    5,
+    labels=["Q1 (Lowest)", "Q2", "Q3", "Q4", "Q5 (Highest)"],
+)
+QUINTILE_COLORS = {
+    "Q1 (Lowest)":  "#d73027",   # red
+    "Q2":           "#fc8d59",   # orange
+    "Q3":           "#fee08b",   # yellow
+    "Q4":           "#91bfdb",   # light blue
+    "Q5 (Highest)": "#4575b4",   # dark blue
+}
+import matplotlib.pyplot as plt
+import numpy as np
+
+def plot_scatter_with_ols(
+    df,
+    x_col,
+    y_col,
+    x_label=None,
+    y_label=None,
+    title=None,
+    quintile_col="income_quintile",
+    y_max=100,
+):
+
+    sub = df[[x_col, y_col, quintile_col]].dropna(subset=[x_col, y_col])
+    if sub.empty:
+        print(f"No data for {x_col} vs {y_col}")
+        return
+
+    x_arr = sub[x_col].values.astype(float)
+    y_arr = sub[y_col].values.astype(float)
+
+    # OLS line
+    slope, intercept = np.polyfit(x_arr, y_arr, 1)
+    x_line = np.linspace(x_arr.min(), x_arr.max(), 300)
+    y_line = intercept + slope * x_line
+
+    fig, ax = plt.subplots(figsize=(6, 4), dpi=300)
+
+    # Scatter by quintile
+    for q_label, color in QUINTILE_COLORS.items():
+        mask = sub[quintile_col] == q_label
+        if mask.any():
+            ax.scatter(
+                sub.loc[mask, x_col],
+                sub.loc[mask, y_col],
+                s=20,
+                alpha=0.45,
+                color=color,
+                label=q_label
+            )
+
+    # OLS line
+    ax.plot(
+        x_line,
+        y_line,
+        linewidth=2,
+        label=f"OLS (slope={slope:+.3f})"
+    )
+    ax.set_xlim(left=0)
+    ax.set_title(title if title else f"{x_col} vs {y_col}")
+    ax.set_xlabel(x_label if x_label else x_col)
+    ax.set_ylabel(y_label if y_label else y_col)
+    ax.set_ylim(0, y_max)
+
+    ax.legend(title="Income Quintile", fontsize=8)
+    plt.tight_layout()
+
+```
+
+# Data Sources
+With the exception of food deserts, which are fixed to 2019, the scope of our data is from 2018 to 2024. Our data was sourced from sources across all levels of government. We used the Census’s 5 Year American Community Survey data to capture household income, demographics per tract. Finally, we used the USDA’s Economic Research Survey (ERS) to capture food desert data per census tract. We used this data as our independent variables. Our dependent variables came from the Illinois School Board of Education (ISBE) School Report Card. They were: chronic absenteeism, four-year graduation rate, English Language Arts (ELA) proficiency, and math proficiency. The ISBE defines chronic absenteeism as a student being absent for 10 or more percent of the school year, or 18 days. Both ELA and math proficiency are derived from standardized tests. We used a couple of different metrics constructed to model segregation that we encountered in the literature. These include the segregation quotient from Aguirre-Nuñez, Carlos, et al (2024) and the dissimilarity index Green (2022).
+
+# Methodology
+We wanted to use one of the machine learning methods from PPHA 30545 to help identify the most significant independent variables This was done both to demonstrate our command of the material and to mitigate the problem of overfitting. Given the amount of data, it’s likely that a standard OLS regression model would have been overfitted.
+
+Given the criteria, our options were either a lasso regression, ridge regression, or an elastic net. We ultimately decided to use an elastic net because it incorporates both penalty terms present in the lasso and ridge regressions; the elastic net uses the L1 penalty term from lasso and the L2 penalty term from ridge. The formula for the elastic net is as follows: OLS + λ{α∥β∥1​+[(1−α​)/2] ∥β∥22} where α is the L1 formula from lasso, and 1-α is the L2 penalty term from ridge.
+
+# Findings
+
+To conform with the page requirement we will interpret the most interesting of the significant findings from each of our dependent variables. Our dependent variables are ELA test scores and chronic absenteeism. 
+
+We can see that ELA scores have a positive strong relationship with AP coursework enrollment. There is an adjusted R-squared of 0.84 This suggests that schools with more students enrolled in AP classes have a higher level of ELA proficiency, this makes sense given that AP coursework is more rigorous. The graph below visualizes this relationship.
+
+```{python}
+#| echo: false
+#| fig-width: 5
+#| fig-height: 3
+#| dpi: 300
+plot_scatter_with_ols(
+    df=df,
+    x_col="x_ap_coursework",
+    y_col="y_ela_prof",
+    x_label="AP Coursework",
+    y_label="Post-Test ELA Score",
+    title="Impact of AP Coursework on ELA Scores"
+)
+
+```
+
+We can also see that chronic absenteeism has a positive strong relationship with the number of students experiencing homelessness. There is an adjusted R squared of 0.71. Unfortunately this suggests that schools with a higher homeless population might struggle more in having their students graduate on time.The graph below visualizes this relationship. 
+```{python}
+#| echo: false
+#| fig-width: 4
+#| fig-height: 2
+#| dpi: 300
+plot_scatter_with_ols(
+    df=df,
+    x_col="x_pct_homeless",
+    y_col="y_chronic_abs",
+    x_label="% Homeless Students",
+    y_label="Chronic Absenteeism (%)",
+    title="Impact of Homelessness on Absenteeism"
+)
+```
+
+For a more in depth look at our findings please look at our dashboard. The dashboard will allow you to predict the change in Y variables based on changes in our X variables. The link is: https://coffinatededu.streamlit.app/
+
+
+# Assumptions and Discussion
+As mentioned in the data section, all of our data is publicly available; unfortunately, that also means that we did not have access to some of the proprietary data needed to fill gaps in the publicly available data. This section will discuss the assumptions we made to address this problem.
+
+Our food desert data has been fixed to 2019, the latest publicly available data from the 2019 ERS. The City of Chicago’s Open Data Portal has slightly more recent data, but does not encompass the entirety of Cook County. Given that mapping out food deserts across the county is not fully within the scope of this project, we decided to keep the 2019 status constant across the entire scope of our work. 
+
+Another key assumption we made was the math and ELA scores are independent of each other.  Ünal et al. (2023) suggests a strong relationship between the two scores, (r = 0.52), contradicting our assumption. Because there were a limited number of dependent variables available, we chose to assume otherwise.
+
+Education mobility was one of the metrics used as an independent variable, this is the ratio of the change in student population to the total student population. Because the scope of our research only included public high schools, we chose to assume that all attrition remained within the public school system. Ultimately, this is our justification for including student mobility as an independent variable.
+
+Our final assumption is that the student population is representative of their census tract and vice versa. Throughout our project we used tract level data and school level data interchangeably. This assumption is our justification for doing so. 
+
+# REFERENCES:
+Aguirre-Nuñez, Carlos, et al. “Socio-Spatial Analysis of Migrant School Students According to Residential Segregation and Academic Performance in Santiago de Chile.” Heliyon 10, no. 9 (2024). 
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11076905/
+
+City of Chicago. CTA – “L” (Rail) Lines – Shapefile. 
+Chicago Data Portal. \
+https://data.cityofchicago.org/Transportation/CTA-L-Rail-Lines-
+Shapefile/53r7-y88m
+
+Green, Rodney D. “The Dissimilarity Index: A Tutorial.” Howard University College of Arts and Sciences Centers. Accessed March 4, 2026. 
+https://coascenters.howard.edu/dissimilarity-index-tutorial
+
+Illinois State Board of Education. Illinois Report Card. 
+Accessed March 4, 2026. \
+https://www.illinoisreportcard.com/.
+
+Unal, Zehra & Greene, Nathaniel & Lin, Xin & Geary, David. (2023). 
+What is the Source of the Correlation Between Reading and Mathematics Achievement? 
+Two Meta-Analytic Studies. Educational Psychology Review. 35. 10.1007/s10648-023-09717-5. 
+
+University of Chicago. Canvas Course Site, Course 66732. Canvas Learning 
+Management System. https://canvas.uchicago.edu/courses/66732
+
+United States Census Bureau. Table B17026: Ratio of Income to Poverty Level of Families. 2015–2019 American Community Survey 5-Year Estimates. 
+https://data.census.gov/table/B17026
+
+United States Census Bureau. Table B17026: Ratio of Income to Poverty Level of Families. 2020–2024 American Community Survey 5-Year Estimates.
+ https://data.census.gov/table/ACSDT5Y2024.B17026
+
+U.S. Department of Agriculture, Economic Research Service. Food Access Research Atlas. 
+https://www.ers.usda.gov/data-products/food-access-research-atlas/
+
+
+
+
