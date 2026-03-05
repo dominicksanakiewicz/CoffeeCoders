@@ -200,4 +200,12 @@ def normalize_grades(val):
 
 merged_clean['grades_served'] = merged_clean['grades_served'].apply(normalize_grades)
 
+# Add x_ prefix to feature columns that don't already have x_/y_ prefix
+metadata_cols = {'School Name', 'county', 'district', 'grades_served', 'school_type', 'year'}
+rename_map = {
+    c: f'x_{c}' for c in merged_clean.columns
+    if not c.startswith('x_') and not c.startswith('y_') and c not in metadata_cols
+}
+merged_clean = merged_clean.rename(columns=rename_map)
+
 merged_clean.to_csv('final_merged.csv', index=False)

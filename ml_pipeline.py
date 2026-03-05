@@ -30,7 +30,7 @@ warnings.filterwarnings("ignore", category=UserWarning)
 
 # ── Paths ────────────────────────────────────────────────────────────
 ROOT = Path(__file__).resolve().parent
-DATA_PATH = ROOT / "data" / "panel_yx_highschools.csv"
+DATA_PATH = ROOT / "final_merged.csv"
 OUTPUT_DIR = ROOT / "outputs"
 OUTPUT_DIR.mkdir(exist_ok=True)
 
@@ -47,7 +47,7 @@ def run_panel_elasticnet(
     df,
     y_var,
     feature_cols,
-    group_var="school_name",
+    group_var="School Name",
     alpha_range=None,
     l1_ratio_range=None,
     n_splits=5,
@@ -258,7 +258,7 @@ if __name__ == "__main__":
 
         # ── 2. Post-selection OLS ────────────────────────────────────
         ols_model, ols_features = run_post_elasticnet_ols(
-            data, res, y_var=target, use_nonzero=True, cluster_var="school_name",
+            data, res, y_var=target, use_nonzero=True, cluster_var="School Name",
         )
         print(ols_model.summary())
 

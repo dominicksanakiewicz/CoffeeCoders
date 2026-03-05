@@ -20,11 +20,12 @@ from scipy.stats import pearsonr
 
 # ── Paths ────────────────────────────────────────────────────────────
 ROOT = Path(__file__).resolve().parent
-DATA_PATH = ROOT / "data" / "panel_yx_highschools.csv"
+DATA_PATH = ROOT / "final_merged.csv"
 COEF_PATH = ROOT / "outputs" / "elasticnet_coefficients.json"
 
 # ── Human-readable labels ────────────────────────────────────────────
 FEATURE_LABELS = {
+    # School-level
     "x_ap_coursework": "AP Coursework",
     "x_attendance_rate": "Attendance Rate",
     "x_dropout_rate": "Dropout Rate",
@@ -41,20 +42,65 @@ FEATURE_LABELS = {
     "x_suspension_rate": "Suspension Rate",
     "x_teacher_attendance": "Teacher Attendance",
     "x_teacher_retention": "Teacher Retention",
-    "x_tract_median_hh_income": "Median HH Income (Tract)",
-    "x_tract_total_n_hh": "Total Households (Tract)",
-    "x_tract_pov_share_under_1_00": "Poverty Rate < 100% FPL",
-    "x_tract_urban": "Urban Census Tract",
-    "x_tract_lilatracts_1and10": "Low-Inc. & Low Access (1 & 10 mi)",
-    "x_tract_lilatracts_halfand10": "Low-Inc. & Low Access (½ & 10 mi)",
-    "x_tract_lilatracts_1and20": "Low-Inc. & Low Access (1 & 20 mi)",
-    "x_tract_lilatracts_vehicle": "Low Vehicle-Access Tract",
-    "x_tract_lowincometracts": "Low-Income Tract",
-    "x_tract_la1and10": "Low Food Access (1 & 10 mi)",
-    "x_tract_lahalfand10": "Low Food Access (½ & 10 mi)",
-    "x_tract_la1and20": "Low Food Access (1 & 20 mi)",
-    "x_tract_transport_length": "Transit Route Length",
-    "x_tract_pop20": "Tract Population (2020)",
+    # School-level counts
+    "x_n_black": "# Black Students",
+    "x_n_hispanic": "# Hispanic Students",
+    "x_n_white": "# White Students",
+    "x_n_low_income": "# Low-Income Students",
+    # School-level pct (segregation)
+    "x_pct_black_school": "% Black (School)",
+    "x_pct_hispanic_school": "% Hispanic (School)",
+    "x_pct_white_school": "% White (School)",
+    "x_pct_low_income_school": "% Low-Income (School)",
+    # County-level demographics
+    "x_county_enrollment": "County Enrollment",
+    "x_county_n_black": "County # Black Students",
+    "x_county_n_hispanic": "County # Hispanic Students",
+    "x_county_n_white": "County # White Students",
+    "x_county_n_low_income": "County # Low-Income Students",
+    "x_pct_black_county": "% Black (County)",
+    "x_pct_hispanic_county": "% Hispanic (County)",
+    "x_pct_white_county": "% White (County)",
+    "x_pct_low_income_county": "% Low-Income (County)",
+    # Segregation exposure indices
+    "x_exp_black_white": "Exposure Index (Black–White)",
+    "x_exp_white_black": "Exposure Index (White–Black)",
+    "x_exp_black_hisp": "Exposure Index (Black–Hispanic)",
+    "x_exp_hisp_white": "Exposure Index (Hispanic–White)",
+    # Relative risk (segregation)
+    "x_rr_black": "Relative Risk (Black)",
+    "x_rr_hispanic": "Relative Risk (Hispanic)",
+    "x_rr_white": "Relative Risk (White)",
+    "x_rr_low_income": "Relative Risk (Low-Income)",
+    # Census tract economics
+    "x_median_hh_income": "Median HH Income (Tract)",
+    "x_total_n_hh": "Total Households (Tract)",
+    "x_pov_share_under_1_00": "Poverty Rate < 100% FPL",
+    "x_hh_under_0.5_pov": "HH < 50% Poverty Line",
+    "x_hh_between_0.5_0.74_pov": "HH 50–74% Poverty Line",
+    "x_hh_between_0.75_0.99_pov": "HH 75–99% Poverty Line",
+    "x_hh_between_1.00_to_1.24_pov": "HH 100–124% Poverty Line",
+    "x_hh_between_1.25_to_1.49_pov": "HH 125–149% Poverty Line",
+    "x_hh_between_1.50_to_1.74_pov": "HH 150–174% Poverty Line",
+    "x_hh_between_1.75_to_1.84_pov": "HH 175–184% Poverty Line",
+    "x_hh_between_1.85_to_1.99_pov": "HH 185–199% Poverty Line",
+    "x_hh_between_2.00_to_2.99_pov": "HH 200–299% Poverty Line",
+    "x_hh_between_3.00_to_3.99_pov": "HH 300–399% Poverty Line",
+    "x_hh_between_4.00_to_4.99_pov": "HH 400–499% Poverty Line",
+    "x_hh_between_5.00_and_over_pov": "HH ≥ 500% Poverty Line",
+    # Food access / desert
+    "x_Urban": "Urban Census Tract",
+    "x_LILATracts_1And10": "Low-Inc. & Low Access (1 & 10 mi)",
+    "x_LILATracts_halfAnd10": "Low-Inc. & Low Access (½ & 10 mi)",
+    "x_LILATracts_1And20": "Low-Inc. & Low Access (1 & 20 mi)",
+    "x_LILATracts_Vehicle": "Low Vehicle-Access Tract",
+    "x_LowIncomeTracts": "Low-Income Tract",
+    "x_LA1and10": "Low Food Access (1 & 10 mi)",
+    "x_LAhalfand10": "Low Food Access (½ & 10 mi)",
+    "x_LA1and20": "Low Food Access (1 & 20 mi)",
+    # Geography / transport
+    "x_transport_length": "Transit Route Length",
+    "x_POP20": "Tract Population (2020)",
 }
 
 TARGET_LABELS = {
@@ -90,7 +136,7 @@ st.set_page_config(
 df, coefs = load_data()
 
 # ── Income quintiles (for scatter colour coding) ─────────────────────
-INCOME_COL = "x_tract_median_hh_income"
+INCOME_COL = "x_median_hh_income"
 df["income_quintile"] = pd.qcut(
     df[INCOME_COL].rank(method="first"),   # rank first to handle ties
     5,
@@ -221,6 +267,9 @@ for row_idx in range(rows_needed):
             break
         feat = top5_features[feat_idx]
         with cols[col_idx]:
+            if feat not in df.columns:
+                st.write(f"No data for {label(feat)}")
+                continue
             sub = df[[feat, target, "income_quintile"]].dropna(subset=[feat, target])
             if sub.empty:
                 st.write(f"No data for {label(feat)}")
@@ -294,6 +343,8 @@ for c in all_coef_rows:
     raw_c = c["coefficient_original_units"]
     if sc == 0:
         continue
+    if feat not in df.columns:
+        continue
     sub = df[[feat, target]].dropna()
     if len(sub) < 3:
         continue
@@ -330,11 +381,11 @@ st.markdown(
 )
 
 # Most recent observation per school
-latest = df.sort_values("year").groupby("school_name").last().reset_index()
-school_names = sorted(latest["school_name"].str.strip().unique())
+latest = df.sort_values("year").groupby("School Name").last().reset_index()
+school_names = sorted(latest["School Name"].str.strip().unique())
 chosen = st.selectbox("Baseline School", school_names)
 
-row = latest[latest["school_name"].str.strip() == chosen].iloc[0]
+row = latest[latest["School Name"].str.strip() == chosen].iloc[0]
 baseline_y = row[target]
 
 if pd.isna(baseline_y):
@@ -353,6 +404,9 @@ else:
     slider_cols = st.columns(cols_per_row)
     for idx, feat in enumerate(top5_features):
         col = slider_cols[idx % cols_per_row]
+        if feat not in df.columns:
+            deltas[feat] = 0.0
+            continue
         feat_val = row[feat]
         if pd.isna(feat_val):
             feat_val = float(df[feat].median())
